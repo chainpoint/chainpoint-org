@@ -7,7 +7,7 @@ const Example = ({json = {}}) => {
         <code className='json'>
           {
             typeof json === 'object'
-              ? JSON.stringify(json)
+              ? JSON.stringify(json, null, 2)
               : json
           }
         </code>

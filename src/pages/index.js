@@ -59,14 +59,14 @@ const IndexPage = () => (
     <section className='proof-tools'>
       <div className='container'>
         <div className='row'>
-          <div className='col-6'>
+          <div className='col-md-6'>
             <div className='text-block'>
               <h2>Chainpoint Node API</h2>
               <p className='subhead'>Chainpoint Nodes have an HTTP API. You can interact with Nodes using any programming language that supports HTTP calls. Thousands of Chainpoint Nodes operate as part of a global network. </p>
               <a className='btn btn-primary' href='https://github.com/chainpoint/chainpoint-node/wiki/Chainpoint-Node-API:-How-to-Create-a-Chainpoint-Proof' target='_blank'>Chainpoint Node API Tutorial</a>
             </div>
           </div>
-          <div className='col-6'>
+          <div className='col-md-6'>
             <div className='text-block'>
               <h2>Chainpoint JS Client</h2>
               <p className='subhead'>

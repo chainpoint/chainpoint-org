@@ -16,7 +16,7 @@ const IndexPage = () => (
     <section className='hero'>
       <div className='container'>
         <div className='row'>
-          <div className='col-sm-12'>
+          <div className='col-12'>
             <h1>Chainpoint is an open standard for creating a timestamp proof of any data, file, or process.</h1>
             <h2>Anchor an unlimited amount of data to multiple blockchains. Verify the integrity and existence of data without relying on a trusted third-party.</h2>
             <br />
@@ -34,7 +34,7 @@ const IndexPage = () => (
     <section className='proof-works'>
       <div className='container'>
         <div className='row'>
-          <div className='col-sm-12'>
+          <div className='col-12'>
             <h2>How does <span>Chainpoint</span> work?</h2>
             <p> Chainpoint links a <a href='https://en.wikipedia.org/wiki/Cryptographic_hash_function' target='_blank'>hash</a> of your data to a blockchain and returns a timestamp proof. A Chainpoint service receives hashes which are aggregated together using a <a href='https://en.wikipedia.org/wiki/Merkle_tree' target='_blank'>Merkle tree</a>. The root of this tree is anchored in the Bitcoin and Ethereum blockchains. Throughout this process a <strong>Chainpoint proof</strong> is created and continually upgraded.  The final Chainpoint proof defines a path of operations that cryptographically links your data to one or more blockchains.</p>
           </div>
@@ -45,7 +45,7 @@ const IndexPage = () => (
     <section className='proof-what'>
       <div className='container'>
         <div className='row'>
-          <div className='col-sm-12'>
+          <div className='col-12'>
             <h2>What is a <span>Chainpoint Proof?</span></h2>
             <p className='subhead'>
             A proof is a <a href='http://json-ld.org/' target='_blank'>JSON-LD</a> document, that contains the information to cryptographically verify a piece of data is anchored to a blockchain. It proves the data existed at time it was anchored. Chainpoint proofs can be verified without reliance on a trusted third party.</p>
@@ -59,14 +59,14 @@ const IndexPage = () => (
     <section className='proof-tools'>
       <div className='container'>
         <div className='row'>
-          <div className='col-sm-6'>
+          <div className='col-6'>
             <div className='text-block'>
               <h2>Chainpoint Node API</h2>
               <p className='subhead'>Chainpoint Nodes have an HTTP API. You can interact with Nodes using any programming language that supports HTTP calls. Thousands of Chainpoint Nodes operate as part of a global network. </p>
               <a className='btn btn-primary' href='https://github.com/chainpoint/chainpoint-node/wiki/Chainpoint-Node-API:-How-to-Create-a-Chainpoint-Proof' target='_blank'>Chainpoint Node API Tutorial</a>
             </div>
           </div>
-          <div className='col-sm-6'>
+          <div className='col-6'>
             <div className='text-block'>
               <h2>Chainpoint JS Client</h2>
               <p className='subhead'>
@@ -81,7 +81,7 @@ const IndexPage = () => (
     <section className='proof-versions'>
       <div className='container'>
         <div className='row'>
-          <div className='col-sm-12'>
+          <div className='col-12'>
             <h2>Chainpoint Proof Versions</h2>
             <p className='subhead'>The third major version of the Chainpoint proof specification is currently in testing and scheduled for release soon. A <a href='https://github.com/chainpoint/chainpoint-proof-json-schema' target='_blank'>JSON schema validator</a> is available.</p>
             <div className='docs docs-content'>

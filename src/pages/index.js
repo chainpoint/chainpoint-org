@@ -1,5 +1,5 @@
 import React from 'react'
-import Example from '../components/example'
+import Example from '../components/Example'
 
 // images
 import diagram from '../images/diagram@2x.png'
@@ -86,9 +86,9 @@ const IndexPage = () => (
             <p className='subhead'>The third major version of the Chainpoint proof specification is currently in testing and scheduled for release soon. A <a href='https://github.com/chainpoint/chainpoint-proof-json-schema' target='_blank'>JSON schema validator</a> is available.</p>
             <div className='docs docs-content'>
               <ul className='nav nav-tabs'>
-                <li className='nav active'><a href='#v3x' data-toggle='tab'>Version 3.0</a></li>
-                <li className='nav'><a href='#v2x' data-toggle='tab'>Version 2.0</a></li>
-                <li className='nav'><a href='#v1x' data-toggle='tab'>Version 1.x</a></li>
+                <li className='nav-item active'><a href='#v3x' data-toggle='tab'>Version 3.0</a></li>
+                <li className='nav-item'><a href='#v2x' data-toggle='tab'>Version 2.0</a></li>
+                <li className='nav-item'><a href='#v1x' data-toggle='tab'>Version 1.x</a></li>
               </ul>
               <div className='tab-content'>
                 <div id='v3x' className='tab-pane fade in active'>
@@ -178,7 +178,6 @@ const IndexPage = () => (
                   <h3>Example</h3>
                   <Example json={examplev3} />
                 </div>
-
                 <div id='v2x' className='tab-pane fade'>
                   <table className='multi-level'>
                     <thead>

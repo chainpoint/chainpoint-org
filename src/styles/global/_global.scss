@@ -1,0 +1,40 @@
+section {
+  padding: 80px 0;
+  text-align: center;
+  @media (max-width: $screen-xs-max) {
+    padding: 30px 0;
+  }
+}
+
+h1 {
+  margin: 0 auto;
+  padding-bottom: 30px;
+  max-width: 750px;
+  color: $deep-orange-500;
+  text-align: center;
+  font-size: 2.286em;
+  @media (max-width: $screen-xs-max) {
+    padding: 30px 0 24px 0;
+    font-size: 2em;
+  }
+}
+
+.primary-CTA {
+  padding: 16px 32px;
+  background-color: $green-500;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+  &:hover {
+    background-color: $green-a700;
+    color: #fff;
+  }
+}
+
+.container {
+  max-width: 970px;
+}
+
+body {
+  font-size: 14px;
+}

@@ -1,0 +1,45 @@
+header {
+  height: 120px;
+  background-color: $grey-100;
+  @media (max-width: $screen-xs-max) {
+    height: 80px;
+  }
+  .logo {
+    display: inline-block;
+    float: left;
+    margin-top: 32px;
+    margin-right: 32px;
+    padding-left: 90px;
+    width: 77px;
+    height: 57px;
+    background-repeat: no-repeat;
+    color: $grey-700;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 57px;
+    @include img-retina('../images/logo.png', '../images/logo@2x.png', 77px, 57px);
+    @media (max-width: $screen-xs-max) {
+      margin-top: 22px;
+      padding: 0 0 0 52px;
+      width: 44px;
+      height: 33px;
+      font-size: 22px;
+      line-height: 33px;
+      @include img-retina('../images/logo-xs.png', '../images/logo-xs@2x.png', 44px, 33px);
+    }
+  }
+  .github {
+    display: inline-block;
+    float: right;
+    margin-top: 36px;
+    width: 149px;
+    height: 48px;
+    @include img-retina('../images/logo-github.png', '../images/logo-github@2x.png', 149px, 48px);
+    @media (max-width: $screen-xs-max) {
+      margin-top: 28px;
+      width: 77px;
+      height: 24px;
+      @include img-retina('../images/logo-github-xs.png', '../images/logo-github-xs@2x.png', 77px, 24px);
+    }
+  }
+}

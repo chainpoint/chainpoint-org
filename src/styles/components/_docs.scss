@@ -1,0 +1,129 @@
+.docs-content {
+  padding: 0;
+  color: $grey-700;
+  section {
+    padding: 30px;
+    border-bottom: solid 1px $grey-200;
+    @media (max-width: $screen-sm-min) {
+      padding: 30px 15px;
+    }
+  }
+  h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: $light-blue-700;
+    font-size: 2.143em;
+    &.first {
+      margin-top: 10px;
+    }
+  }
+  h3 {
+    margin-top: 30px;
+    padding-bottom: 0;
+    color: $light-blue-700;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.286em;
+  }
+  h4 {
+    margin: 30px 0;
+  }
+  p {
+    margin-bottom: 18px;
+    line-height: 24px;
+  }
+  pre {
+    padding: 20px;
+    text-align: left;
+  }
+  em {
+    color: $light-blue-800;
+  }
+  table {
+    width: 100%;
+    text-align: left;
+    th,
+    .table-section-header {
+      padding: 10px 20px;
+      border: solid 1px $grey-300;
+      background-color: $grey-100;
+      font-weight: 600;
+      font-size: 1em;
+    }
+    td {
+      padding: 10px 20px;
+      border: solid 1px $grey-300;
+    }
+    &.multi-level {
+      th {
+        border: solid 1px $blue-grey-300;
+        background-color: $blue-grey-200;
+        color: #fff;
+      }
+      .sublevel {
+        td:first-of-type {
+          padding-left: 30px;
+        }
+      }
+    }
+  }
+  .hljs {
+    background-color: $grey-100;
+  }
+  .callout {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-left: 4px solid $light-blue-400;
+    background-color: #f4f8fa;
+    h3 {
+      margin: 0 0 10px 0;
+      padding: 0;
+      border: none;
+      color: $light-blue-500;
+      font-weight: 600;
+      font-size: 1.143em;
+    }
+    pre {
+      margin: 10px 0;
+      background-color: #fff;
+    }
+    p {
+      margin: 0;
+    }
+  }
+  .response-code {
+    display: block;
+    font-weight: 600;
+    font-size: .929em;
+  }
+  .code-block-comment {
+    display: block;
+    margin-top: -10px;
+  }
+  .status-icon {
+    display: inline-block;
+    margin-bottom: 2px;
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    &.success {
+      background-color: $green-500;
+    }
+    &.failure {
+      background-color: $red-700;
+    }
+  }
+  .screen-example {
+    padding: 20px 0;
+  }
+  @media (min-width: $screen-xs-min) {
+    h2:before,
+    h3:before {
+      display: block;
+      visibility: hidden;
+      margin-top: -100px;
+      height: 100px;
+      content: ' ';
+    }
+  }
+}

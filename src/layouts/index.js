@@ -5,9 +5,10 @@ import Helmet from 'react-helmet'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import '../styles/main.scss'
-import 'jquery'
-import 'popper.js'
-import 'bootstrap'
+
+if (typeof window !== 'undefined') {
+  require('bootstrap')
+}
 
 const Layout = ({ children, data }) => (
   <div>

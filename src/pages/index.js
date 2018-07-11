@@ -86,12 +86,12 @@ const IndexPage = () => (
             <p className='subhead'>The third major version of the Chainpoint proof specification is currently in testing and scheduled for release soon. A <a href='https://github.com/chainpoint/chainpoint-proof-json-schema' target='_blank'>JSON schema validator</a> is available.</p>
             <div className='docs docs-content'>
               <ul className='nav nav-tabs'>
-                <li className='nav-item active'><a href='#v3x' data-toggle='tab'>Version 3.0</a></li>
-                <li className='nav-item'><a href='#v2x' data-toggle='tab'>Version 2.0</a></li>
-                <li className='nav-item'><a href='#v1x' data-toggle='tab'>Version 1.x</a></li>
+                <li className='nav-item'><a className='nav-link active' href='#v3x' data-toggle='tab'>Version 3.0</a></li>
+                <li className='nav-item'><a className='nav-link' href='#v2x' data-toggle='tab'>Version 2.0</a></li>
+                <li className='nav-item'><a className='nav-link' href='#v1x' data-toggle='tab'>Version 1.x</a></li>
               </ul>
               <div className='tab-content'>
-                <div id='v3x' className='tab-pane fade in active'>
+                <div id='v3x' className='tab-pane fade in active show'>
                   <table className='multi-level'>
                     <thead>
                       <tr>

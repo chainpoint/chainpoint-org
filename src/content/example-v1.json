@@ -1,0 +1,33 @@
+{
+  "header": {
+    "chainpoint_version": "1.1",
+    "hash_type": "SHA-256",
+    "merkle_root": "8dbd52c5ff89b70711b06c143520ef4eb295c51040757c7a4ab56303f0f6b68f",
+    "tx_id": "77d93bce0f0ff76f1a52424f9c0aeb165990dc37a5e3aaf85031a2f6ab2967d1",
+    "timestamp": 1438317621
+  },
+  "target": {
+    "target_hash": "a64f10ca86a880115cc271232dc8577606dc6223cf009a4dd1290cd55b2d6a28",
+    "target_uri ": "https://www.someurl.com/target/id",
+    "target_proof": [
+      {
+        "parent": "ee32ac6eb702c289ba2a932e6562b2c45070121cacb26cabdee433a6cf2086cd",
+        "left": "a64f10ca86a880115cc271232dc8577606dc6223cf009a4dd1290cd55b2d6a28",
+        "right": "f07934733450ba14972b8fbea4c39ac05b0b8e2d8a45ddde9dbe03bb70942b6a"
+      },
+      {
+        "parent": "8dbd52c5ff89b70711b06c143520ef4eb295c51040757c7a4ab56303f0f6b68f",
+        "left": "ee32ac6eb702c289ba2a932e6562b2c45070121cacb26cabdee433a6cf2086cd",
+        "right": "07084efda9cf5488ef9d4f9ad8bca8521581aaa32331b62aeb2fe3e132e62d1a"
+      }
+    ]
+  },
+  "extra": [
+    {
+      "custom_key_1": "value_1"
+    },
+    {
+      "custom_key_2": "value_2"
+    }
+  ]
+}

@@ -96,6 +96,7 @@
     .subhead {
       margin: 20px 0 0 20px;
       font-size: 1.143em;
+      line-height: 1.375em;
     }
     .btn {
       position: relative;
@@ -113,10 +114,11 @@
     @media (max-width: $screen-sm-min) {
       .text-block {
         padding: 20px;
-        margin: 40px 20px;
+        margin: 40px 20px 20px 20px;
       }
       .btn {
         width: 80%;
+        font-size: 1em;
       }
     }
   }

@@ -31,8 +31,7 @@ h1 {
   }
 }
 
-// https://getbootstrap.com/docs/4.0/migration/#global-changes
-
+// override bootstrap 4's global updates
 .container {
   max-width: 1170px;
 }
@@ -42,9 +41,15 @@ body {
 }
 
 h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
   font-size: 1.9rem;
 }
 
 a {
   color: #337ab7;
+}
+
+p {
+  margin-bottom: 0.5rem;
 }

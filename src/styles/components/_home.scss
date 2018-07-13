@@ -33,6 +33,11 @@
       margin-top: 0;
       text-transform: uppercase;
     }
+
+    @media (max-width: $screen-md-max) {
+      padding: 1px 0 60px 0;
+    }
+    
   }
 
   section.proof-works {

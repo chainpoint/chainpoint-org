@@ -25,7 +25,8 @@ header {
       height: 33px;
       font-size: 22px;
       line-height: 33px;
-      @include img-retina('../images/logo-xs.png', '../images/logo-xs@2x.png', 44px, 33px);
+      background-size: contain;
+      background-repeat: no-repeat;
     }
   }
   .github {
@@ -39,7 +40,8 @@ header {
       margin-top: 28px;
       width: 77px;
       height: 24px;
-      @include img-retina('../images/logo-github-xs.png', '../images/logo-github-xs@2x.png', 77px, 24px);
+      background-size: contain;
+      background-repeat: no-repeat;
     }
   }
 }

@@ -14,8 +14,8 @@ footer {
       z-index: 100;
       width: 100%;
       height: 165px;
-      background: url(../images/footer-logo.png) no-repeat center center;
-      @include img-retina('../images/footer-logo.png','../images/footer-logo@2x.png', 92px, 36px);
+      background: url(../images/footer-logo@2x.png) no-repeat center center;
+      background-size: 92px 36px;
     }
     p {
       position: absolute;

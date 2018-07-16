@@ -12,20 +12,32 @@ const Diagram = ({src}) => (
   <div className='diagram-wrap'><img src={src} className='img-fluid diagram' /></div>
 )
 
-const HeroBlock = ({heading, subhead, children, ...rest}) => (
+const HeroBlock = ({heading, subheading, children, ...rest}) => (
   <ContentBlock className='hero' {...rest}>
-    <div className='row'>
+    <Row>
       <div className='col-12'>
-        <h1>Chainpoint is an open standard for creating a timestamp proof of any data, file, or process.</h1>
-        <h2>Anchor an unlimited amount of data to multiple blockchains. Verify the integrity and existence of data without relying on a trusted third-party.</h2>
+        <h1>{heading}</h1>
+        <h2>{subheading}</h2>
         {children}
       </div>
-    </div>
+    </Row>
   </ContentBlock>
+)
+
+const LinkExternal = ({href, children, ...rest}) => (
+  <a href={href} target='_blank' rel='noopener' {...rest}>
+    {children}
+  </a>
+)
+
+const Row = ({children}) => (
+  <div className='row'>{children}</div>
 )
 
 export {
   ContentBlock,
   Diagram,
-  HeroBlock
+  HeroBlock,
+  LinkExternal,
+  Row
 }

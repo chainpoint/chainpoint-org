@@ -5,7 +5,8 @@ import Example from '../components/Example'
 import {
   ContentBlock,
   Diagram,
-  HeroBlock
+  HeroBlock,
+  LinkExternal
 } from '../components/UI'
 
 // images
@@ -22,7 +23,7 @@ const IndexPage = () => (
   <div className='home'>
     <HeroBlock
       heading='Chainpoint is an open standard for creating a timestamp proof of any data, file, or process.'
-      subhead='Anchor an unlimited amount of data to multiple blockchains. Verify the integrity and existence of data without relying on a trusted third-party.'
+      subheading='Anchor an unlimited amount of data to multiple blockchains. Verify the integrity and existence of data without relying on a trusted third-party.'
     >
       <Diagram src={diagram} />
     </HeroBlock>
@@ -36,7 +37,7 @@ const IndexPage = () => (
       <div className='row'>
         <div className='col-12'>
           <h2>How does <span>Chainpoint</span> work?</h2>
-          <p> Chainpoint links a <a href='https://en.wikipedia.org/wiki/Cryptographic_hash_function' target='_blank'>hash</a> of your data to a blockchain and returns a timestamp proof. A Chainpoint service receives hashes which are aggregated together using a <a href='https://en.wikipedia.org/wiki/Merkle_tree' target='_blank'>Merkle tree</a>. The root of this tree is anchored in the Bitcoin and Ethereum blockchains. Throughout this process a <strong>Chainpoint proof</strong> is created and continually upgraded.  The final Chainpoint proof defines a path of operations that cryptographically links your data to one or more blockchains.</p>
+          <p> Chainpoint links a <LinkExternal href='https://en.wikipedia.org/wiki/Cryptographic_hash_function'>hash</LinkExternal> of your data to a blockchain and returns a timestamp proof. A Chainpoint service receives hashes which are aggregated together using a <LinkExternal href='https://en.wikipedia.org/wiki/Merkle_tree'>Merkle tree</LinkExternal>. The root of this tree is anchored in the Bitcoin and Ethereum blockchains. Throughout this process a <strong>Chainpoint proof</strong> is created and continually upgraded.  The final Chainpoint proof defines a path of operations that cryptographically links your data to one or more blockchains.</p>
         </div>
       </div>
     </ContentBlock>
@@ -46,7 +47,7 @@ const IndexPage = () => (
         <div className='col-12'>
           <h2>What is a <span>Chainpoint Proof?</span></h2>
           <p className='subhead'>
-          A proof is a <a href='http://json-ld.org/' target='_blank'>JSON-LD</a> document, that contains the information to cryptographically verify a piece of data is anchored to a blockchain. It proves the data existed at time it was anchored. Chainpoint proofs can be verified without reliance on a trusted third party.</p>
+          A proof is a <LinkExternal href='http://json-ld.org/' target='_blank'>JSON-LD</LinkExternal> document, that contains the information to cryptographically verify a piece of data is anchored to a blockchain. It proves the data existed at time it was anchored. Chainpoint proofs can be verified without reliance on a trusted third party.</p>
           <br />
           <img src={whitespace} className='img-fluid whitepaper' />
         </div>
@@ -59,7 +60,7 @@ const IndexPage = () => (
           <div className='text-block'>
             <h2>Chainpoint Node API</h2>
             <p className='subhead'>Chainpoint Nodes have an HTTP API. You can interact with Nodes using any programming language that supports HTTP calls. Thousands of Chainpoint Nodes operate as part of a global network. </p>
-            <a className='btn btn-primary' href='https://github.com/chainpoint/chainpoint-node/wiki/Chainpoint-Node-API:-How-to-Create-a-Chainpoint-Proof' target='_blank'>Chainpoint Node API Tutorial</a>
+            <LinkExternal className='btn btn-primary' href='https://github.com/chainpoint/chainpoint-node/wiki/Chainpoint-Node-API:-How-to-Create-a-Chainpoint-Proof'>Chainpoint Node API Tutorial</LinkExternal>
           </div>
         </div>
         <div className='col-md-6'>
@@ -67,7 +68,7 @@ const IndexPage = () => (
             <h2>Chainpoint JS Client</h2>
             <p className='subhead'>
           This Chainpoint javascript client can be used in both Browser and Node.js based Javascript applications using callback functions, Promises (using .then, .catch), or Promises (using async/await) functional styles.</p>
-            <a className='btn btn-primary' href='https://github.com/chainpoint/chainpoint-client-js' target='_blank'>Chainpoint JS Client</a>
+            <LinkExternal className='btn btn-primary' href='https://github.com/chainpoint/chainpoint-client-js'>Chainpoint JS Client</LinkExternal>
           </div>
         </div>
       </div>
@@ -77,7 +78,7 @@ const IndexPage = () => (
       <div className='row'>
         <div className='col-12'>
           <h2>Chainpoint Proof Versions</h2>
-          <p className='subhead'>The third major version of the Chainpoint proof specification is currently in testing and scheduled for release soon. A <a href='https://github.com/chainpoint/chainpoint-proof-json-schema' target='_blank'>JSON schema validator</a> is available.</p>
+          <p className='subhead'>The third major version of the Chainpoint proof specification is currently in testing and scheduled for release soon. A <LinkExternal href='https://github.com/chainpoint/chainpoint-proof-json-schema'>JSON schema validator</LinkExternal> is available.</p>
           <div className='docs docs-content'>
             <ul className='nav nav-tabs'>
               <li className='nav-item'><a className='nav-link active' href='#v3x' data-toggle='tab'>Version 3.0</a></li>
@@ -108,7 +109,7 @@ const IndexPage = () => (
                     </tr>
                     <tr>
                       <td>hash_id_node<small>string, required</small></td>
-                      <td>a <a href='https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_1_.28date-time_and_MAC_address.29' target='_blank'>Version 1 UUID</a> with embedded timestamp and 5 byte BLAKE2s hash of the input data. Timestamp represents Node server time (UTC) of hash submission.</td>
+                      <td>a <LinkExternal href='https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_1_.28date-time_and_MAC_address.29'>Version 1 UUID</LinkExternal> with embedded timestamp and 5 byte BLAKE2s hash of the input data. Timestamp represents Node server time (UTC) of hash submission.</td>
                     </tr>
                     <tr>
                       <td>hash_submitted_node_at<small>string, required</small></td>
@@ -116,11 +117,11 @@ const IndexPage = () => (
                     </tr>
                     <tr>
                       <td>hash_id_core<small>string, required</small></td>
-                      <td>a <a href='https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_1_.28date-time_and_MAC_address.29' target='_blank'>Version 1 UUID</a> with embedded timestamp and 5 byte BLAKE2s hash of the input data. Timestamp represents Core server time (UTC) of hash submission.</td>
+                      <td>a <LinkExternal href='https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_1_.28date-time_and_MAC_address.29' target='_blank'>Version 1 UUID</LinkExternal> with embedded timestamp and 5 byte BLAKE2s hash of the input data. Timestamp represents Core server time (UTC) of hash submission.</td>
                     </tr>
                     <tr>
                       <td>hash_submitted_core_at<small>string, required</small></td>
-                      <td>Human readable <a href='https://en.wikipedia.org/wiki/ISO_8601' target='_blank'>ISO 8601</a> timestamp extracted from time embedded in the hash_id_core</td>
+                      <td>Human readable <LinkExternal href='https://en.wikipedia.org/wiki/ISO_8601' target='_blank'>ISO 8601</LinkExternal> timestamp extracted from time embedded in the hash_id_core</td>
                     </tr>
                     <tr>
                       <td colSpan='2' className='table-section-header'>branches - an array of branch objects. Branches can be nested without limit and MUST be traversed only after executing 'ops'. <span className='required'>(required only at root)</span></td>
@@ -346,14 +347,16 @@ const IndexPage = () => (
         </div>
       </div>
     </ContentBlock>
+
     <ContentBlock className='proof-verify'>
       <div className='row'>
         <div className='col-sm-12'>
           <h2>Verifying <span>Chainpoint Proofs</span></h2>
-          <p className='subhead'>Verification confirms that the proof is well formatted, and all proof operations lead to the expected anchor hash on the blockchain(s). Verification of version 3.x proofs can be performed with the <a href='https://github.com/chainpoint/chainpoint-cli' target='_blank'>Chainpoint CLI</a>. Verification of older versions can be performed using the <a href='https://www.npmjs.com/package/chainpoint-validate' target='_blank'>chainpoint-validate</a> Javascript package for Node.js.</p>
+          <p className='subhead'>Verification confirms that the proof is well formatted, and all proof operations lead to the expected anchor hash on the blockchain(s). Verification of version 3.x proofs can be performed with the <LinkExternal href='https://github.com/chainpoint/chainpoint-cli'>Chainpoint CLI</LinkExternal>. Verification of older versions can be performed using the <LinkExternal href='https://www.npmjs.com/package/chainpoint-validate'>chainpoint-validate</LinkExternal> Javascript package for Node.js.</p>
         </div>
       </div>
     </ContentBlock>
+
   </div>
 )
 

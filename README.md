@@ -59,17 +59,10 @@ git checkout -b feature/<cool-descriptive-branch-name>
     │   └── _global.scss
     ├── libs - cloned scss libraries that aren't on npm
     │   ├── quantum-colors
-    │   │   ├── LICENSE
-    │   │   ├── README.md
-    │   │   ├── _quantum-colors.scss
-    │   │   ├── bower.json
-    │   │   └── sache.json
     │   └── quantum-shadows
     │       ├── LICENSE
     │       ├── README.md
     │       ├── _quantum-shadows.scss
-    │       ├── bower.json
-    │       └── sache.json
     ├── main.scss
     └── utils - helper scss functions
         └── _utils.scss

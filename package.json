@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "Chainpoint.org Website",
+  "description": "Chainpoint is an open standard for creating a timestamp proof of any data, file, or process.",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Tierion",
   "dependencies": {
     "bootstrap": "^4.1.1",
     "compass-mixins": "^0.12.10",
@@ -17,9 +17,6 @@
     "popper.js": "^1.14.3",
     "react-helmet": "^5.2.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -32,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/chainpoint/chainpoint-org"
   },
   "standard": {
     "globals": [

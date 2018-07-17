@@ -4,10 +4,10 @@ const Example = ({json = {}}) => {
   return (
     <div>
       <pre>
-        <code className='json'>
+        <code>
           {
             typeof json === 'object'
-              ? JSON.stringify(json, null, 2)
+              ? `${JSON.stringify(json, null, 2)}`
               : json
           }
         </code>

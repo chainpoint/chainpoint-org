@@ -9,7 +9,7 @@ import 'prismjs/themes/prism-coy.css'
 class SyntaxHightedContainer extends Component {
   render () {
     return (
-      <div className='language-json'>
+      <div className='language-json syntax-highlighted-container'>
         { this.props.children }
       </div>
     )

@@ -27,7 +27,7 @@
   }
 }
 
-pre[class*="language-"] {
+.syntax-highlighted-container pre[class*="language-"] {
   &:before,
   &:after {
     box-shadow: none;

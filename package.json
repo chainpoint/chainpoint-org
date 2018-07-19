@@ -15,6 +15,7 @@
     "gatsby-plugin-segment": "^1.0.2",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3",
+    "prismjs": "^1.15.0",
     "react-helmet": "^5.2.0"
   },
   "license": "UNLICENSED",

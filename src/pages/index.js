@@ -356,7 +356,7 @@ const IndexPage = () => (
       <div className='row'>
         <div className='col-sm-12'>
           <h2>Verifying <span>Chainpoint Proofs</span></h2>
-          <p className='subhead'>Verification confirms that the proof is well formatted, and all proof operations lead to the expected anchor hash on the blockchain(s). Verification of version 3.x proofs can be performed with the <LinkExternal href='https://github.com/chainpoint/chainpoint-cli'>Chainpoint CLI</LinkExternal>. Verification of older versions can be performed using the <LinkExternal href='https://www.npmjs.com/package/chainpoint-validate'>chainpoint-validate</LinkExternal> Javascript package for Node.js.</p>
+          <p className='subhead'>Verification confirms that the proof is well formatted, and all proof operations lead to the expected anchor hash on the blockchain. Verification of version 3.x proofs can be performed with the <LinkExternal href='https://github.com/chainpoint/chainpoint-cli'>Chainpoint CLI</LinkExternal>. Verification of older versions can be performed using the <LinkExternal href='https://www.npmjs.com/package/chainpoint-validate'>chainpoint-validate</LinkExternal> Javascript package for Node.js.</p>
         </div>
       </div>
     </ContentBlock>

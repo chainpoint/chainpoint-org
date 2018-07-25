@@ -49,7 +49,7 @@ const IndexPage = () => (
         <div className='col-12'>
           <h2>What is a <span>Chainpoint Proof?</span></h2>
           <p className='subhead'>
-          A Chainpoint proof contains the information to verify the hash of some data is anchored to a blockchain. It proves the data existed at time it was anchored. Chainpoint proofs can be verified without reliance on a trusted third party.</p>
+          A Chainpoint proof contains the information to verify that the hash of some data is anchored to a blockchain. It proves the data existed at time it was anchored. Chainpoint proofs can be verified without reliance on a trusted third party.</p>
           <br />
           <img src={whitespace} className='img-fluid whitepaper' />
         </div>

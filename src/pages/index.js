@@ -39,7 +39,7 @@ const IndexPage = () => (
       <div className='row'>
         <div className='col-12'>
           <h2>How does <span>Chainpoint</span> work?</h2>
-          <p> Chainpoint links a <LinkExternal href='https://en.wikipedia.org/wiki/Cryptographic_hash_function'>hash</LinkExternal> of your data to a blockchain and returns a timestamp proof. A Chainpoint service receives hashes which are aggregated together using a <LinkExternal href='https://en.wikipedia.org/wiki/Merkle_tree'>Merkle tree</LinkExternal>. The root of this tree is anchored in the Bitcoin and Ethereum blockchains. Throughout this process a <strong>Chainpoint proof</strong> is created and continually upgraded.  The final Chainpoint proof defines a path of operations that cryptographically links your data to one or more blockchains.</p>
+          <p> Chainpoint links a <LinkExternal href='https://en.wikipedia.org/wiki/Cryptographic_hash_function'>hash</LinkExternal> of your data to a blockchain and returns a timestamp proof. A Chainpoint service receives hashes which are aggregated together using a <LinkExternal href='https://en.wikipedia.org/wiki/Merkle_tree'>Merkle tree</LinkExternal>. The root of this tree is anchored in the Bitcoin blockchains. Throughout this process a <strong>Chainpoint proof</strong> is created and continually upgraded.  The final Chainpoint proof defines a path of operations that cryptographically links your data to one or more blockchains.</p>
         </div>
       </div>
     </ContentBlock>

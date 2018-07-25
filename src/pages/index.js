@@ -39,7 +39,7 @@ const IndexPage = () => (
       <div className='row'>
         <div className='col-12'>
           <h2>How does <span>Chainpoint</span> work?</h2>
-          <p> Chainpoint links a <LinkExternal href='https://en.wikipedia.org/wiki/Cryptographic_hash_function'>hash</LinkExternal> of your data to a blockchain and returns a timestamp proof. A Chainpoint service receives hashes which are aggregated together using a <LinkExternal href='https://en.wikipedia.org/wiki/Merkle_tree'>Merkle tree</LinkExternal>. The root of this tree is anchored in the Bitcoin blockchains. Throughout this process a <strong>Chainpoint proof</strong> is created and continually upgraded.  The final Chainpoint proof defines a path of operations that cryptographically links your data to one or more blockchains.</p>
+          <p> Chainpoint links a <LinkExternal href='https://en.wikipedia.org/wiki/Cryptographic_hash_function'>hash</LinkExternal> of your data to a blockchain and returns a timestamp proof. A Chainpoint Node receives hashes which are aggregated together using a <LinkExternal href='https://en.wikipedia.org/wiki/Merkle_tree'>Merkle tree</LinkExternal>. The root of this tree is published in a Bitcoin transaction. The final Chainpoint proof defines a set of operations that cryptographically link your data to the Bitcoin blockchain.</p>
         </div>
       </div>
     </ContentBlock>
@@ -49,7 +49,7 @@ const IndexPage = () => (
         <div className='col-12'>
           <h2>What is a <span>Chainpoint Proof?</span></h2>
           <p className='subhead'>
-          A proof is a <LinkExternal href='http://json-ld.org/' target='_blank'>JSON-LD</LinkExternal> document, that contains the information to cryptographically verify a piece of data is anchored to a blockchain. It proves the data existed at time it was anchored. Chainpoint proofs can be verified without reliance on a trusted third party.</p>
+          A Chainpoint proof contains the information to verify the hash of some data is anchored to a blockchain. It proves the data existed at time it was anchored. Chainpoint proofs can be verified without reliance on a trusted third party.</p>
           <br />
           <img src={whitespace} className='img-fluid whitepaper' />
         </div>

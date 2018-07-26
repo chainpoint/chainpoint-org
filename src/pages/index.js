@@ -11,7 +11,7 @@ import {
 } from '../components/UI'
 
 // images
-import diagram from '../images/diagram@2x.png'
+import diagram from '../images/diagram.png'
 import companyLogos from '../images/company-logos@2x.png'
 import whitespace from '../images/whitepaper@2x.png'
 

@@ -24,7 +24,7 @@ const IndexPage = () => (
   <div className='home'>
     <HeroBlock
       heading='Chainpoint is an open standard for creating a timestamp proof of any data, file, or process.'
-      subheading='Anchor an unlimited amount of data to multiple blockchains. Verify the integrity and existence of data without relying on a trusted third-party.'
+      subheading='Anchor an unlimited amount of data to the Bitcoin blockchain. Verify the integrity and existence of data without relying on a trusted third-party.'
     >
       <br />
       <Diagram src={diagram} />

@@ -23,6 +23,7 @@ $screen-md-max: 1200px;
 @import './components/home';
 @import './components/docs';
 @import './components/syntax-highlighting';
+@import './components/demo';
 
 // global styles
-@import './global/global'
+@import './global/global';

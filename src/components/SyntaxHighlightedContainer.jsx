@@ -7,10 +7,10 @@ import 'prismjs/themes/prism-coy.css'
 // we use it as a wrapper to avoid unnecessary reinitializations of prismjs
 // when using multiple Example items
 class SyntaxHightedContainer extends Component {
-  render () {
+  render() {
     return (
-      <div className='language-json syntax-highlighted-container'>
-        { this.props.children }
+      <div className="language-json syntax-highlighted-container">
+        {this.props.children}
       </div>
     )
   }

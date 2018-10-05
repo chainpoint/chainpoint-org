@@ -2354,10 +2354,10 @@ chainpoint-binary@^4.0.0, chainpoint-binary@^4.0.1:
     msgpack-lite "^0.1.26"
     pako "^1.0.5"
 
-chainpoint-client-web@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/chainpoint-client-web/-/chainpoint-client-web-0.0.3.tgz#b52001eccef6cd0240501a0035e3a79260e41625"
-  integrity sha512-XuQ4niCiNZzzM34WqiNxYIWndhuoAMv3pOG7fJhrsPO6NdtxVikaKeVtFSIIu1JYU9Y6kMwbJPZAXmxGZ4OEuQ==
+chainpoint-client-web@^0.0.4-0:
+  version "0.0.4-0"
+  resolved "https://registry.yarnpkg.com/chainpoint-client-web/-/chainpoint-client-web-0.0.4-0.tgz#877862afa762f48bf835fba5545e9b6a8aedd3e9"
+  integrity sha512-I9lIEcUu2wier0Df0TS98zDWegPnLPiPlhf/YDerH44cramhiTYfxJ+LgSsVuDIA8V5vUq7zRFUh0gW/3O4dbA==
   dependencies:
     autoprefixer "7.1.6"
     axios "^0.18.0"

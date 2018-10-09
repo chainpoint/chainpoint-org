@@ -2367,10 +2367,10 @@ chainpoint-binary@^4.0.0, chainpoint-binary@^4.0.1:
     msgpack-lite "^0.1.26"
     pako "^1.0.5"
 
-chainpoint-client-web@^0.0.4-3:
-  version "0.0.4-3"
-  resolved "https://registry.yarnpkg.com/chainpoint-client-web/-/chainpoint-client-web-0.0.4-3.tgz#ea171ed5908f7403df582a3c8b35b5d1f0e04588"
-  integrity sha512-+YTFEBnrl7P14Ul5nlTOETDd+imUl5yMu5mhQHJg27wSSpm8WQxsjC8lNJuW8/M2fMijc4WY/uhVcYzMOHbNwQ==
+chainpoint-client-web@^0.0.4-4:
+  version "0.0.4-4"
+  resolved "https://registry.yarnpkg.com/chainpoint-client-web/-/chainpoint-client-web-0.0.4-4.tgz#9c09068dfd3906b4ad389486de3848e6788d37aa"
+  integrity sha512-MLgZjJFaRVnMNEjUQj7QD+DDJg7wfBAjMCP8ahiyMeUVF2xgSETyZ/bLJ5lBwsSozX6LWSYZb6Td1VWOnAiarg==
   dependencies:
     autoprefixer "7.1.6"
     axios "^0.18.0"
@@ -2403,7 +2403,7 @@ chainpoint-client-web@^0.0.4-3:
     html-webpack-plugin "2.29.0"
     jest "20.0.4"
     js-file-download "^0.4.1"
-    js-sha3 "^0.7.0"
+    js-sha256 "^0.9.0"
     json-fmt "^1.1.2"
     lodash "^4.17.10"
     node-pre-gyp "^0.10.3"
@@ -7025,15 +7025,15 @@ js-file-download@^0.4.1:
   resolved "https://registry.yarnpkg.com/js-file-download/-/js-file-download-0.4.4.tgz#51ffa5d421fc5fc25c9d1a724255a7184e4dc92b"
   integrity sha512-lH75hwOMBkIDqIyAWgSYwkMa+YkBu/ATJf2rEXnC1TmHCCHmLNG/NFhZ6R4tipnH2v0EvLOhGlARc0vyS1j0mA==
 
+js-sha256@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/js-sha256/-/js-sha256-0.9.0.tgz#0b89ac166583e91ef9123644bd3c5334ce9d0966"
+  integrity sha512-sga3MHh9sgQN2+pJ9VYZ+1LPwXOxuBJBA5nrR5/ofPfuiJBE2hnjsaN8se8JznOmGLN2p49Pe5U/ttafcs/apA==
+
 js-sha3@^0.5.7:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/js-sha3/-/js-sha3-0.5.7.tgz#0d4ffd8002d5333aabaf4a23eed2f6374c9f28e7"
   integrity sha1-DU/9gALVMzqrr0oj7tL2N0yfKOc=
-
-js-sha3@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/js-sha3/-/js-sha3-0.7.0.tgz#0a5c57b36f79882573b2d84051f8bb85dd1bd63a"
-  integrity sha512-Wpks3yBDm0UcL5qlVhwW9Jr9n9i4FfeWBFOOXP5puDS/SiudJGhw7DPyBqn3487qD4F0lsC0q3zxink37f7zeA==
 
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"

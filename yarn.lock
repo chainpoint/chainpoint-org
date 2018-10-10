@@ -2367,10 +2367,10 @@ chainpoint-binary@^4.0.0, chainpoint-binary@^4.0.1:
     msgpack-lite "^0.1.26"
     pako "^1.0.5"
 
-chainpoint-client-web@^0.0.4-5:
-  version "0.0.4-5"
-  resolved "https://registry.yarnpkg.com/chainpoint-client-web/-/chainpoint-client-web-0.0.4-5.tgz#d48c5e128fe595299aabbf71b660bce7d608942d"
-  integrity sha512-W7zl64PZIwgyti6hnn8zHdlyhv12z5WH7N2BlEQGBAe+JTTSEyC/22QVJ065tKV4kk8OkpBNDENCfJDd3tJwGw==
+chainpoint-client-web@^0.0.4-6:
+  version "0.0.4-6"
+  resolved "https://registry.yarnpkg.com/chainpoint-client-web/-/chainpoint-client-web-0.0.4-6.tgz#1c674355ca451772ad1b36bd085c388366a9a825"
+  integrity sha512-H7i7B12itAtXsY1lyeVMhe61gdcXu/74/501NuFIZRVsrSiktkWnbPCvtuAmnZJVFyIQvs6wmgX5rj3BIDiPeg==
   dependencies:
     autoprefixer "7.1.6"
     axios "^0.18.0"
@@ -2383,6 +2383,7 @@ chainpoint-client-web@^0.0.4-5:
     case-sensitive-paths-webpack-plugin "2.1.1"
     chainpoint-binary "^4.0.1"
     chainpoint-client "^0.2.2"
+    chainpoint-parse "^3.1.2"
     chalk "1.1.3"
     classnames "^2.2.5"
     css-loader "0.28.7"
@@ -2450,7 +2451,7 @@ chainpoint-client@^0.2.2:
     uuid-validate "^0.0.2"
     validator "^9.1.2"
 
-chainpoint-parse@^3.0.1:
+chainpoint-parse@^3.0.1, chainpoint-parse@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/chainpoint-parse/-/chainpoint-parse-3.1.2.tgz#498d8a2ea702ca74430371fff155026fa8d509dd"
   integrity sha512-61pp26H5G5cdn2bpcweSwI99UlSVM6LropWvGZtcLsyPYvdTd0uE51XLFZB0O4i7rmA62KeFV52RVnvNhElUOA==

@@ -16,6 +16,7 @@
     "gatsby-plugin-sass": "^2.0.1",
     "gatsby-plugin-segment": "^1.0.2",
     "jquery": "^3.3.1",
+    "node-sass": "^4.9.3",
     "popper.js": "^1.14.3",
     "prismjs": "^1.15.0",
     "react": "^16.5.2",

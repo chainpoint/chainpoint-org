@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
+import Layout from '../components/Layout'
 import 'chainpoint-client-web/dist/react/index.css'
 
-class Demo extends React.Component {
+class Demo extends Component {
   state = {
     ProofClient: null,
   }
@@ -15,19 +16,21 @@ class Demo extends React.Component {
   render() {
     const { ProofClient } = this.state
     return (
-      <div className="demo">
-        {ProofClient && (
-          <ProofClient
-            onAppearCreate={() => {}}
-            onAppearVerify={() => {}}
-            onChangeProofCount={() => {}}
-            onChangeCreateStatus={() => {}}
-            onChangeVerifyAnalysisStatus={() => {}}
-            onChangeVerifySuccessStatus={() => {}}
-            onChangeVerifyFailStatus={() => {}}
-          />
-        )}
-      </div>
+      <Layout>
+        <div className="demo">
+          {ProofClient && (
+            <ProofClient
+              onAppearCreate={() => {}}
+              onAppearVerify={() => {}}
+              onChangeProofCount={() => {}}
+              onChangeCreateStatus={() => {}}
+              onChangeVerifyAnalysisStatus={() => {}}
+              onChangeVerifySuccessStatus={() => {}}
+              onChangeVerifyFailStatus={() => {}}
+            />
+          )}
+        </div>
+      </Layout>
     )
   }
 }

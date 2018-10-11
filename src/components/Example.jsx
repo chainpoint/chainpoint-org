@@ -1,15 +1,11 @@
 import React from 'react'
 
-const Example = ({json = {}}) => {
+const Example = ({ json = {} }) => {
   return (
     <div>
       <pre>
         <code>
-          {
-            typeof json === 'object'
-              ? `${JSON.stringify(json, null, 2)}`
-              : json
-          }
+          {typeof json === 'object' ? `${JSON.stringify(json, null, 2)}` : json}
         </code>
       </pre>
     </div>

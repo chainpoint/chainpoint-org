@@ -1,16 +1,22 @@
 module.exports = {
   siteMetadata: {
-    title: 'Chainpoint - Blockchain Proof & Anchoring Standard'
+    title: 'Chainpoint - Blockchain Proof & Anchoring Standard',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-netlify',
     {
+      resolve: 'gatsby-plugin-postcss',
+      options: {
+        postCssPlugins: [],
+      },
+    },
+    {
       resolve: 'gatsby-plugin-segment',
       options: {
-        writeKey: 'Fhdxp0u1VjOv5U4aGbESiuYg4YYoGq6T'
-      }
+        writeKey: 'Fhdxp0u1VjOv5U4aGbESiuYg4YYoGq6T',
+      },
     },
     {
       resolve: `gatsby-plugin-favicon`,
@@ -26,9 +32,9 @@ module.exports = {
           firefox: true,
           twitter: false,
           yandex: false,
-          windows: false
-        }
-      }
-    }
-  ]
+          windows: false,
+        },
+      },
+    },
+  ],
 }

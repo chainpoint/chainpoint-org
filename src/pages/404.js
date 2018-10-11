@@ -1,10 +1,14 @@
 import React from 'react'
+import Layout from '../components/Layout'
+import Footer from '../components/Footer'
 
 const NotFoundPage = () => (
-  <div>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </div>
+  <Layout>
+    <div className="four-oh-four">
+      <h1>NOT FOUND</h1>
+      <Footer />
+    </div>
+  </Layout>
 )
 
 export default NotFoundPage

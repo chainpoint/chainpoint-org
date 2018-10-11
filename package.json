@@ -5,17 +5,22 @@
   "author": "Tierion ",
   "dependencies": {
     "bootstrap": "^4.1.1",
+    "chainpoint-client-web": "^0.0.4-11",
     "compass-mixins": "^0.12.10",
-    "gatsby": "^1.9.247",
-    "gatsby-link": "^1.6.40",
-    "gatsby-plugin-favicon": "^2.1.1",
-    "gatsby-plugin-netlify": "^1.0.21",
-    "gatsby-plugin-react-helmet": "^2.0.10",
-    "gatsby-plugin-sass": "^1.0.26",
+    "gatsby": "^2.0.21",
+    "gatsby-link": "^2.0.4",
+    "gatsby-plugin-favicon": "^3.1.4",
+    "gatsby-plugin-netlify": "^2.0.1",
+    "gatsby-plugin-postcss": "^2.0.0",
+    "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-sass": "^2.0.1",
     "gatsby-plugin-segment": "^1.0.2",
     "jquery": "^3.3.1",
+    "node-sass": "^4.9.3",
     "popper.js": "^1.14.3",
     "prismjs": "^1.15.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
     "react-helmet": "^5.2.0"
   },
   "license": "UNLICENSED",
@@ -36,5 +41,8 @@
     "globals": [
       "graphql"
     ]
+  },
+  "peerDependencies": {
+    "node-sass": "^4.9.3"
   }
 }

@@ -360,7 +360,7 @@ const IndexPage = () => (
                             <small>string, required</small>
                           </td>
                           <td>
-                            one of 'cal' (Calendar), 'btc' (Bitcoin), or 'eth'
+                            one of 'cal' (Calendar), 'btc' (Bitcoin), 'tcal' (Testnet Calendar), 'tbtc' (Testnet Bitcoin), or 'eth'
                             (Ethereum) anchor types
                           </td>
                         </tr>

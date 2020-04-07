@@ -1,0 +1,14 @@
+.error-page {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 120px);
+  width: 100%;
+  padding-top: 120px;
+}
+
+.default-error footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}

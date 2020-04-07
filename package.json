@@ -1,6 +1,6 @@
 {
   "name": "chainpoint-org",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "The chainpoint.org static website",
   "author": "Jason Bukowski <jason@tierion.com> (https://tierion.com)",
   "private": true,

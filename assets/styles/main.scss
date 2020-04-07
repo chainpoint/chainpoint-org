@@ -1,0 +1,30 @@
+// vars from bs3
+// TODO: remove any bs3 dependencies and move to bs4
+$screen-xs-min: 1px;
+$screen-xs-max: 767px;
+$screen-sm-min: 767px;
+$screen-md-max: 1200px;
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700');
+
+// libs
+@import 'node_modules/compass-mixins/lib/compass';
+@import './libs/quantum-shadows/quantum-shadows';
+@import './libs/quantum-colors/quantum-colors';
+
+// helpersc
+@import './utils/utils';
+
+// components
+@import './global/mixins';
+@import './components/header';
+@import './components/footer';
+@import './components/home';
+@import './components/docs';
+@import './components/syntax-highlighting';
+@import './components/demo';
+@import './components/404';
+
+// global styles
+@import './global/global';

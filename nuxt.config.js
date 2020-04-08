@@ -52,7 +52,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['@/assets/styles/main.scss'],
+  css: ['@/assets/scss/style.scss'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -67,7 +67,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ['@nuxtjs/svg'],
   /*
    ** Build configuration
    */

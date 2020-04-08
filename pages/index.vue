@@ -1,575 +1,228 @@
 <template>
-  <div class="home">
-    <HeroBlock
-      heading="Chainpoint is an open standard for creating a timestamp proof of any data, file, or process."
-      subheading="Anchor an unlimited amount of data to the Bitcoin blockchain. Verify the integrity and existence of data without relying on a trusted third-party."
-    >
-      <br />
-      <div class="diagram-wrap">
-        <img src="/images/diagram.png" alt="/images/diagram.png" class="img-fluid diagram" />
-      </div>
-    </HeroBlock>
-
-    <ContentBlock class="feature-github">
-      <div class="diagram-wrap">
-        <img src="/images/company-logos@2x.png" alt="/images/company-logos@2x.png" class="img-fluid diagram" />
-      </div>
-      <p>...plus hundreds of others use Chainpoint.</p>
-    </ContentBlock>
-
-    <ContentBlock class="proof-works">
-      <div class="row">
-        <div class="col-12">
-          <h2>How does <span>Chainpoint</span> work?</h2>
-          <p>
-            Chainpoint links a
-            <LinkExternal href="https://en.wikipedia.org/wiki/Cryptographic_hash_function">hash</LinkExternal> of your
-            data to a blockchain and returns a timestamp proof. A Chainpoint Node receives hashes which are aggregated
-            together using a <LinkExternal href="https://en.wikipedia.org/wiki/Merkle_tree">Merkle tree</LinkExternal>.
-            The root of this tree is published in a Bitcoin transaction. The final Chainpoint proof defines a set of
-            operations that cryptographically link your data to the Bitcoin blockchain.
-          </p>
-        </div>
-      </div>
-    </ContentBlock>
-
-    <ContentBlock class="proof-what">
-      <div class="row">
-        <div class="col-12">
-          <h2>What is a <span>Chainpoint Proof?</span></h2>
-          <p class="subhead">
-            A Chainpoint proof contains the information to verify that the hash of some data is anchored to a
-            blockchain. It proves the data existed at time it was anchored. Chainpoint proofs can be verified without
-            reliance on a trusted third party.
-          </p>
-          <br />
-          <img src="/images/whitepaper@2x.png" alt="Chainpoint whitepaper" class="img-fluid whitepaper" />
-        </div>
-      </div>
-    </ContentBlock>
-
-    <ContentBlock class="proof-tools">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="text-block">
-            <h2>Chainpoint Node API</h2>
-            <p class="subhead">
-              Chainpoint Nodes have an HTTP API. You can interact with Nodes using any programming language that
-              supports HTTP calls. Thousands of Chainpoint Nodes operate as part of a global network.
-            </p>
-            <LinkExternal
-              class="btn btn-primary"
-              href="https://github.com/chainpoint/chainpoint-node/wiki/Chainpoint-Node-API:-How-to-Create-a-Chainpoint-Proof"
-              >Chainpoint Node API Tutorial</LinkExternal
-            >
+  <main class="page-container">
+    <div class="page-chainpoint">
+      <section class="section section-hero hero">
+        <div class="cta-hero container background-chainpoint">
+          <div class="container">
+            <div class="row justify-content-md-center">
+              <div class="section-title col col-md-8">
+                <h1>For developers</h1>
+                <h2>Chainpoint</h2>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row ">
+              <div class="col col-md-7">
+                <p class="paragraph-large">
+                  Chainpoint is an open standard for linking data to the blockchain to create a timestamp proof.
+                </p>
+                <a
+                  href="https://chainpoint.org/"
+                  class="btn btn-tight btn-secondary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Visit chainpoint.org<svg
+                    width="10"
+                    height="10"
+                    viewBox="0 0 10 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g fill="currentColor" fill-rule="nonzero">
+                      <path
+                        d="M2.902 1.034a.517.517 0 1 0 0-1.034H0v10h9.483A.517.517 0 0 0 10 9.483V6.582H8.967v2.384H1.034V1.034h1.868z"
+                      ></path>
+                      <path
+                        d="M4.725 6l4.25-4.25v2.906a.512.512 0 0 0 1.025 0V0H5.344a.512.512 0 1 0 0 1.025h2.907L4 5.275 4.725 6z"
+                      ></path>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="text-block">
-            <h2>Chainpoint JS Client</h2>
-            <p class="subhead">
-              This Chainpoint javascript client can be used in both Browser and Node.js based Javascript applications
-              using callback functions, Promises (using .then, .catch), or Promises (using async/await) functional
-              styles.
-            </p>
-            <LinkExternal class="btn btn-primary" href="https://github.com/chainpoint/chainpoint-client-js"
-              >Chainpoint JS Client</LinkExternal
-            >
+      </section>
+      <section class="section section-network network">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="section-title col col-md-8">
+              <h1>Chainpoint network</h1>
+              <h2>
+                Chainpoint is the world’s largest and fastest network for anchoring data to the blockchain
+              </h2>
+            </div>
           </div>
         </div>
-      </div>
-    </ContentBlock>
-
-    <ContentBlock class="proof-versions">
-      <SyntaxHighlightedContainer>
-        <div class="row">
-          <div class="col-12">
-            <h2>Chainpoint Proof Versions</h2>
-            <p class="subhead">
-              The third major version of the Chainpoint proof specification is currently in testing and scheduled for
-              release soon. A
-              <LinkExternal href="https://github.com/chainpoint/chainpoint-proof-json-schema"
-                >JSON schema validator</LinkExternal
+      </section>
+      <section class="section section-developertools developertools">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="section-title col col-md-8">
+              <h1>Developer Tools</h1>
+              <h2>Get started in minutes</h2>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center developer-tools">
+            <div class="col col-12 col-sm-8 col-lg-6 col-xl-6">
+              <a
+                class="ui-card"
+                href="https://github.com/chainpoint/chainpoint-node/wiki/Chainpoint-Node-API:-How-to-Create-a-Chainpoint-Proof"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOTAiIGhlaWdodD0iOTAiIHZpZXdCb3g9IjAgMCA5MCA5MCI+CiAgICA8ZGVmcz4KICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSIwJSIgeDI9Ijg5LjI1OCUiIHkxPSIwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRjNDMDgyIi8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0VGMzkwMCIvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjIiB4MT0iMS44NDglIiB4Mj0iOTguODM4JSIgeTE9IjEuODMlIiB5Mj0iOTcuODY5JSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRjhCMTMiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjOTgyMzAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8cGF0aCBpZD0iYiIgZD0iTTQxLjE3OSAxOC40NTdsMjkuMDEyIDE2LjUxNC0xNi43NSAyOC42MDRMMjQuNDMgNDcuMDYxeiIvPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZCIgeDE9IjEuODQ4JSIgeDI9Ijk4LjgzOCUiIHkxPSIxLjgzJSIgeTI9Ijk3Ljg2OSUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRkY4QjEzIi8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0RBMzYwNSIvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJlIiB4MT0iMTAwJSIgeDI9IjE4LjkyMiUiIHkxPSIwJSIgeTI9IjgxLjA3OCUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjQjk0NDA2Ii8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0U0NEQwOSIvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJmIiB4MT0iOTAuMjQ3JSIgeDI9IjI5LjElIiB5MT0iOTMuNzk3JSIgeTI9IjE2LjI0NCUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjQUMzODA0Ii8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0REM0YwNyIvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iNzIuNjA2JSIgeDI9IjEwLjkzNSUiIHkxPSI4MC42NzQlIiB5Mj0iMi44ODElIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZDODMxMiIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNFNTcxMEUiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iaCIgeDE9IjUuNjg2JSIgeDI9IjgxLjcyOCUiIHkxPSI3OS44NDMlIiB5Mj0iMTcuMzYzJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNERjZCMEQiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRjQ3MjBFIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNODcuNDggMjkuNjczbC04LjAxLTE0LjczMUw2NC44OTIgNC41NjUgNTIuNDcxLjEyOGwtMTggLjI2Ny0uMTguMDlMMTguMTggOC4wMjQgNi4zIDIwLjAwMy4wOTIgMzUuMjYzbC0uMDkxLjA5LjE3OSAxOC44MTFMNS4wMzggNjUuNzlsMy43OCA1LjU5IDkuNzIgMTAuMDI4TDM1LjQ2IDg4Ljg2bDE5LjQ0Mi0uMjY2IDE4LjE4LTguNjA3IDExLjE1Ny0xMy43NTMgNS42NzEtMTUuODgyLTIuNDMtMjAuNjc5ek01MC44NSA1Mi41NjdsLTIzLjU3OS0zLjgxNiAxNS40OC0xOC43MjQgOC4xIDIyLjU0em0tNi44NDEtMjIuOThsMjIuMjI5IDQuNzA0LTE0LjEzIDE3Ljc0Ni04LjEtMjIuNDV6bTguODIgMjQuNzU1bDE5LjUzIDUuMzI0TDU2Ljc5IDczLjE1MmwtMy45NjItMTguODF6bTIuNyAxOS4zNDRsLTIxLjQyLTIuMjE4IDE3LjM3LTE2LjY4MyA0LjA1IDE4LjkwMXpNNTMuMSA1My4wMTFsMTQuMDQyLTE3LjY1NiA1LjY3IDIzLjE2TDUzLjEgNTMuMDEyem0tOC45MDgtMjQuNzU1bDEyLjE1LTE1LjQzN0w2Ni4xNSAzMi44N2wtMjEuOTU4LTQuNjE0em0tMi43IDEuMDY0bC0xNS4zIDE4LjU0M0wxOS4xNyAyOS4zMmgyMi4zMnpNMTkuNjIgMjguMDhMMzEuOTUgMTIuNzI3bDkuNzIgMTUuMjYtMjIuMDUuMDkxem0zMC44NyAyNS44MTlMMzIuOTQyIDcwLjY3bC01Ljk0LTIwLjU4NSAyMy40OSAzLjgxM3ptNC41IDIxLjAyOGwtOS45IDEwLjExNEwzNC4yIDcyLjc5OWwyMC43OTEgMi4xMjh6TTcyLjM2IDYxLjUzMUw2Ni42IDc5LjQ1NGwtOS01LjE0OEw3Mi4zNiA2MS41MzF6TTY4LjQgMzUuMTc4bDE0LjMwOCA3LjgxLTguNzI5IDE0LjY0LTUuNTc5LTIyLjQ1ek01Ny45NTggMTIuOTA0bDE2LjY1IDYuNTY1TDY3LjUgMzIuNDI2bC05LjU0Mi0xOS41MjJ6TTQzLjAyIDI3LjcyMkwzMy4zIDEyLjQ2SDU0Ljk5bC0xMS45NyAxNS4yNnpNMzAuNiAxMS4zOTdsLTE4LjE4IDcuMTg5TDI0LjEyIDcuMTRsNi40OCA0LjI1NnptLTQuOTUtNC44OGwxNi4yLTMuOTAzLTkuODA5IDguMDcyLTYuMzkyLTQuMTd6bTQuMjI5IDYuNTY0bC0xMS43IDE0LjY0MS03LjM4LTcuMDk4IDE5LjA4LTcuNTQzem0tNS4wMzggMzUuMDVMNi4xMiA0MS45MTkgMTcuOTk5IDI5Ljk0bDYuODQyIDE4LjE5em0tLjA5MiAxLjQyTDEyLjY5MSA2MS40NCA2LjAzIDQzLjM0bDE4LjcyIDYuMjEyem0uOS45NzVsNS44NSAyMC4yMzItMTcuOTA4LTguMjUzIDEyLjA1OC0xMS45OHpNNDMuMiA4NC45NTVsLTE3LjEtMy44MTYgNi41NzEtOC4xNjNMNDMuMiA4NC45NTV6bTEzLjMyMS05LjY3bDguNzMgNC44OC0xOCA0LjYxMyA5LjI3LTkuNDkzem0xNy41NS0xNC42NDFsNi42NTkgNi4yMTFMNjguNDkgNzguMjE0bDUuNTgtMTcuNTd6bS41MzgtMS4zMzFsOC4xOTEtMTMuNzU0LTEuNjIgMTkuNzg5LTYuNTcxLTYuMDM1em0tNi4zLTI1LjczMmw3LjEwOS0xMi43NzYgNy4xMDggMjAuNDk5LTE0LjIxNy03LjcyM3pNNTcuNzc5IDExLjMwN2w2Ljc1LTUuMjM0IDkgMTEuNDQ1LTE1Ljc1LTYuMjExem0tMjMuOTM4LjI2N0w0NC40NiAyLjc5bDEwLjE2OCA4Ljc4M0gzMy44NDF6bTUuNDg4LTkuNzZMMjkuNzkgNC4xMjFsNC45NS0yLjM5NSA0LjU4OC4wODZ6TTIwLjc5IDguMzc3bC00Ljc3MSA0LjcwNCAyLjk3LTMuOTAzIDEuOC0uOHpNMTcuMjc5IDI4LjdMNi4xMiA0MC4xNDRsMy44NzEtMTguMzY2IDcuMjg4IDYuOTIyem0tNi4zIDMyLjEyTDEuNzA4IDUzLjgxbDMuMjQxLTkuNDkzIDYuMDMgMTYuNTAyek0yLjc5IDU2LjI5M2w4LjgyIDYuNTY1LTIuMjUzIDYuMzkxTDIuNzkgNTYuMjkzem0yOC43MDggMTUuODg1TDI0Ljg0IDgwLjQzIDE0LjMwOCA2NC4yNzlsMTcuMTkgNy44OTl6bTEwLjM1IDEzLjkzbC02LjAzIDEuMzMxLTcuMDItNC4yNiAxMy4wNSAyLjkzem0yMC45Ny0zLjkwMmwtOC4xOTEgNS4wNTctNi40OC0xLjI0MSAxNC42NzEtMy44MTZ6bTE0LjQtMTAuMjk1bC00Ljk1IDYuOTIyLTMuMDU4LjUzMyA4LjAwOC03LjQ1NXptNy4wMi0yNy4zM2w0LjIzIDUuNzY3LTUuNzYyIDEyLjY5TDg0LjI0IDQ0LjU4em0uMTgtMi4wNDJsMi4xNTktOC44NzMgMS42MiAxNC4xMS0zLjc3OS01LjIzN3ptLS45LTIuMjE4bC02LjQ4LTE4LjcyNSA4LjkxIDguNjA3LTIuNDMgMTAuMTE4ek02OC4wNCA4LjU1N2w5LjgwOCA3LjAwOS0yLjI1IDIuNDg1LTcuNTU4LTkuNDk0em0tMTEuNjEyIDIuMTI4TDQ2Ljg5IDIuNDMybDE2LjEwOCAzLjEwNi02LjU3IDUuMTQ3ek05LjA5IDE5LjgyNWgtLjcybDMuMTUtMy4xOTUtMi40MyAzLjE5NnptLTQuNSAyMC42NzZsLTMuMTUtNC45NyA2LjU3MS0xMS4xODJMNC41OTEgNDAuNXptLS4zNjIgMS44NjFsLTIuNyA3LjgxLS4xOC0xMi4yNDYgMi44OCA0LjQzNnptOC4zNyAyMS44M0wyMi40MDggNzkuMWwtMTIuMTUtOC4zNCAyLjM0Mi02LjU2OHpNMjQuNTcgODIuMjA2bDEuNjIuOTc3LTIuNTItMS4wNjQuOS4wODd6bTIwLjUyIDQuNTIzbDIuODguNTM0LTUuNjcuMDg3IDIuNzktLjYyem0yMi4xMzktNS42NzdsLjYyOS0uMDktMS45OC45NzcgMS4zNS0uODg3em0xNS45MjktMTUuNjE5bC4xOC0uNDQ0LS4xOC40NDR6bS45LTM5LjA0MmwtNy41NTktNy4yNzUgMi4yNS0yLjQ4NiA1LjMwOSA5Ljc2em0tMjcuOS0yMy41MTRsLTYuMzkyLTEuMjQxIDIuNTIxLS4xNzcgMy44NyAxLjQxOHpNNy4yOSAyMS4wNjdsLjk5MS4wOS0zLjQyIDUuODU4IDIuNDI5LTUuOTQ4em03LjQ2NyA1NC4zOTRsNy4zOCA1LjA1Ny0yLjc5Mi0uMzU0LTQuNTg4LTQuNzAzeiIvPgogICAgICAgIDxnIHRyYW5zZm9ybT0icm90YXRlKC02IDQ3LjMxIDQxLjAxNikiPgogICAgICAgICAgICA8dXNlIGZpbGw9IiNGRkYiIHhsaW5rOmhyZWY9IiNiIi8+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZT0idXJsKCNjKSIgc3Ryb2tlLXdpZHRoPSIxLjI4NiIgZD0iTTQxLjQxMyAxOS4zM2wtMTYuMSAyNy40OTQgMjcuODk0IDE1Ljg3OCAxNi4xLTI3LjQ5NEw0MS40MTQgMTkuMzN6Ii8+CiAgICAgICAgPC9nPgogICAgICAgIDxwYXRoIGZpbGw9IiNGRkYiIHN0cm9rZT0idXJsKCNkKSIgc3Ryb2tlLXdpZHRoPSI1LjE0MyIgZD0iTTQ0LjczMyAyOS42OTNsMTQuNDUyIDguMjI2LTguMzQ0IDE0LjI0OS0xNC40NTMtOC4yMjd6IiB0cmFuc2Zvcm09InJvdGF0ZSgtNiA0Ny43ODcgNDAuOTMpIi8+CiAgICAgICAgPHBhdGggc3Ryb2tlPSJ1cmwoI2UpIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBzdHJva2Utd2lkdGg9IjEuMjg2IiBkPSJNNjEuMDcxIDM1LjM1N2w2LjQyOS0xLjc2NSIvPgogICAgICAgIDxwYXRoIHN0cm9rZT0idXJsKCNmKSIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIgc3Ryb2tlLXdpZHRoPSIxLjI4NiIgZD0iTTUzLjM1NyA1NC42NDNsMS4yODYgNi44MzYiLz4KICAgICAgICA8cGF0aCBzdHJva2U9InVybCgjZykiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiIHN0cm9rZS13aWR0aD0iMS4yODYiIGQ9Ik00My4wNzEgMjguOTI5bC0zLjg1Ny04LjAxNCIvPgogICAgICAgIDxwYXRoIHN0cm9rZT0idXJsKCNoKSIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIgc3Ryb2tlLXdpZHRoPSIxLjI4NiIgZD0iTTM0LjA3MSA0NS42NDNsLTcuNzE0IDMuMTYiLz4KICAgIDwvZz4KPC9zdmc+Cg=="
+                  alt="Tool icon"
+                />
+                <div class="arrow-link" target="_blank">Chainpoint Node API</div>
+                <div class="paragraph">
+                  Learn how to interact with a public network of Chainpoint Nodes. Each node has a REST API.
+                </div></a
               >
-              is available.
-            </p>
-            <div class="docs docs-content">
-              <ul class="nav nav-tabs">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#v3x" data-toggle="tab">
-                    Version 3.0
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#v2x" data-toggle="tab">
-                    Version 2.0
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#v1x" data-toggle="tab">
-                    Version 1.x
-                  </a>
-                </li>
-              </ul>
-              <div class="tab-content">
-                <div id="v3x" class="tab-pane fade in active show">
-                  <table class="multi-level">
-                    <thead>
-                      <tr>
-                        <th>Name</th>
-                        <th>Description</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>
-                          @context
-                          <br />
-                          <small>string, required</small>
-                        </td>
-                        <td>the JSON-LD context for the proof</td>
-                      </tr>
-                      <tr>
-                        <td>
-                          type
-                          <small>string, required</small>
-                        </td>
-                        <td>the JSON-LD type definition</td>
-                      </tr>
-                      <tr>
-                        <td>
-                          hash
-                          <small>string, required</small>
-                        </td>
-                        <td>
-                          hash value between 40 and 128 hex characters. Must be even length.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          hash_id_node
-                          <small>string, required</small>
-                        </td>
-                        <td>
-                          a
-                          <LinkExternal
-                            href="https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_1_.28date-time_and_MAC_address.29"
-                            >Version 1 UUID</LinkExternal
-                          >
-                          with embedded timestamp and 5 byte BLAKE2s hash of the input data. Timestamp represents Node
-                          server time (UTC) of hash submission.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          hash_submitted_node_at
-                          <small>string, required</small>
-                        </td>
-                        <td>
-                          Human readable
-                          <LinkExternal href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</LinkExternal>
-                          timestamp extracted from time embedded in the hash_id_node
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          hash_id_core
-                          <small>string, required</small>
-                        </td>
-                        <td>
-                          a
-                          <LinkExternal
-                            href="https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_1_.28date-time_and_MAC_address.29"
-                            >Version 1 UUID</LinkExternal
-                          >
-                          with embedded timestamp and 5 byte BLAKE2s hash of the input data. Timestamp represents Core
-                          server time (UTC) of hash submission.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          hash_submitted_core_at
-                          <small>string, required</small>
-                        </td>
-                        <td>
-                          Human readable
-                          <LinkExternal href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</LinkExternal>
-                          timestamp extracted from time embedded in the hash_id_core
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colSpan="2" class="table-section-header">
-                          branches - an array of branch objects. Branches can be nested without limit and MUST be
-                          traversed only after executing 'ops'.
-                          <span class="required">
-                            (required only at root)
-                          </span>
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>
-                          label
-                          <small>string, optional</small>
-                        </td>
-                        <td>text string representing the branch name</td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>
-                          ops
-                          <small>array, optional</small>
-                        </td>
-                        <td>
-                          an array of operations objects. Operations are performed in sequence to arrive at an
-                          intermediate hash prior to entering a nested branch.
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>
-                          branches
-                          <small>array, optional</small>
-                        </td>
-                        <td>
-                          nested array of branch objects. Each branch contains ops; labels and additional nested
-                          branches are optional.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colSpan="2" class="table-section-header">
-                          ops - an array of operation objects
-                          <span class="required"> (required under every 'branches' object) </span>
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>l<small>string, optional</small></td>
-                        <td>
-                          left concatenate a value. If the value is a hexadecimal string, it will be read as a
-                          hexadecimal byte array, otherwise the string will be converted to its byte value assuming
-                          UTF-8 encoding.
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>r<small>string, optional</small></td>
-                        <td>
-                          right concatenate a value. If the value is a hexadecimal string, it will be read as a
-                          hexadecimal byte array, otherwise the string will be converted to its byte value assuming
-                          UTF-8 encoding.
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>
-                          op
-                          <small>string, optional</small>
-                        </td>
-                        <td>
-                          an operation to perform on the current value combined with a previous 'l' or 'r' operation.
-                          Current operations: 'sha-224', 'sha-256', 'sha-384', 'sha-512', 'sha3-224', 'sha3-256',
-                          'sha3-384', 'sha3-512', or the special purpose 'sha-256-x2' which applies 'sha-256' twice.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colSpan="2" class="table-section-header">
-                          anchors - an array of anchor objects
-                          <span class="required">
-                            (required under every 'ops' object).
-                          </span>
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>
-                          type
-                          <small>string, required</small>
-                        </td>
-                        <td>
-                          one of 'cal' (Calendar), 'btc' (Bitcoin), 'tcal' (Testnet Calendar), 'tbtc' (Testnet Bitcoin),
-                          or 'eth' (Ethereum) anchor types
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>
-                          anchor_id
-                          <small>string, required</small>
-                        </td>
-                        <td>
-                          an identifier used to look up embedded anchor data. e.g. a Bitcoin transaction or block ID.
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>
-                          uris
-                          <small>array, optional</small>
-                        </td>
-                        <td>
-                          an array of special purpose string URI's, each of which can be used to lookup and retrieve the
-                          exact hash resource required to validate this anchor. The URI MUST return only a Hexadecimal
-                          hash value as a string. The URI MUST also contain the 'anchor_id' value to lookup the URI
-                          resource. This strict requirement is to allow automated clients to retrieve and validate
-                          intermediate hashes when verifying a proof. The body value returned by the URI MUST be of even
-                          length and match the regex [a-fA-F0-9].
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <h3>Example</h3>
-                  <Example :json="CHPExampleV3" />
-                </div>
-                <div id="v2x" class="tab-pane fade">
-                  <table class="multi-level">
-                    <thead>
-                      <tr>
-                        <th>Name</th>
-                        <th>Description</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>@context</td>
-                        <td>the JSON-LD context for the receipt</td>
-                      </tr>
-                      <tr>
-                        <td>type</td>
-                        <td>
-                          receipt type definition specifying hash method and version
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>targetHash</td>
-                        <td>hash value being anchored to the blockchain</td>
-                      </tr>
-                      <tr>
-                        <td>merkleRoot</td>
-                        <td>
-                          merkle tree root value that is anchored to the blockchain
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>proof</td>
-                        <td>
-                          merkle proof establishing link from the targetHash to the merkleRoot
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colSpan="2" class="table-section-header">
-                          anchors
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>type</td>
-                        <td>
-                          anchor type definition specifying anchoring method
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>sourceId</td>
-                        <td>
-                          identifier, such as a transaction id, used to locate anchored data
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <h3>Example</h3>
-                  <Example :json="CHPExampleV2" />
-                  <h3>Receipt Types</h3>
-                  <p>
-                    Receipt type values indicate the hash type and version of the receipt. The following values are
-                    supported.
+            </div>
+            <div class="col col-12 col-sm-8 col-lg-6 col-xl-6">
+              <a
+                class="ui-card"
+                href="https://github.com/chainpoint/chainpoint-client-js"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTMxIiBoZWlnaHQ9IjkwIiB2aWV3Qm94PSIwIDAgMTMxIDkwIj4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB5MT0iMCUiIHkyPSIxMDAlIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZDRTM4QSIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNGMzgxODEiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYiIgeDE9IjAlIiB4Mj0iODkuMjU4JSIgeTE9IjAlIiB5Mj0iMTAwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGM0MwODIiIHN0b3Atb3BhY2l0eT0iLjMwMiIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNFRjM5MDAiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxwYXRoIGlkPSJjIiBkPSJNMzMuMzgxIDE0LjA2Mkg5NS4zNHY2Mi4wMjdIMzMuMzgxeiIvPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZCIgeDE9IjAlIiB4Mj0iODkuMjU4JSIgeTE9IjAlIiB5Mj0iMTAwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGM0MwODIiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRUYzOTAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8cGF0aCBpZD0iZSIgZD0iTTU1LjIxNSAxMi44NDZoNjEuOTU5djYyLjAyN0g1NS4yMTV6Ii8+CiAgICA8L2RlZnM+CiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxwYXRoIHN0cm9rZT0idXJsKCNhKSIgc3Ryb2tlLXdpZHRoPSIxMC4yODYiIGQ9Ik0xNy45NzUgMTkuMjA1aDUxLjY3NHY1MS43NDFIMTcuOTc1eiIgb3BhY2l0eT0iLjIwNiIgdHJhbnNmb3JtPSJyb3RhdGUoLTQ1IDQzLjgxMiA0NS4wNzYpIi8+CiAgICAgICAgPGcgdHJhbnNmb3JtPSJyb3RhdGUoLTQ1IDY0LjM2MSA0NS4wNzYpIj4KICAgICAgICAgICAgPHBhdGggc3Ryb2tlPSJ1cmwoI2IpIiBzdHJva2Utd2lkdGg9IjEwLjI4NiIgZD0iTTM4LjUyNCAxOS4yMDVoNTEuNjc0djUxLjc0MUgzOC41MjR6Ii8+CiAgICAgICAgICAgIDx1c2Ugc3Ryb2tlPSIjRkZGIiBzdHJva2Utd2lkdGg9IjEuMjg2IiB4bGluazpocmVmPSIjYyIvPgogICAgICAgIDwvZz4KICAgICAgICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSgtNDUgODYuMTk0IDQzLjg2KSI+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZT0idXJsKCNkKSIgc3Ryb2tlLXdpZHRoPSIxMC4yODYiIGQ9Ik02MC4zNTcgMTcuOTg5aDUxLjY3NFY2OS43M0g2MC4zNTd6Ii8+CiAgICAgICAgICAgIDx1c2Ugc3Ryb2tlPSIjRkZGIiBzdHJva2Utd2lkdGg9IjIuNTcxIiB4bGluazpocmVmPSIjZSIvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+                  alt="Tool icon"
+                />
+                <div class="arrow-link" target="_blank">Chainpoint Client Library</div>
+                <div class="paragraph">
+                  A full-featured client that works in both Browser and Node.js based Javascript applications.
+                </div></a
+              >
+            </div>
+            <div class="col col-12 col-sm-8 col-lg-6 col-xl-6">
+              <a
+                class="ui-card"
+                href="https://github.com/chainpoint/chainpoint-node"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOTAiIGhlaWdodD0iOTAiIHZpZXdCb3g9IjAgMCA5MCA5MCI+CiAgICA8ZGVmcz4KICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSI4OS4yNTglIiB4Mj0iMCUiIHkxPSIxMDAlIiB5Mj0iMCUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRjNDMDgyIi8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0VGMzkwMCIvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJiIiB4MT0iMjguMDMxJSIgeDI9Ijg3LjEwNSUiIHkxPSIyMi44NzUlIiB5Mj0iODQuOTA1JSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNFRjhCNDMiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRTg5RDgzIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZCIgeDE9IjAlIiB5MT0iMCUiIHkyPSIxMDAlIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0YzQzA4MiIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNFRjM5MDAiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxwYXRoIGlkPSJjIiBkPSJNMTIuNjc2IDE0LjM0OGg1OS4xNTV2NjAuODdIMTIuNjc2eiIvPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZSIgeDE9IjAlIiB5MT0iMCUiIHkyPSI4OC41NzglIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0YzQzA4MiIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNFRjM5MDAiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZiIgeDE9Ii0zMS4yNDIlIiB5MT0iLTIyLjEyOCUiIHkyPSIxMDAlIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZBOTc0MSIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0ZGNjIwMCIgc3RvcC1vcGFjaXR5PSIuNjgiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICA8cGF0aCBmaWxsPSJ1cmwoI2EpIiBkPSJNMTQuOTU0IDEyLjg1Mmg2MC44NDV2NjMuOTExSDE0Ljk1NHoiIG9wYWNpdHk9Ii4xOTEiIHRyYW5zZm9ybT0icm90YXRlKDEzNSA0NS4xNjcgNDUuMDU0KSIvPgogICAgICAgIDxwYXRoIGZpbGw9InVybCgjYikiIGQ9Ik0xMy44NTggMTQuMTU3aDYyLjExMXY2My45MTFIMTMuODU4eiIgb3BhY2l0eT0iLjI2MyIgdHJhbnNmb3JtPSJyb3RhdGUoNzUgNDUuMTgyIDQ0Ljg0NCkiLz4KICAgICAgICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSgxMzUgNDQuMjYgNDQuMTMyKSI+CiAgICAgICAgICAgIDx1c2UgZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIiB4bGluazpocmVmPSIjYyIvPgogICAgICAgICAgICA8cGF0aCBzdHJva2U9InVybCgjZCkiIHN0cm9rZS13aWR0aD0iMi41NzEiIGQ9Ik0xMy45NjIgMTUuNjM0aDU2LjU4NHY1OC4yOThIMTMuOTYyeiIvPgogICAgICAgIDwvZz4KICAgICAgICA8cGF0aCBzdHJva2U9InVybCgjZSkiIHN0cm9rZS13aWR0aD0iNy43MTQiIGQ9Ik0zMC40NzcgMzIuNTUzaDIyLjcwOHYyMy41OUgzMC40Nzd6IiB0cmFuc2Zvcm09InJvdGF0ZSgxMzUgNDQuMjYzIDQzLjg4KSIvPgogICAgICAgIDxwYXRoIHN0cm9rZT0idXJsKCNmKSIgc3Ryb2tlLXdpZHRoPSI2LjQyOSIgZD0iTTIzLjQ5NiAyNS4zODhoMzYuNjd2MzcuOTE5aC0zNi42N3oiIHRyYW5zZm9ybT0icm90YXRlKDEzNSA0NC4yNjMgNDMuODgpIi8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                  alt="Tool icon"
+                />
+                <div class="arrow-link" target="_blank">Run a Chainpoint Node</div>
+                <div class="paragraph">
+                  Join the over 7,000 nodes that are part of the public Chainpoint Network, or run a private Chainpoint
+                  node.
+                </div></a
+              >
+            </div>
+            <div class="col col-12 col-sm-8 col-lg-6 col-xl-6">
+              <a
+                class="ui-card"
+                href="https://github.com/chainpoint/chainpoint-cli"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMTUiIGhlaWdodD0iOTAiIHZpZXdCb3g9IjAgMCAxMTUgOTAiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJpY29uLWNoYWlucG9pbnQtY2xpLWEiIHgxPSI1MCUiIHgyPSI1MCUiIHkxPSIxMDAlIiB5Mj0iMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRDMzRDA4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0YzOTk0RSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iaWNvbi1jaGFpbnBvaW50LWNsaS1iIiB4MT0iNTAlIiB4Mj0iNTAlIiB5MT0iOTUuMDcxJSIgeTI9IjAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0VGMzkwMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNGOTc2NEMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkYyOTUxIiBzdG9wLW9wYWNpdHk9Ii42MSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDYpIj4KICAgIDxyZWN0IHdpZHRoPSIxMTIuNSIgaGVpZ2h0PSI3Ni41IiB4PSIxLjI1IiB5PSIxLjI1IiBzdHJva2U9InVybCgjaWNvbi1jaGFpbnBvaW50LWNsaS1hKSIgc3Ryb2tlLXdpZHRoPSIyLjUiIHJ4PSI0Ii8+CiAgICA8Y2lyY2xlIGN4PSIxMi41IiBjeT0iMTAuNSIgcj0iMi41IiBmaWxsPSIjRUY0MjA5IiBvcGFjaXR5PSIuODI5Ii8+CiAgICA8Y2lyY2xlIGN4PSIyMS41IiBjeT0iMTAuNSIgcj0iMi41IiBmaWxsPSIjRkVCMDdBIi8+CiAgICA8Y2lyY2xlIGN4PSIzMC41IiBjeT0iMTAuNSIgcj0iMi41IiBmaWxsPSIjRkVDOEEzIiBvcGFjaXR5PSIuNjkyIi8+CiAgICA8ZyBmaWxsPSJ1cmwoI2ljb24tY2hhaW5wb2ludC1jbGktYikiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYxIDM3KSI+CiAgICAgIDxwYXRoIGQ9Ik0yNy4xNDgyNjgsMjUuMjg4MTQ5OSBMMjQuMDI3MTU4OCwyMi4xNjcwNDA4IEwyOC43MTUwOTYzLDE3LjQ3OTEwMzIgTDE3LjYwMzk0NzYsNi4zNjc5NTQ0OCBMNi40OTI3OTg4NSwxNy40NzkxMDMyIEwxNy42MDM5NDc2LDI4LjU5MDI1MTkgTDIzLjQwMjkzNjksMjIuNzkxMjYyNiBMMjYuNTI0MDQ2MSwyNS45MTIzNzE4IEwxNy40NzkxMDMyLDM0Ljk1NzMxNDcgTDAuMDAwODkxNzIyNzM3LDE3LjQ3OTEwMzIgTDE3LjQ3OTEwMzIsMC4wMDA4OTE3MjI3MzYgTDM0Ljk1NzMxNDcsMTcuNDc5MTAzMiBMMjcuMTQ4MjY4LDI1LjI4ODE0OTkgWiIvPgogICAgICA8cGF0aCBkPSJNMTkuOTA0MDY1NCw5LjU4MTc3ODE4IEwyMy4xNTAwMTksMTIuODI3NzMxNyBMMTguNDk4NjQ3NSwxNy40NzkxMDMyIEwyOS42MDk3OTYzLDI4LjU5MDI1MTkgTDQwLjcyMDk0NSwxNy40NzkxMDMyIEwyOS42MDk3OTYzLDYuMzY3OTU0NDggTDIzLjc3NDI0MDgsMTIuMjAzNTA5OSBMMjAuNTI4Mjg3Myw4Ljk1NzU1NjM0IEwyOS40ODQ5NTE5LDAuMDAwODkxNzIyNzM2IEw0Ni45NjMxNjM0LDE3LjQ3OTEwMzIgTDI5LjQ4NDk1MTksMzQuOTU3MzE0NyBMMTIuMDA2NzQwNCwxNy40NzkxMDMyIEwxOS45MDQwNjU0LDkuNTgxNzc4MTggWiIvPgogICAgPC9nPgogICAgPHBhdGggc3Ryb2tlPSIjRkVDOEEzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMyIgZD0iTTEwLjM4NjM2MzYsMzYuNSBMNjAuNjEzNjM2NCwzNi41IiBvcGFjaXR5PSIuNzUiLz4KICAgIDxwYXRoIHN0cm9rZT0iI0ZFQzhBMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiIGQ9Ik0xMC4zODYzNjM2LDI0LjUgTDc3LjUsMjQuNSIvPgogICAgPHBhdGggc3Ryb2tlPSIjRkVDOEEzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMyIgZD0iTTEwLjM4NjM2MzYsNDguNSBMNDcuNSw0OC41IiBvcGFjaXR5PSIuNCIvPgogIDwvZz4KPC9zdmc+Cg=="
+                  alt="Tool icon"
+                />
+                <div class="arrow-link" target="_blank">Chainpoint CLI</div>
+                <div class="paragraph">
+                  A Command Line Interface (CLI) for creating and verifying Chainpoint proofs.
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-benefits benefits">
+        <div class="container">
+          <div class="row ">
+            <div class="feature-list-outer-0 col col-md-5">
+              <div class="feature-list">
+                <div class="feature-list-inner">
+                  <img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4NyIgaGVpZ2h0PSI3MCIgdmlld0JveD0iMCAwIDg3IDcwIj4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjIuODkxJSIgeTE9IjUwJSIgeTI9IjUwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM3NDJCRDgiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjM0YxM0IwIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYiIgeDE9IjU0LjMyOSUiIHgyPSI0MS4yOTklIiB5MT0iOTMuMzcxJSIgeTI9IjI2LjExOSUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjNzQyQkQ4Ii8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNGMTNCMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzIC0xNCkiPgogICAgICAgIDxyZWN0IHdpZHRoPSI3MCIgaGVpZ2h0PSI3MCIgeD0iMjMiIHk9IjE0IiBmaWxsPSIjMkEyNDU4IiByeD0iMzUiLz4KICAgICAgICA8cmVjdCB3aWR0aD0iNzAiIGhlaWdodD0iNzAiIHg9IjMwIiB5PSIxNCIgZmlsbD0idXJsKCNhKSIgcng9IjM1Ii8+CiAgICAgICAgPHJlY3Qgd2lkdGg9IjcwIiBoZWlnaHQ9IjcwIiB4PSIxMyIgeT0iMTQiIGZpbGw9InVybCgjYSkiIHJ4PSIzNSIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgOTYgMCkiLz4KICAgICAgICA8cmVjdCB3aWR0aD0iNzAiIGhlaWdodD0iNzAiIHg9IjE0IiB5PSIxNCIgZmlsbD0idXJsKCNiKSIgcng9IjM1IiB0cmFuc2Zvcm09InJvdGF0ZSgtMTIyIDQ5IDQ5KSIvPgogICAgICAgIDxwYXRoIGZpbGw9IiNGOUZERkYiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTgwLjQ0NSA0NS4yNjNhMTEuMTc0IDExLjE3NCAwIDAgMC00LjA4OC00Ljg3M2MtLjktLjU5Ny0xLjg5Ni0xLjA3LTIuOTU3LTEuMzk1YTExLjQ1NSAxMS40NTUgMCAwIDAtMy4zNTYtLjVjLS43OTUgMC0xLjU2OS4wODktMi4zMDcuMjU2LTEuMzkuMzEtMi42NTQuODg3LTMuNzk2IDEuNjEyLTEgLjYzNC0xLjkxNiAxLjM4My0yLjc3NSAyLjE5MS0uODU3LjgxLTEuNjYgMS42ODUtMi40MzIgMi41ODQuNjQ4Ljc3NyAxLjI3NCAxLjU2MyAxLjg4NyAyLjMzMmwuMDQ5LjA2MmMuMzA3LjM4NS42MTUuNzczLjkyNyAxLjE2bC4xOTUtLjIzM2MuNjk1LS44MyAxLjM4OS0xLjYxIDIuMDgtMi4zYTE3LjYwNyAxNy42MDcgMCAwIDEgMS41NTItMS4zODljLjc3NC0uNjA4IDEuNTM3LTEuMDcgMi4yOS0xLjM3Ni4zOC0uMTUyLjc1Ny0uMjcgMS4xNC0uMzQ2LjM4NC0uMDguNzc3LS4xMiAxLjE5LS4xMi45NDIgMCAxLjgyNi4xODYgMi42MzQuNTIzYTYuNzgyIDYuNzgyIDAgMCAxIDIuOTg0IDIuNDExIDYuNTIgNi41MiAwIDAgMSAxLjE1OCAzLjcxNWMwIC45MjYtLjE5IDEuNzkzLS41MyAyLjU4OGE2LjcyMyA2LjcyMyAwIDAgMS0yLjQ1NyAyLjkyN2MtLjU0LjM2LTEuMTM3LjY0MS0xLjc3LjgzNy0uNjM1LjE5NC0xLjMwOC4zLTIuMDE1LjMtLjQ1MyAwLS44ODItLjA1LTEuMzAzLS4xNDNhNi44OCA2Ljg4IDAgMCAxLTEuNjQ1LS42MDggOS4yOCA5LjI4IDAgMCAxLS41NS0uMzA5IDEyLjMxMSAxMi4zMTEgMCAwIDEtMS42NjktMS4yMzVjLS4yMS0uMTgzLS40MjItLjM3Mi0uNjMtLjU3M2EyOS4xMTEgMjkuMTExIDAgMCAxLTEuOS0yLjAxIDY1LjQzIDY1LjQzIDAgMCAxLTEuNTk2LTEuOTJjLS4zMi0uNC0uNjQ0LS44MDUtLjk2OS0xLjIxNC0uODgyLTEuMTA4LTEuNzgxLTIuMjQyLTIuNzMtMy4zMzJhMzIuODgzIDMyLjg4MyAwIDAgMC0yLjIzNy0yLjM1IDE5LjczMyAxOS43MzMgMCAwIDAtMi4yMjgtMS44MjQgMTMuMjMxIDEzLjIzMSAwIDAgMC0yLjg0LTEuNTE1IDEwLjc3NiAxMC43NzYgMCAwIDAtMy43ODYtLjY5OGMtMS41NTIgMC0zLjA0Mi4zMDgtNC4zOTUuODcyYTExLjI5IDExLjI5IDAgMCAwLTQuOTY1IDQuMDEzIDEwLjk1MyAxMC45NTMgMCAwIDAtMS40MiAyLjkwMiAxMC41NTYgMTAuNTU2IDAgMCAwLS41MTggMy4yOTNjMCAxLjUyNC4zMTYgMi45ODYuODg4IDQuMzE0Ljg2IDEuOTkgMi4yODkgMy42OCA0LjA4OCA0Ljg3NC45LjU5NyAxLjg5NiAxLjA3IDIuOTU3IDEuMzk2IDEuMDYxLjMyNCAyLjE5Mi40OTggMy4zNTYuNDk4Ljc5NSAwIDEuNTY5LS4wODggMi4zMDctLjI1MyAxLjM5MS0uMzEgMi42NTQtLjg4OCAzLjc5OC0xLjYxMyAxLjAwMS0uNjM0IDEuOTE2LTEuMzgzIDIuNzczLTIuMTkzLjg1Ny0uODEgMS42Ni0xLjY4NSAyLjQzMi0yLjU4My0uNjUtLjc4Mi0xLjI4LTEuNTctMS44OTUtMi4zNDRsLS4wNC0uMDVhMTg4LjU4IDE4OC41OCAwIDAgMC0uOTI3LTEuMTYxbC0uMTk2LjIzM2EzNi4zNTggMzYuMzU4IDAgMCAxLTIuMDgyIDIuM2MtLjUxOC41MTctMS4wMzYuOTg0LTEuNTUyIDEuMzktLjc3NC42MDctMS41MzcgMS4wNy0yLjI5IDEuMzc2LS4zOC4xNTQtLjc1Ny4yNjktMS4xNC4zNDZhNS45ODkgNS45ODkgMCAwIDEtMS4xODguMTE5IDYuODIyIDYuODIyIDAgMCAxLTIuNjM2LS41MjIgNi43NjMgNi43NjMgMCAwIDEtMi45ODEtMi40MTIgNi41MiA2LjUyIDAgMCAxLTEuMTU1LTMuNzE1YzAtLjkyNS4xODgtMS43OTMuNTI5LTIuNTg4YTYuNzc3IDYuNzc3IDAgMCAxIDQuMjI3LTMuNzY0IDYuODczIDYuODczIDAgMCAxIDIuMDE0LS4zYy40NTMgMCAuODgyLjA1MSAxLjMwNC4xNDQuNzM2LjE2NSAxLjQ1OC40NjkgMi4xOTQuOTE2LjU1Mi4zMzUgMS4xMS43NDkgMS42NyAxLjIzNS44NC43MjcgMS42ODQgMS42MSAyLjUzIDIuNTg2Ljg0OC45NzYgMS42OTYgMi4wNDQgMi41NjQgMy4xMzQuODgyIDEuMTA4IDEuNzgyIDIuMjQyIDIuNzMgMy4zMzJhMzMuMzkgMzMuMzkgMCAwIDAgMi4yMzggMi4zNTIgMjAuMDY5IDIwLjA2OSAwIDAgMCAxLjg1OCAxLjU2MWMuOTc4LjcxOSAyLjA0MSAxLjMzOCAzLjIxIDEuNzguMDc0LjAyNy4xNDYuMDU1LjIyLjA4IDEuMTA4LjM5MSAyLjMwOC42MTYgMy41NjUuNjE2IDEuNTUyIDAgMy4wNDItLjMwOCA0LjM5NS0uODcyYTExLjI5IDExLjI5IDAgMCAwIDQuOTY1LTQuMDEzIDEwLjk2IDEwLjk2IDAgMCAwIDEuOTM2LTYuMmMwLTEuNTIzLS4zMTQtMi45ODgtLjg4OC00LjMxNHoiLz4KICAgIDwvZz4KPC9zdmc+Cg=="
+                    alt="Feature list icon"
+                  />
+                  <h2 class="feature-list-title">Hundreds of use cases</h2>
+                  <p class="paragraph">
+                    Chainpoint is being used by thousands of organizations. Here are some common use cases.
                   </p>
-                  <table class="multi-level">
-                    <thead>
-                      <tr>
-                        <th>Type</th>
-                        <th>Description</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>ChainpointSHA224v2</td>
-                        <td>Chainpoint 2.0 receipt using SHA-224</td>
-                      </tr>
-                      <tr>
-                        <td>ChainpointSHA256v2</td>
-                        <td>Chainpoint 2.0 receipt using SHA-256</td>
-                      </tr>
-                      <tr>
-                        <td>ChainpointSHA384v2</td>
-                        <td>Chainpoint 2.0 receipt using SHA-384</td>
-                      </tr>
-                      <tr>
-                        <td>ChainpointSHA512v2</td>
-                        <td>Chainpoint 2.0 receipt using SHA-512</td>
-                      </tr>
-                      <tr>
-                        <td>ChainpointSHA3-224v2</td>
-                        <td>Chainpoint 2.0 receipt using SHA3-224</td>
-                      </tr>
-                      <tr>
-                        <td>ChainpointSHA3-256v2</td>
-                        <td>Chainpoint 2.0 receipt using SHA3-256</td>
-                      </tr>
-                      <tr>
-                        <td>ChainpointSHA3-384v2</td>
-                        <td>Chainpoint 2.0 receipt using SHA3-384</td>
-                      </tr>
-                      <tr>
-                        <td>ChainpointSHA3-512v2</td>
-                        <td>Chainpoint 2.0 receipt using SHA3-512</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <h3>Anchor Types</h3>
-                  <p>
-                    Anchor type values indicate the method and location of the anchored data. The following values are
-                    supported. Support for additional methods is planned.
-                  </p>
-                  <table class="multi-level">
-                    <thead>
-                      <tr>
-                        <th>Type</th>
-                        <th>Description</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>BTCOpReturn</td>
-                        <td>
-                          Anchored to a Bitcoin transaction within an OP_RETURN output.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>ETHData</td>
-                        <td>
-                          Anchored to an Ethereum transaction within the data field.
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <div class="feature-list-item">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHJlY3Qgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiBmaWxsPSIjRUVFRUY3IiByeD0iNSIvPgogICAgICAgIDxnIGZpbGw9IiM5MDkwQjkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyIDcpIj4KICAgICAgICAgICAgPHBhdGggZD0iTTkuMDc3IDEwLjI0N2wyLjY1IDExLjQxNC02LjQxNy0yLjY2OS00LjUxMSAyLjY3TDIuNzcgMTAuMjQ2eiIvPgogICAgICAgICAgICA8ZWxsaXBzZSBjeD0iNS45NTgiIGN5PSI1LjkyMyIgc3Ryb2tlPSIjRUVFRUY2IiBzdHJva2Utd2lkdGg9Ii45MSIgcng9IjUuOTU4IiByeT0iNS45MjMiLz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo="
+                      alt="Item icon"
+                    />Create an audit trail for business processes.
+                  </div>
+                  <div class="feature-list-item">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHJlY3Qgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiBmaWxsPSIjRUVFRUY3IiByeD0iNSIvPgogICAgICAgIDxwYXRoIGZpbGw9IiM5RDlEQzMiIGQ9Ik0xOS4wMDkgMjcuNjI1aC0xLjM2NXYtMi4zMzFjLTMuMzQtLjE2OC00Ljg1MS0yLjM1Mi00LjkxNC00LjgzaDIuNTJjLjEwNSAxLjMyMy44NiAyLjMxIDIuMzk0IDIuNDk5di00LjQzMWwtLjkwMy0uMjczYy0yLjM3My0uNzE0LTMuNTUtMi4yMDUtMy41NS00LjIyMSAwLTIuMjY4IDEuNzg2LTMuOTkgNC40NTMtNC4yMjFWNy40NjVoMS4zNjV2Mi4zNTJjMi44NzcuMjk0IDQuMzg5IDIuMjY4IDQuNDUyIDQuNzg4SDIwLjkyYy0uMDYzLTEuMTEzLS42NTEtMi4xMjEtMS45MTEtMi40MTV2NC4xMTZsLjQ4My4xMjZjMi43OTMuNzc3IDMuOTY5IDIuMjY4IDMuOTY5IDQuNTE1IDAgMi4yNjgtMS42NiAzLjk5LTQuNDUyIDQuMzA1djIuMzczem0tMy4yNzYtMTMuNjcxYzAgMS4xNTUuNjA5IDEuNDcgMS45MSAxLjk3NHYtMy44MDFjLTEuMTc1LjE0Ny0xLjkxLjgxOS0xLjkxIDEuODI3em01LjE0NSA3LjAxNGMwLS45NjYtLjQ4My0xLjYxNy0xLjg3LTIuMDU4djQuMDExYzEuMTM1LS4xODkgMS44Ny0uODYxIDEuODctMS45NTN6Ii8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                      alt="Item icon"
+                    />Timestamp important documents and data.
+                  </div>
+                  <div class="feature-list-item">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHJlY3Qgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiBmaWxsPSIjRUVFRUY3IiByeD0iNSIvPgogICAgICAgIDxnIGZpbGw9IiM5MDkwQjkiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMC4yNDMgMjMuMDc5bC0xLjA3MSAzLjc1IDMuNzUtMS4wNzJ6TTI2Ljg2MyAxMS44MjNsLTEuNzggMS43OC0yLjY1MS0yLjY1MiAxLjc4LTEuNzh6TTExLjA1OCAyMi4yODdsMTAuNjA2LTEwLjYwNiAyLjY1MiAyLjY1MkwxMy43MSAyNC45Mzl6Ii8+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K"
+                      alt="Item icon"
+                    />Add a blockchain proof to your digital signatures.
+                  </div>
+                  <div class="feature-list-item">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNyIgdmlld0JveD0iMCAwIDM2IDM3Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAuOTk2KSI+CiAgICAgICAgPHJlY3Qgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiBmaWxsPSIjRUVFRUY3IiByeD0iNSIvPgogICAgICAgIDxwYXRoIGZpbGw9IiM5MDkwQjkiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTguODc0IDE2LjQyNUw3IDE1LjY1IDE4LjIzOCAxMWwxMS4yMzYgNC42NS0xMS4yMzYgNC42NS04LjQyOS0zLjQ4OFYyNWgtLjkzNnYtOC41NzV6bTkuMzY0IDQuOTg1bC01LjYyLTIuNXY0LjEzMlMxNC42MyAyNSAxOC4yMzkgMjVjMy42MDggMCA1LjYxOS0xLjk1OCA1LjYxOS0xLjk1OHYtNC4xMzFsLTUuNjIgMi41eiIvPgogICAgPC9nPgo8L3N2Zz4K"
+                      alt="Item icon"
+                    />Issue blockchain verifiable education credentials.
+                  </div>
+                  <div class="feature-list-item">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHJlY3Qgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiBmaWxsPSIjRUVFRUY3IiByeD0iNSIvPgogICAgICAgIDxnIGZpbGw9IiM5MDkwQjkiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik02LjIyNSAyNi42MWgyMy41NDl2MS4yMDhINi4yMjV6TTguNTg0IDIzLjI0MWgxOC44MzF2MS4yMDlIOC41ODR6TTcuMzc5IDI0Ljg5NEgyOC42MlYyNi4xSDcuMzh6TTEwLjcwNSAxNC43MDZoMi4xMnY4LjA3OGgtMi4xMnpNMTYuOTQgMTQuNzA2aDIuMTJ2OC4wNzhoLTIuMTJ6TTIzLjE3NyAxNC43MDZoMi4xMnY4LjA3OGgtMi4xMnpNOS40ODIgMTMuMDA3SDI2LjUydjEuMjA4SDkuNDgyek04LjM3OCAxMi42NzFoMTkuMjQ0TDE4IDguMTgxeiIvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+                      alt="Item icon"
+                    />Prove compliance with regulations.
+                  </div>
                 </div>
-
-                <div id="v1x" class="tab-pane fade">
-                  <table class="multi-level">
-                    <thead>
-                      <tr>
-                        <th>Name</th>
-                        <th>Description</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td colSpan="2" class="table-section-header">
-                          Header
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>chainpoint_version</td>
-                        <td>version of the Chainpoint standard</td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>hash_type</td>
-                        <td>
-                          hashing algorithm used to encrypt target data (sha­256)
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>merkle_root</td>
-                        <td>
-                          root of the Merkle Tree that is published in the blockchain
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>tx_id</td>
-                        <td>blockchain transaction id</td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>timestamp</td>
-                        <td>
-                          non­authoritative Unix timestamp of the target
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colSpan="2" class="table-section-header">
-                          Target
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>target_hash</td>
-                        <td>
-                          hash of the target that is being recorded in the blockchain
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>target_proof</td>
-                        <td>
-                          Merkle proof used to prove target_hash is part of Merkle tree
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>target_URI (optional)</td>
-                        <td>path to the target</td>
-                      </tr>
-                      <tr>
-                        <td colSpan="2" class="table-section-header">
-                          Extra
-                        </td>
-                      </tr>
-                      <tr class="sublevel">
-                        <td>custom (optional)</td>
-                        <td>array of user defined key value pairs</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <h3>Example</h3>
-                  <Example :json="CHPExampleV1" />
+              </div>
+            </div>
+            <div class="feature-list-outer-1 col col-md-5">
+              <div class="feature-list">
+                <div class="feature-list-inner">
+                  <img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NSIgaGVpZ2h0PSI3MCIgdmlld0JveD0iMCAwIDk1IDcwIj4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODkuMjU4JSIgeTE9IjAlIiB5Mj0iMTAwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGM0MwODIiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRUYzOTAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImIiIHgxPSI1MCUiIHgyPSI1MCUiIHkxPSIwJSIgeTI9Ijg2LjQ3JSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRjc2NzYiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNGNUIzNEUiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYyIgeDE9IjUwJSIgeDI9IjUwJSIgeTE9IjAlIiB5Mj0iODYuNDclIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGNzY3NiIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNGNUIzNEUiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8cGF0aCBmaWxsPSJ1cmwoI2EpIiBkPSJNMCAxLjE2N2gyMi4xNjd2MjIuMTY3SDB6TTAgMjQuNWgyMi4xNjd2MjIuMTY3SDB6TTAgNDcuODMzaDIyLjE2N1Y3MEgwek0yMy4zMzMgNDcuODMzSDQ1LjVWNzBIMjMuMzMzek00Ni42NjcgNDcuODMzaDIyLjE2N1Y3MEg0Ni42Njd6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNiKSIgZD0iTTYzIDEwLjVoMjIuMTY3djIyLjE2N0g2M3oiIHRyYW5zZm9ybT0icm90YXRlKDMwIDc0LjA4MyAyMS41ODMpIi8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNiKSIgZD0iTTY3LjY2NyA0LjY2N2gyMi4xNjd2MjIuMTY3SDY3LjY2N3oiIG9wYWNpdHk9Ii4zODkiIHRyYW5zZm9ybT0icm90YXRlKDM2IDc4Ljc1IDE1Ljc1KSIvPgogICAgICAgIDxwYXRoIGZpbGw9InVybCgjYykiIGQ9Ik02NC43NTQgMTUuMTY3TDg0IDI2LjI4NSA3Mi45MTMgNDUuNSA1My42NjcgMzQuMzgxeiIvPgogICAgICAgIDxwYXRoIGZpbGw9InVybCgjYSkiIGQ9Ik0yMy4zMzMgMjQuNUg0NS41djIyLjE2N0gyMy4zMzN6Ii8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                    alt="Feature list icon"
+                  />
+                  <h2 class="feature-list-title">Built with developers in mind</h2>
+                  <p class="paragraph">
+                    Chainpoint is simple to use and can scale to meet the needs of any application
+                  </p>
+                  <div class="feature-list-item">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgdmlld0JveD0iMCAwIDYwIDYwIj4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjUwJSIgeDI9IjUwJSIgeTE9IjEwMCUiIHkyPSIwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNBOUI3QzEiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjQUJDM0Q4IiBzdG9wLW9wYWNpdHk9Ii4yNDgiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYiIgeDE9IjUwJSIgeDI9IjUwJSIgeTE9IjEwMCUiIHkyPSIwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNBOUI3QzEiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNzA4MDhEIiBzdG9wLW9wYWNpdHk9Ii4xOTkiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYyIgeDE9IjUwJSIgeDI9IjUwJSIgeTE9IjAlIiB5Mj0iMTAwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGM0FDODIiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkY1MDBGIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImQiIHgxPSI1MCUiIHgyPSI1MCUiIHkxPSIwJSIgeTI9Ijg2LjQ3JSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRjc2NzYiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNGNUIzNEUiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1IDIpIj4KICAgICAgICA8cmVjdCB3aWR0aD0iMzkuNTEiIGhlaWdodD0iMzkuODUzIiB4PSI1LjI0NSIgeT0iMTAuMjAyIiBzdHJva2U9InVybCgjYSkiIHN0cm9rZS13aWR0aD0iMS42NjciIHJ4PSIyIi8+CiAgICAgICAgPHJlY3Qgd2lkdGg9IjQ4LjMzMyIgaGVpZ2h0PSI0OC43NSIgeD0iLjgzMyIgeT0iNS4xMzkiIHN0cm9rZT0idXJsKCNiKSIgc3Ryb2tlLXdpZHRoPSIxLjY2NyIgcng9IjIiLz4KICAgICAgICA8cmVjdCB3aWR0aD0iMzUuMjk0IiBoZWlnaHQ9IjM1LjU4OCIgeD0iNy4zNTMiIHk9IjEyLjMzNSIgcng9IjIiLz4KICAgICAgICA8cmVjdCB3aWR0aD0iMzEuODE4IiBoZWlnaHQ9IjMyLjA4MyIgeD0iOS4xNTgiIHk9IjE0LjE1NCIgZmlsbD0idXJsKCNjKSIgcng9IjIiLz4KICAgICAgICA8cmVjdCB3aWR0aD0iMzEuODE4IiBoZWlnaHQ9IjMyLjA4MyIgeD0iOS4wOTEiIGZpbGw9InVybCgjZCkiIHJ4PSIyIi8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                      alt="Item icon"
+                    />Chainpoint is easy to integrate with your existing applications
+                  </div>
+                  <div class="feature-list-item">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjAiIGhlaWdodD0iNjMiIHZpZXdCb3g9IjAgMCA2MCA2MyI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBpZD0iYSIgZD0iTTEwLjIwNiA1My40OTRWNjIuMkg0MC4xNWwxMC4wNTYtMS42NTV2LTcuMDV6Ii8+CiAgICAgICAgPHBhdGggaWQ9ImIiIGQ9Ik0xMC4yMDYgNDkuNjk0VjU4LjRINDAuMTVsMTAuMDU2LTEuNjU1di03LjA1eiIvPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZCIgeDE9IjUwJSIgeDI9IjUwJSIgeTE9IjEwMCUiIHkyPSIwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNBOUI3QzEiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjQUJDM0Q4IiBzdG9wLW9wYWNpdHk9Ii40NSIvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPHBhdGggaWQ9ImMiIGQ9Ik0xMCAuMTA0djU0LjRoNDB2LTQ0LjM1TDM5LjU0MiAweiIvPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZSIgeDE9Ii0yNi45NjglIiB4Mj0iODkuMjU4JSIgeTE9IjYwLjUzMiUiIHkyPSIwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGM0MwODIiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRUYzOTAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgZmlsbC1ydWxlPSJub256ZXJvIiBvcGFjaXR5PSIuMjU2IiB0cmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAwIDExNS42OTQpIj4KICAgICAgICAgICAgPHVzZSBmaWxsPSIjMTkxMDMyIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHhsaW5rOmhyZWY9IiNhIi8+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZT0iIzcxODE4RSIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNMTEuMjA2IDU0LjQ5NFY2MS4yaDI4Ljg2M2w5LjEzNy0xLjUwNHYtNS4yMDJoLTM4eiIvPgogICAgICAgIDwvZz4KICAgICAgICA8ZyBmaWxsLXJ1bGU9Im5vbnplcm8iIHRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIDAgMTA4LjA5NCkiPgogICAgICAgICAgICA8dXNlIGZpbGw9IiMxQTEwMzMiIGZpbGwtcnVsZT0iZXZlbm9kZCIgeGxpbms6aHJlZj0iI2IiLz4KICAgICAgICAgICAgPHBhdGggc3Ryb2tlPSIjNTg2NDZFIiBzdHJva2Utd2lkdGg9IjIiIGQ9Ik0xMS4yMDYgNTAuNjk0VjU3LjRoMjguODYzbDkuMTM3LTEuNTA0di01LjIwMmgtMzh6Ii8+CiAgICAgICAgPC9nPgogICAgICAgIDx1c2UgZmlsbD0iIzFBMTAzMyIgeGxpbms6aHJlZj0iI2MiLz4KICAgICAgICA8cGF0aCBzdHJva2U9InVybCgjZCkiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTExIDEuMXY1Mi40MDRoMzhWMTAuNTc4TDM5LjEzOCAxIDExIDEuMTAxeiIvPgogICAgICAgIDxwYXRoIHN0cm9rZT0idXJsKCNlKSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIGQ9Ik0yMy44MTYgMzMuMzUxTDE4IDI3LjkzN2w2LTUuNTg2IiB0cmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAwIDU1LjcwMykiLz4KICAgICAgICA8cGF0aCBzdHJva2U9InVybCgjZSkiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNNDIuODE2IDMzLjM1MUwzNyAyNy45MzdsNi01LjU4NiIgdHJhbnNmb3JtPSJyb3RhdGUoMTgwIDQwIDI3Ljg1MSkiLz4KICAgICAgICA8cGF0aCBzdHJva2U9InVybCgjZSkiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNMjggMjEuNjJsNC42NDcgMTIuMTQyIiB0cmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAwIDU1LjM4MikiLz4KICAgIDwvZz4KPC9zdmc+Cg=="
+                      alt="Item icon"
+                    />Clear documentation and APIs.
+                  </div>
+                  <div class="feature-list-item">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI0MSIgdmlld0JveD0iMCAwIDYwIDQxIj4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYiIgeDE9IjkwLjE0JSIgeDI9IjExLjU5NyUiIHkxPSIwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRjNBQzgyIi8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0ZGNDUwMCIvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iNTAlIiB4Mj0iNTAlIiB5MT0iMCUiIHkyPSIxMDAlIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0YzQUM4MiIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNGRjRFMEQiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYyIgeDE9IjE4Ljc3NyUiIHgyPSIxMjAuMTE3JSIgeTE9IjgxLjM0JSIgeTI9Ii0xNS44MTYlIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGNzY3NiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0Y1QjM0RSIvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJkIiB4MT0iMCUiIHkxPSI1MCUiIHkyPSI1MCUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRENGMkZGIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjQzdEREZGIiBzdG9wLW9wYWNpdHk9Ii40NTEiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8cGF0aCBmaWxsPSJ1cmwoI2IpIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0idXJsKCNhKSIgc3Ryb2tlLXdpZHRoPSIxLjIiIGQ9Ik0xMS4zMiAzNC4xNjd2LTIuODE1YzYuMjA0IDAgMTIuMDQtMi40OSAxNi40MjgtNy4wMWwxMC40OTgtMTAuODE1YzQuOTA1LTUuMDUzIDExLjQyNC03LjgzMyAxOC4zNTgtNy44MzNWOC41MWMtNi4yMDMgMC0xMi4wNCAyLjQ5LTE2LjQyOCA3LjAxTDI5LjY3OCAyNi4zMzRjLTQuOSA1LjA0OS0xMS40MjQgNy44MzMtMTguMzU3IDcuODMzeiIvPgogICAgICAgIDxwYXRoIGZpbGw9InVybCgjYykiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTIuMjY0IDM1LjMwNlYzMi40OWM2LjIwMyAwIDEyLjA0LTIuNDkgMTYuNDI4LTcuMDFMMjkuMTkgMTQuNjY2YzQuOTA1LTUuMDUzIDExLjQyNC03LjgzMyAxOC4zNTctNy44MzN2Mi44MTVjLTYuMjAzIDAtMTIuMDQgMi40OS0xNi40MjcgNy4wMUwyMC42MjIgMjcuNDczYy00LjkwMSA1LjA0OS0xMS40MjQgNy44MzMtMTguMzU4IDcuODMzeiIvPgogICAgICAgIDxlbGxpcHNlIGN4PSIxMC4xODkiIGN5PSIzMy4wMjgiIGZpbGw9IiNGRkYiIHJ4PSI0LjUyOCIgcnk9IjQuNTU2Ii8+CiAgICAgICAgPGVsbGlwc2UgY3g9IjU1LjQ3MiIgY3k9IjYuODMzIiBmaWxsPSIjRkZGIiByeD0iNC41MjgiIHJ5PSI0LjU1NiIvPgogICAgICAgIDxlbGxpcHNlIGN4PSI1Mi42NDIiIGN5PSI3LjQwMyIgZmlsbD0idXJsKCNkKSIgcng9IjcuMzU4IiByeT0iNy40MDMiLz4KICAgICAgICA8ZWxsaXBzZSBjeD0iNy4zNTgiIGN5PSIzMy41OTciIGZpbGw9InVybCgjZCkiIHJ4PSI3LjM1OCIgcnk9IjcuNDAzIi8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                      alt="Item icon"
+                    />Chainpoint proofs can be verified independently using open source tools.
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </SyntaxHighlightedContainer>
-    </ContentBlock>
-
-    <ContentBlock class="proof-verify">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2>Verifying <span>Chainpoint Proofs</span></h2>
-          <p class="subhead">
-            Verification confirms that the proof is well formatted, and all proof operations lead to the expected anchor
-            hash on the blockchain. Verification of version 3.x proofs can be performed with the
-            <LinkExternal href="https://github.com/chainpoint/chainpoint-cli">Chainpoint CLI</LinkExternal>.
-            Verification of older versions can be performed using the
-            <LinkExternal href="https://www.npmjs.com/package/chainpoint-validate">chainpoint-validate</LinkExternal>
-            Javascript package for Node.js.
-          </p>
-        </div>
-      </div>
-    </ContentBlock>
-  </div>
+      </section>
+    </div>
+  </main>
 </template>
 
 <script>
-import ContentBlock from '@/components/ContentBlock.vue'
-import HeroBlock from '@/components/HeroBlock.vue'
-import LinkExternal from '@/components/LinkExternal.vue'
-import Example from '@/components/Example.vue'
-import SyntaxHighlightedContainer from '@/components/SyntaxHighlightedContainer.vue'
-
-import CHPExampleV1 from '@/static/content/example-v1.json'
-import CHPExampleV2 from '@/static/content/example-v2.json'
-import CHPExampleV3 from '@/static/content/example-v3.json'
-
 export default {
-  components: {
-    ContentBlock,
-    HeroBlock,
-    LinkExternal,
-    Example,
-    SyntaxHighlightedContainer
-  },
-  data() {
-    return {
-      CHPExampleV1,
-      CHPExampleV2,
-      CHPExampleV3
-    }
-  },
+  components: {},
   head() {
     return {
       title: 'Chainpoint - Blockchain Proof & Anchoring Standard'

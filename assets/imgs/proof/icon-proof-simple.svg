@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="106.866%" y2="27.331%">
+            <stop offset="0%" stop-color="#55D8FC"/>
+            <stop offset="100%" stop-color="#62B3FC" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50%" x2="50%" y1="27.331%" y2="106.866%">
+            <stop offset="0%" stop-color="#55D8FC"/>
+            <stop offset="100%" stop-color="#62B3FC" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="d" x1="87.157%" x2="21.295%" y1="94.81%" y2="9.501%">
+            <stop offset="0%" stop-color="#006DEC"/>
+            <stop offset="100%" stop-color="#00C0DB"/>
+        </linearGradient>
+        <rect id="c" width="60" height="40" x="3" y="12" rx="5"/>
+        <linearGradient id="e" x1="14.762%" y1="14.626%" y2="93.104%">
+            <stop offset="0%" stop-color="#58C6F0" stop-opacity="0"/>
+            <stop offset="61.613%" stop-color="#45BDF3" stop-opacity=".349"/>
+            <stop offset="100%" stop-color="#0AA2FD" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="60" height="45" x="4" y="8" fill="url(#a)" stroke="#FFF" stroke-width=".758" opacity=".971" rx="5"/>
+        <rect width="60" height="44" x="3" y="12" fill="url(#b)" opacity=".971" rx="5"/>
+        <rect width="60" height="45" x="2" y="11" fill="url(#a)" opacity=".971" rx="5" transform="rotate(-180 32 33.5)"/>
+        <use fill="#FFF" xlink:href="#c"/>
+        <rect width="58" height="38" x="4" y="13" stroke="url(#d)" stroke-width="2" rx="5"/>
+        <path fill="#006DEC" fill-rule="nonzero" d="M44.812 31.937l-16.197-5.399 5.4 16.197 3.767-3.787 5.399 5.4 3.243-3.244-5.399-5.4z"/>
+        <path fill="url(#e)" fill-rule="nonzero" d="M46.419 32.243l-16.65-5.55 5.55 16.65 3.874-3.893 5.55 5.55 3.334-3.334-5.55-5.55z"/>
+        <path fill="#A4E7F1" fill-rule="nonzero" d="M23.205 20.563a1.162 1.162 0 0 0-1.642 0 1.163 1.163 0 0 0 0 1.642l3.481 3.48a1.16 1.16 0 0 0 1.642-1.641l-3.481-3.48zM32.174 24.801c.641 0 1.16-.519 1.16-1.16v-3.48a1.16 1.16 0 1 0-2.32 0v3.48c0 .641.52 1.16 1.16 1.16zM24.451 28.806l-3.48.58a1.16 1.16 0 1 0 .38 2.286l3.48-.58a1.16 1.16 0 1 0-.38-2.286z"/>
+    </g>
+</svg>

@@ -1,0 +1,67 @@
+.hero-title {
+  h1 {
+    @include hero;
+  }
+
+  h2 {
+    @extend %paragraph-large;
+    margin-top: 25px;
+  }
+}
+
+.paragraph {
+  @extend %paragraph;
+
+  p {
+    margin-bottom: 2em;
+  }
+}
+
+.paragraph-large {
+  @extend %paragraph-large;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  text-align: center;
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom: 60px;
+  }
+
+  h1 {
+    @extend %section-title;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  h2 {
+    @extend %h2;
+  }
+}
+
+.section-text {
+  .section-title {
+    margin-bottom: 30px;
+  }
+
+  .paragraph {
+    max-width: 730px;
+    margin: auto;
+
+    @include media-breakpoint-up(sm) {
+      text-align: center;
+    }
+  }
+}
+
+.text-list {
+  dt {
+    @extend %list-header;
+    margin-bottom: 10px;
+  }
+
+  dd {
+    @extend %list-item;
+  }
+}

@@ -1,0 +1,7 @@
+.section-404 {
+  padding-top: 160px;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 300px;
+  }
+}

@@ -1,0 +1,65 @@
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$blue: #03a9f4 !default;
+$indigo: #3f51b5 !default;
+$purple: #673ab7 !default;
+$pink: #e91e63 !default;
+$red: #f44336 !default;
+$orange: #ff5722 !default;
+$yellow: #ffab00 !default;
+$green: #8bc34a !default;
+$teal: #009688 !default;
+$cyan: #00bcd4 !default;
+
+$dark-navy: #010535;
+$white: #ffffff;
+$dark-slate-blue: #255073;
+$dark-royal-blue: #010b77;
+$grey-dark: #939393;
+$dusk: #525f7f;
+$grey-medium: #e8e8e8;
+$pale-lilac: #fcfcff;
+$grey-light: #fcfcfe;
+$chainpoint-cta: #ff440a;
+$tierion-pink: #ff4081;
+$pastel-purple: #b1a2ff;
+$blue: #0255dd;
+$link-purple: #5f2cf0;
+$proof-blue: #0094fc;
+$grey-blue: #e9ecef;
+$tierion-blue: #0019ff;
+$chainpoint-orange: #ff3d00;
+$steel: #767f95;
+$pale-blue: #f5f8fe;
+$blue-grey: #5b6f80;
+$tomato-red: #e93800;
+$pale-lavender: #faf7ff;
+$light-blue-grey: #c6b9de;
+$very-light-blue: #f8faff;
+$very-light-blue-80: rgba($very-light-blue, 0.8);
+$success: #189d09;
+$danger: #cc0000;
+
+$theme-colors: (
+  primary: $link-purple,
+  secondary: $tomato-red,
+  light: $white,
+  success: $success,
+  danger: $danger,
+)
+!default;
+
+$hero-gradient-dark: linear-gradient(to bottom, #0218de, #001884);
+$testimonials-gradient: linear-gradient(to top, #140143, #220074);
+$half-gradient-dark: linear-gradient(to bottom, #20173b, #120b1f);
+$half-gradient: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49.99%, rgba(255,255,255,0) 50%), $half-gradient-dark;

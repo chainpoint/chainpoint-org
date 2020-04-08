@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="115" height="90" viewBox="0 0 115 90">
+  <defs>
+    <linearGradient id="icon-chainpoint-cli-a" x1="50%" x2="50%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#D33D08"/>
+      <stop offset="100%" stop-color="#F3994E"/>
+    </linearGradient>
+    <linearGradient id="icon-chainpoint-cli-b" x1="50%" x2="50%" y1="95.071%" y2="0%">
+      <stop offset="0%" stop-color="#EF3900"/>
+      <stop offset="100%" stop-color="#F9764C"/>
+      <stop offset="100%" stop-color="#FF2951" stop-opacity=".61"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 6)">
+    <rect width="112.5" height="76.5" x="1.25" y="1.25" stroke="url(#icon-chainpoint-cli-a)" stroke-width="2.5" rx="4"/>
+    <circle cx="12.5" cy="10.5" r="2.5" fill="#EF4209" opacity=".829"/>
+    <circle cx="21.5" cy="10.5" r="2.5" fill="#FEB07A"/>
+    <circle cx="30.5" cy="10.5" r="2.5" fill="#FEC8A3" opacity=".692"/>
+    <g fill="url(#icon-chainpoint-cli-b)" transform="translate(61 37)">
+      <path d="M27.148268,25.2881499 L24.0271588,22.1670408 L28.7150963,17.4791032 L17.6039476,6.36795448 L6.49279885,17.4791032 L17.6039476,28.5902519 L23.4029369,22.7912626 L26.5240461,25.9123718 L17.4791032,34.9573147 L0.000891722737,17.4791032 L17.4791032,0.000891722736 L34.9573147,17.4791032 L27.148268,25.2881499 Z"/>
+      <path d="M19.9040654,9.58177818 L23.150019,12.8277317 L18.4986475,17.4791032 L29.6097963,28.5902519 L40.720945,17.4791032 L29.6097963,6.36795448 L23.7742408,12.2035099 L20.5282873,8.95755634 L29.4849519,0.000891722736 L46.9631634,17.4791032 L29.4849519,34.9573147 L12.0067404,17.4791032 L19.9040654,9.58177818 Z"/>
+    </g>
+    <path stroke="#FEC8A3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M10.3863636,36.5 L60.6136364,36.5" opacity=".75"/>
+    <path stroke="#FEC8A3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M10.3863636,24.5 L77.5,24.5"/>
+    <path stroke="#FEC8A3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M10.3863636,48.5 L47.5,48.5" opacity=".4"/>
+  </g>
+</svg>

@@ -1,0 +1,149 @@
+// Type
+@mixin hero($color: $white) {
+  font-family: "Eina01";
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 1.08;
+  color: $color;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 72px;
+  }
+}
+
+@mixin arrow-link($color: $proof-blue) {
+  @extend %links-bold;
+  color: $color;
+  transition: color $base-transition;
+
+  &:hover {
+    $color: lighten($color, 10%);
+    text-decoration: none;
+    color: $color;
+
+    &::after {
+      transform: translateX(5px);
+      content: svg-url('<svg width="16" height="11" viewBox="0 0 16 11" xmlns="http://www.w3.org/2000/svg"><path d="M15.252 4.931L10.859.256c-.298-.268-.869-.378-1.201-.069-.328.305-.317.897.009 1.203l3.088 3.283H1.198a.825.825 0 0 0 0 1.65h11.557L9.667 9.608c-.281.282-.334.895-.009 1.203.324.308.916.21 1.201-.069l4.393-4.675a.798.798 0 0 0 .223-.567.927.927 0 0 0-.223-.568z" fill="#{$color}" fill-rule="nonzero"/></svg>');
+    }
+  }
+
+  &:active {
+    $color: darken($color, 10%);
+    color: $color;
+
+    &::after {
+      content: svg-url('<svg width="16" height="11" viewBox="0 0 16 11" xmlns="http://www.w3.org/2000/svg"><path d="M15.252 4.931L10.859.256c-.298-.268-.869-.378-1.201-.069-.328.305-.317.897.009 1.203l3.088 3.283H1.198a.825.825 0 0 0 0 1.65h11.557L9.667 9.608c-.281.282-.334.895-.009 1.203.324.308.916.21 1.201-.069l4.393-4.675a.798.798 0 0 0 .223-.567.927.927 0 0 0-.223-.568z" fill="#{$color}" fill-rule="nonzero"/></svg>');
+    }
+  }
+
+  &::after {
+    display: inline-block;
+    margin-left: 5px;
+    content: svg-url('<svg width="16" height="11" viewBox="0 0 16 11" xmlns="http://www.w3.org/2000/svg"><path d="M15.252 4.931L10.859.256c-.298-.268-.869-.378-1.201-.069-.328.305-.317.897.009 1.203l3.088 3.283H1.198a.825.825 0 0 0 0 1.65h11.557L9.667 9.608c-.281.282-.334.895-.009 1.203.324.308.916.21 1.201-.069l4.393-4.675a.798.798 0 0 0 .223-.567.927.927 0 0 0-.223-.568z" fill="#{$color}" fill-rule="nonzero"/></svg>');
+    transition: transform $base-transition;
+  }
+}
+
+// Util
+@mixin reset-button {
+  padding: 0;
+  font-family: inherit;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+}
+
+@mixin reset-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+// UI Styles
+@mixin card($bg: light) {
+  display: block;
+  padding: 30px;
+  background: $white;
+  border-radius: 8px;
+
+  @if $bg == light {
+    border: 1px solid $grey-medium;
+    box-shadow: 0 6px 10px 0 #e9e6ed, 0 16px 24px 0 #f7f3ff;
+  }
+}
+
+@mixin half-gradient-bg($bg: $white) {
+  background: linear-gradient(to right, rgba($bg, 1) 0%, rgba($bg, 1) 49.99%, rgba(255,255,255,0) 50%), $half-gradient-dark;
+}
+
+/**
+ *
+ * Half gradient background layout
+ * Apply to section element with child markup:
+ * section
+ *   container
+ *     row
+ *       feature-list-outer-${0-based-index} col col-md-5
+ *         feature-list
+ *           feature-list-inner
+ */
+@mixin half-gradient($bg: $white) {
+  padding: 0;
+
+  @include media-breakpoint-up(md) {
+    @include half-gradient-bg($bg);
+  }
+
+  // Small layout
+  > .container {
+    @include media-breakpoint-down(sm) {
+      max-width: none;
+      padding: 0;
+
+      & > .row {
+        display: block;
+        margin: 0;
+      }
+
+      .feature-list-outer-1 {
+        background: $half-gradient-dark;
+      }
+    }
+  }
+
+  .row {
+    justify-content: space-between;
+  }
+
+  .feature-list {
+    padding-top: 80px;
+    padding-bottom: 120px;
+
+    @include media-breakpoint-down(sm) {
+      @include make-container();
+      max-width: 540px;
+      padding-bottom: 80px;
+    }
+
+    @include media-breakpoint-up(md) {
+      max-width: 430px;
+    }
+  }
+
+  .feature-list-title {
+    @extend %h3;
+  }
+
+  .feature-list-outer-1 {
+    color: $light-blue-grey;
+
+    .feature-list-title {
+      color: $white;
+    }
+
+    .paragraph {
+      color: inherit;
+    }
+  }
+}

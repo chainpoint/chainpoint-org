@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65">
+    <defs>
+        <linearGradient id="a" x1="100%" x2="6.964%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#0032D7"/>
+            <stop offset="80.53%" stop-color="#008BF7"/>
+            <stop offset="100%" stop-color="#8ED5FF"/>
+        </linearGradient>
+        <linearGradient id="b" x1="100%" x2="6.821%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#0032D7"/>
+            <stop offset="74.795%" stop-color="#00A1FF"/>
+            <stop offset="100%" stop-color="#92D0F4"/>
+        </linearGradient>
+        <linearGradient id="c" x1="93.94%" x2="24.782%" y1="96.862%" y2="39.565%">
+            <stop offset="0%" stop-color="#0218DE"/>
+            <stop offset="27.555%" stop-color="#0134E5"/>
+            <stop offset="100%" stop-color="#0092FB" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="d" x1="93.94%" x2="6.34%" y1="96.862%" y2="0%">
+            <stop offset="0%" stop-color="#0218DE"/>
+            <stop offset="51.111%" stop-color="#0134E5"/>
+            <stop offset="100%" stop-color="#0092FB"/>
+        </linearGradient>
+        <filter id="e" width="155.6%" height="175%" x="-29.6%" y="-30%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0.113108169 0 0 0 0 0.684762968 0 0 0 1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="37" height="47" x="10" y="5" fill="url(#a)" opacity=".35" rx="1.9"/>
+        <rect width="30" height="39" x="2" y="1" fill="url(#b)" opacity=".15" rx="1.9"/>
+        <path fill="url(#c)" d="M15.16 4.893l30.544.27c.26.001.517.045.762.128l14.572 4.918 1.91 50.248A2.45 2.45 0 0 1 60.498 63H21.207a2.45 2.45 0 0 1-1.879-.877c-6.18-7.377-9.27-11.228-9.27-11.553 0-15.853 2.044-22.864 2.044-38.717 0-2.45.263-4.28.79-5.489a2.45 2.45 0 0 1 2.268-1.471z" opacity=".522"/>
+        <rect width="43" height="53" x="19" y="10" fill="url(#d)" rx="1.9"/>
+        <g fill-rule="nonzero" filter="url(#e)" transform="translate(28 28)">
+            <path fill="#FFF" d="M19.124-1H27L15.833 20H8z"/>
+            <path fill="#9FCFF5" d="M8.366 4H-1l8.515 14L12 10.09z"/>
+        </g>
+    </g>
+</svg>

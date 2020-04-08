@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="294px" height="133px" viewBox="0 0 294 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>hero-standard-mobile</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Tierion.com-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.570255888">
+        <g id="Mobile-Hero" transform="translate(-10.000000, -354.000000)">
+            <g id="hero-standard-mobile" transform="translate(11.000000, 355.000000)">
+                <polyline id="Path-2" stroke="#E1E7FD" stroke-width="2" opacity="0.4" points="131 16.2488534 145.950753 31.1996069 177 0.150360369"></polyline>
+                <g id="Group" transform="translate(0.000000, 1.000000)">
+                    <circle id="Oval-8-Copy-2" stroke="#E1E7FD" opacity="0.40404212" cx="129" cy="116" r="14"></circle>
+                    <circle id="Oval" fill="#E1E7FD" opacity="0.4" cx="129.5" cy="115.5" r="2.5"></circle>
+                    <circle id="Oval-8-Copy-2" stroke="#E1E7FD" opacity="0.40404212" cx="14" cy="14" r="14"></circle>
+                    <g id="np_checkmark_114052_000000" transform="translate(5.000000, 7.000000)" fill="#E1E7FD" fill-rule="nonzero" opacity="0.4">
+                        <polygon id="Shape" points="6.10015109 13.9074425 0 7.34215489 1.13573068 6.11982475 6.10021534 11.4628514 16.596536 0.166186271 17.7322667 1.38851641"></polygon>
+                    </g>
+                    <path d="M118.5,106.5 L24.5,24.5" id="Line-6" stroke="#E1E7FD" opacity="0.40404212" stroke-linecap="square"></path>
+                </g>
+                <ellipse id="Oval-8-Copy-2" stroke="#E1E7FD" stroke-width="0.9" opacity="0.40404212" cx="210.653846" cy="72.3548387" rx="12.6538462" ry="12.6451613"></ellipse>
+                <ellipse id="Oval-8-Copy-2" stroke="#E1E7FD" stroke-width="0.9" opacity="0.40404212" cx="279.346154" cy="13.6451613" rx="12.6538462" ry="12.6451613"></ellipse>
+                <ellipse id="Oval" fill="#E1E7FD" opacity="0.4" cx="211.105769" cy="71.9032258" rx="2.25961538" ry="2.25806452"></ellipse>
+                <polygon id="Shape" fill="#E1E7FD" fill-rule="nonzero" opacity="0.4" points="277.395778 18.9809158 273.019231 14.2738899 273.83406 13.3975323 277.395824 17.2282502 284.926398 9.12903226 285.741227 10.0053899"></polygon>
+                <path d="M269.855769,23.1290323 L221.048077,63.7741935" id="Line-6" stroke="#E1E7FD" stroke-width="0.9" opacity="0.40404212" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

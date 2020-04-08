@@ -1,0 +1,14 @@
+.section {
+  padding-top: $section-padding-mobile;
+  padding-bottom: $section-padding-mobile;
+
+  @include media-breakpoint-up(md) {
+    padding-top: $section-padding-tablet;
+    padding-bottom: $section-padding-tablet;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+  }
+}

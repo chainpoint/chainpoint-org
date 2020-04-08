@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+    <defs>
+        <linearGradient id="b" x1="50%" x2="50%" y1="100%" y2="27.331%">
+            <stop offset="0%" stop-color="#E0ECFC"/>
+            <stop offset="100%" stop-color="#4DAAFF"/>
+        </linearGradient>
+        <path id="a" d="M26.91 57.239c14.863 0 26.646-15.401 26.646-31.207-9.427.041-18.308.041-26.645 0C26.928 8.677 26.928 0 26.91 0 12.048 0 0 12.813 0 28.62c0 15.805 12.048 28.619 26.91 28.619z"/>
+        <linearGradient id="c" x1="76.57%" x2="21.253%" y1="89.431%" y2="0%">
+            <stop offset="0%" stop-color="#0218DE"/>
+            <stop offset="51.111%" stop-color="#0134E5"/>
+            <stop offset="100%" stop-color="#0092FB"/>
+        </linearGradient>
+        <linearGradient id="g" x1="68.571%" x2="4.791%" y1="28.662%" y2="96.379%">
+            <stop offset="0%" stop-color="#DDEAFC"/>
+            <stop offset="100%" stop-color="#62B3FC"/>
+        </linearGradient>
+        <path id="f" d="M33.015 3.88v26.195h26.194c0-14.467-11.727-26.194-26.194-26.194z"/>
+        <filter id="e" width="115.3%" height="115.3%" x="-7.6%" y="-3.8%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.741844833 0 0 0 0 0.863553851 0 0 0 0 0.975526148 0 0 0 1 0"/>
+        </filter>
+        <linearGradient id="h" x1="68.571%" x2="27.373%" y1="28.662%" y2="72.403%">
+            <stop offset="0%" stop-color="#DDEAFC" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#62B3FC"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(0 7.761)">
+            <mask id="d" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <use fill="url(#b)" xlink:href="#a"/>
+            <path fill="url(#c)" fill-rule="nonzero" d="M27.194 0C12.727 0 1 11.727 1 26.194c0 14.467 11.727 26.194 26.194 26.194 14.467 0 26.194-11.727 26.194-26.194H27.194V0z" mask="url(#d)"/>
+        </g>
+        <use fill="#000" filter="url(#e)" xlink:href="#f"/>
+        <use fill="url(#g)" xlink:href="#f"/>
+        <path fill="url(#h)" d="M36.896 0v26.194H63.09C63.09 11.727 51.363 0 36.896 0z"/>
+    </g>
+</svg>

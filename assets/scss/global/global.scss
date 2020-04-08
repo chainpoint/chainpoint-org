@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 1.6;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: geometricPrecision;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+    color: $dark-royal-blue;
+  }
+
+  &:focus {
+    color: $black;
+  }
+}

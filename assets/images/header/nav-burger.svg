@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="15" viewBox="0 0 28 15">
+  <path
+    d="M26.5 1.5h-25m25 6h-25m25 6h-25"
+    fill="none"
+    fill-rule="evenodd"
+    stroke="currentColor"
+    stroke-linecap="square"
+    stroke-width="2"
+    opacity=".7"
+  ></path>
+</svg>

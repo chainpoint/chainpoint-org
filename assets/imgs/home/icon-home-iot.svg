@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="100%" y2="27.331%">
+            <stop offset="0%" stop-color="#E0ECFC"/>
+            <stop offset="100%" stop-color="#4DAAFF"/>
+        </linearGradient>
+        <linearGradient id="b" x1="75.776%" x2="23.97%" y1="91.206%" y2="8.256%">
+            <stop offset="0%" stop-color="#0218DE"/>
+            <stop offset="51.111%" stop-color="#0134E5"/>
+            <stop offset="100%" stop-color="#0092FB"/>
+        </linearGradient>
+        <path id="d" d="M42.464 23.17c-.164 2.422-.68 6.026-2.218 9.446-1.255 2.785-2.978 4.97-5.128 6.497-1.01.716-2.567 1.386-2.633 1.413-.25.107-.579.165-.926.165-.347 0-.676-.06-.925-.165-.066-.027-1.625-.697-2.633-1.415-2.15-1.525-3.875-3.712-5.128-6.497-1.539-3.418-2.054-7.022-2.218-9.445-.097-1.443-.097-1.443-.096-1.464.023-.581.536-1.11 1.142-1.164.007 0 .729-.066 1.445-.162a29.32 29.32 0 0 0 3.24-.61c.995-.25 1.898-.545 2.686-.88.846-.358 1.717-.975 1.726-.98.41-.29 1.11-.29 1.52 0 .008.007.883.622 1.725.98.789.334 1.693.63 2.686.878.99.249 2.08.454 3.24.61.717.096 1.439.162 1.445.162.607.055 1.12.582 1.142 1.174.007.015.007.015-.092 1.458z"/>
+        <filter id="c" width="163.6%" height="160.9%" x="-31.8%" y="-21.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0.113108169 0 0 0 0 0.684762968 0 0 0 1 0"/>
+        </filter>
+        <linearGradient id="e" x1="53.191%" x2="53.191%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#0218DE"/>
+            <stop offset="51.111%" stop-color="#0134E5"/>
+            <stop offset="100%" stop-color="#0092FB"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#B6E1FF" stroke-linecap="square" stroke-width="1.765" d="M30.588 32.5L59.265 5.735M31.544 32.5l25.809 14.338M31.544 32.5l3.824 27.72M31.544 32.5L6.691 50.662M30.588 32.5L6.691 6.691"/>
+        <circle cx="58.309" cy="6.691" r="6.691" fill="#B6E1FF"/>
+        <circle cx="58.309" cy="46.838" r="6.691" fill="#B6E1FF"/>
+        <circle cx="6.691" cy="50.662" r="6.691" fill="#B6E1FF"/>
+        <circle cx="6.691" cy="6.691" r="4.779" fill="#B6E1FF"/>
+        <circle cx="35.368" cy="60.221" r="4.779" fill="#B6E1FF"/>
+        <circle cx="31.066" cy="30.11" r="16.728" fill="#FFF"/>
+        <path fill="url(#a)" fill-rule="nonzero" d="M31.544 8.691c-12.142 0-21.985 9.842-21.985 21.985 0 12.144 9.843 21.986 21.985 21.986 12.143 0 21.985-9.842 21.985-21.986 0-12.143-9.842-21.985-21.985-21.985z"/>
+        <path fill="url(#b)" fill-rule="nonzero" d="M31.544 6.691c-12.142 0-21.985 9.842-21.985 21.985 0 12.144 9.843 21.986 21.985 21.986 12.143 0 21.985-9.842 21.985-21.986 0-12.143-9.842-21.985-21.985-21.985z"/>
+        <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+        <use fill="#FFF" xlink:href="#d"/>
+        <path fill="url(#e)" fill-rule="nonzero" d="M31.5 22l-1.736 4.314-4.764.27 3.69 2.936L27.483 34l4.017-2.499L35.517 34l-1.207-4.48L38 26.584l-4.763-.27z"/>
+    </g>
+</svg>

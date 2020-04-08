@@ -1,0 +1,149 @@
+.page-chainpoint {
+  .section-hero {
+    padding: 0;
+    background-image: linear-gradient(to bottom, #f7fafc, #f0f6fb);
+
+    .section-title {
+      h2 {
+        margin-top: 5px;
+        margin-bottom: 18px;
+        color: $dark-navy;
+        font-size: 60px;
+      }
+    }
+
+    .paragraph-large {
+      color: $dusk;
+    }
+  }
+
+  .section-title {
+    h1 {
+      color: $chainpoint-orange;
+      font-size: 14px;
+    }
+  }
+
+  .background-chainpoint {
+    background: {
+      image: url(~assets/images/hero-chainpoint.svg);
+      position: right bottom;
+      repeat: no-repeat;
+      size: contain;
+    }
+
+    @include media-breakpoint-up(sm) {
+      background-size: 80% auto;
+    }
+
+    @include media-breakpoint-up(md) {
+    }
+
+    @include media-breakpoint-up(lg) {
+      background-size: 775px auto;
+    }
+  }
+
+  .section-network {
+    @extend %section-border;
+
+    .section-title {
+      margin: 0;
+      h2 {
+        color: $gray-700;
+      }
+    }
+  }
+
+  .section-developertools {
+    background-color: $pale-lavender;
+
+    .section-title {
+      margin-bottom: 60px;
+    }
+  }
+
+  .developer-tools {
+    .col {
+      @include media-breakpoint-down(xl) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .ui-card {
+    padding: 50px;
+    height: 100%;
+
+    @include media-breakpoint-down(md) {
+      padding: 40px;
+    }
+
+    img {
+      margin-bottom: 30px;
+    }
+  }
+
+  .arrow-link {
+    @include arrow-link($dark-royal-blue);
+    margin-bottom: 10px;
+  }
+
+  .section-benefits {
+    @include half-gradient;
+  }
+
+  .feature-list-outer-0 {
+    img {
+      margin-right: 20px;
+    }
+  }
+
+  .feature-list-outer-1 {
+    .feature-list-item {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      border-color: rgba(184, 162, 228, 0.2);
+
+      @include media-breakpoint-down(sm) {
+        display: block;
+
+        img {
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    img {
+      margin-right: 30px;
+    }
+  }
+
+  .feature-list {
+    &-title {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    .paragraph {
+      margin-bottom: 60px;
+    }
+
+    &-item {
+      display: flex;
+      align-items: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eeeef6;
+
+      &:first-of-type {
+        padding-top: 0;
+      }
+
+      &:last-child {
+        border: 0;
+      }
+    }
+  }
+}

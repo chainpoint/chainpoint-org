@@ -94,12 +94,20 @@
   }
 
   .feature-list-outer-0 {
-    img {
+    .feature-item-text {
+      width:380px;
+    }
+
+    img, svg {
       margin-right: 20px;
     }
   }
 
   .feature-list-outer-1 {
+    .feature-item-text {
+      width:340px;
+    }
+
     .feature-list-item {
       padding-top: 30px;
       padding-bottom: 30px;
@@ -115,7 +123,7 @@
       }
     }
 
-    img {
+    img, svg {
       margin-right: 30px;
     }
   }

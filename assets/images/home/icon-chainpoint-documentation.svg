@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="63" viewBox="0 0 60 63">
+    <defs>
+        <path id="icon-chainpoint-documentation-a" d="M10.206 53.494V62.2H40.15l10.056-1.655v-7.05z"/>
+        <path id="icon-chainpoint-documentation-b" d="M10.206 49.694V58.4H40.15l10.056-1.655v-7.05z"/>
+        <linearGradient id="icon-chainpoint-documentation-d" x1="50%" x2="50%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#A9B7C1"/>
+            <stop offset="100%" stop-color="#ABC3D8" stop-opacity=".45"/>
+        </linearGradient>
+        <path id="icon-chainpoint-documentation-c" d="M10 .104v54.4h40v-44.35L39.542 0z"/>
+        <linearGradient id="icon-chainpoint-documentation-e" x1="-26.968%" x2="89.258%" y1="60.532%" y2="0%">
+            <stop offset="0%" stop-color="#F3C082"/>
+            <stop offset="100%" stop-color="#EF3900"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero" opacity=".256" transform="matrix(1 0 0 -1 0 115.694)">
+            <use fill="#191032" fill-rule="evenodd" xlink:href="#icon-chainpoint-documentation-a"/>
+            <path stroke="#71818E" stroke-width="2" d="M11.206 54.494V61.2h28.863l9.137-1.504v-5.202h-38z"/>
+        </g>
+        <g fill-rule="nonzero" transform="matrix(1 0 0 -1 0 108.094)">
+            <use fill="#1A1033" fill-rule="evenodd" xlink:href="#icon-chainpoint-documentation-b"/>
+            <path stroke="#58646E" stroke-width="2" d="M11.206 50.694V57.4h28.863l9.137-1.504v-5.202h-38z"/>
+        </g>
+        <use fill="#1A1033" xlink:href="#icon-chainpoint-documentation-c"/>
+        <path stroke="url(#icon-chainpoint-documentation-d)" stroke-width="2" d="M11 1.1v52.404h38V10.578L39.138 1 11 1.101z"/>
+        <path stroke="url(#icon-chainpoint-documentation-e)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M23.816 33.351L18 27.937l6-5.586" transform="matrix(1 0 0 -1 0 55.703)"/>
+        <path stroke="url(#icon-chainpoint-documentation-e)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M42.816 33.351L37 27.937l6-5.586" transform="rotate(180 40 27.851)"/>
+        <path stroke="url(#icon-chainpoint-documentation-e)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M28 21.62l4.647 12.142" transform="matrix(1 0 0 -1 0 55.382)"/>
+    </g>
+</svg>

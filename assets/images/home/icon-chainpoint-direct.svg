@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="41" viewBox="0 0 60 41">
+    <defs>
+        <linearGradient id="icon-chainpoint-direct-b" x1="90.14%" x2="11.597%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#F3AC82"/>
+            <stop offset="100%" stop-color="#FF4500"/>
+        </linearGradient>
+        <linearGradient id="icon-chainpoint-direct-a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#F3AC82"/>
+            <stop offset="100%" stop-color="#FF4E0D"/>
+        </linearGradient>
+        <linearGradient id="icon-chainpoint-direct-c" x1="18.777%" x2="120.117%" y1="81.34%" y2="-15.816%">
+            <stop offset="0%" stop-color="#FF7676" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#F5B34E"/>
+        </linearGradient>
+        <linearGradient id="icon-chainpoint-direct-d" x1="0%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#DCF2FF" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#C7DDFF" stop-opacity=".451"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#icon-chainpoint-direct-b)" fill-rule="nonzero" stroke="url(#icon-chainpoint-direct-a)" stroke-width="1.2" d="M11.32 34.167v-2.815c6.204 0 12.04-2.49 16.428-7.01l10.498-10.815c4.905-5.053 11.424-7.833 18.358-7.833V8.51c-6.203 0-12.04 2.49-16.428 7.01L29.678 26.334c-4.9 5.049-11.424 7.833-18.357 7.833z"/>
+        <path fill="url(#icon-chainpoint-direct-c)" fill-rule="nonzero" d="M2.264 35.306V32.49c6.203 0 12.04-2.49 16.428-7.01L29.19 14.666c4.905-5.053 11.424-7.833 18.357-7.833v2.815c-6.203 0-12.04 2.49-16.427 7.01L20.622 27.473c-4.901 5.049-11.424 7.833-18.358 7.833z"/>
+        <ellipse cx="10.189" cy="33.028" fill="#FFF" rx="4.528" ry="4.556"/>
+        <ellipse cx="55.472" cy="6.833" fill="#FFF" rx="4.528" ry="4.556"/>
+        <ellipse cx="52.642" cy="7.403" fill="url(#d)" rx="7.358" ry="7.403"/>
+        <ellipse cx="7.358" cy="33.597" fill="url(#d)" rx="7.358" ry="7.403"/>
+    </g>
+</svg>

@@ -1,30 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="131" height="90" viewBox="0 0 131 90">
     <title>Chainpoint Client Library</title>
     <defs>
-        <linearGradient id="a" x1="0%" y1="0%" y2="100%">
+        <linearGradient id="icon-chainpoint-client-library-a" x1="0%" y1="0%" y2="100%">
             <stop offset="0%" stop-color="#FCE38A"/>
             <stop offset="100%" stop-color="#F38181"/>
         </linearGradient>
-        <linearGradient id="b" x1="0%" x2="89.258%" y1="0%" y2="100%">
+        <linearGradient id="icon-chainpoint-client-library-b" x1="0%" x2="89.258%" y1="0%" y2="100%">
             <stop offset="0%" stop-color="#F3C082" stop-opacity=".302"/>
             <stop offset="100%" stop-color="#EF3900"/>
         </linearGradient>
-        <path id="c" d="M33.381 14.062H95.34v62.027H33.381z"/>
-        <linearGradient id="d" x1="0%" x2="89.258%" y1="0%" y2="100%">
+        <path id="icon-chainpoint-client-library-c" d="M33.381 14.062H95.34v62.027H33.381z"/>
+        <linearGradient id="icon-chainpoint-client-library-d" x1="0%" x2="89.258%" y1="0%" y2="100%">
             <stop offset="0%" stop-color="#F3C082"/>
             <stop offset="100%" stop-color="#EF3900"/>
         </linearGradient>
-        <path id="e" d="M55.215 12.846h61.959v62.027H55.215z"/>
+        <path id="icon-chainpoint-client-library-e" d="M55.215 12.846h61.959v62.027H55.215z"/>
     </defs>
     <g fill="none" fill-rule="evenodd">
-        <path stroke="url(#a)" stroke-width="10.286" d="M17.975 19.205h51.674v51.741H17.975z" opacity=".206" transform="rotate(-45 43.812 45.076)"/>
+        <path stroke="url(#icon-chainpoint-client-library-a)" stroke-width="10.286" d="M17.975 19.205h51.674v51.741H17.975z" opacity=".206" transform="rotate(-45 43.812 45.076)"/>
         <g transform="rotate(-45 64.361 45.076)">
-            <path stroke="url(#b)" stroke-width="10.286" d="M38.524 19.205h51.674v51.741H38.524z"/>
-            <use stroke="#FFF" stroke-width="1.286" xlink:href="#c"/>
+            <path stroke="url(#icon-chainpoint-client-library-b)" stroke-width="10.286" d="M38.524 19.205h51.674v51.741H38.524z"/>
+            <use stroke="#FFF" stroke-width="1.286" xlink:href="#icon-chainpoint-client-library-c"/>
         </g>
         <g transform="rotate(-45 86.194 43.86)">
-            <path stroke="url(#d)" stroke-width="10.286" d="M60.357 17.989h51.674V69.73H60.357z"/>
-            <use stroke="#FFF" stroke-width="2.571" xlink:href="#e"/>
+            <path stroke="url(#icon-chainpoint-client-library-d)" stroke-width="10.286" d="M60.357 17.989h51.674V69.73H60.357z"/>
+            <use stroke="#FFF" stroke-width="2.571" xlink:href="#icon-chainpoint-client-library-e"/>
         </g>
     </g>
 </svg>

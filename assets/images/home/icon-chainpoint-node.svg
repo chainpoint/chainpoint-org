@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" viewBox="0 0 90 90">
+    <title>Run a Chainpoint Node</title>
+    <defs>
+        <linearGradient id="a" x1="89.258%" x2="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#F3C082"/>
+            <stop offset="100%" stop-color="#EF3900"/>
+        </linearGradient>
+        <linearGradient id="b" x1="28.031%" x2="87.105%" y1="22.875%" y2="84.905%">
+            <stop offset="0%" stop-color="#EF8B43"/>
+            <stop offset="100%" stop-color="#E89D83" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="d" x1="0%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#F3C082"/>
+            <stop offset="100%" stop-color="#EF3900"/>
+        </linearGradient>
+        <path id="c" d="M12.676 14.348h59.155v60.87H12.676z"/>
+        <linearGradient id="e" x1="0%" y1="0%" y2="88.578%">
+            <stop offset="0%" stop-color="#F3C082"/>
+            <stop offset="100%" stop-color="#EF3900"/>
+        </linearGradient>
+        <linearGradient id="f" x1="-31.242%" y1="-22.128%" y2="100%">
+            <stop offset="0%" stop-color="#FA9741" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#FF6200" stop-opacity=".68"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="nonzero">
+        <path fill="url(#a)" d="M14.954 12.852h60.845v63.911H14.954z" opacity=".191" transform="rotate(135 45.167 45.054)"/>
+        <path fill="url(#b)" d="M13.858 14.157h62.111v63.911H13.858z" opacity=".263" transform="rotate(75 45.182 44.844)"/>
+        <g transform="rotate(135 44.26 44.132)">
+            <use fill="#FFF" fill-rule="evenodd" xlink:href="#c"/>
+            <path stroke="url(#d)" stroke-width="2.571" d="M13.962 15.634h56.584v58.298H13.962z"/>
+        </g>
+        <path stroke="url(#e)" stroke-width="7.714" d="M30.477 32.553h22.708v23.59H30.477z" transform="rotate(135 44.263 43.88)"/>
+        <path stroke="url(#f)" stroke-width="6.429" d="M23.496 25.388h36.67v37.919h-36.67z" transform="rotate(135 44.263 43.88)"/>
+    </g>
+</svg>

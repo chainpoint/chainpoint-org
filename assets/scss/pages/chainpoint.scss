@@ -26,7 +26,7 @@
 
   .background-chainpoint {
     background: {
-      image: url(~assets/images/hero-chainpoint.svg);
+      image: url(~assets/images/home/hero-chainpoint.svg);
       position: right bottom;
       repeat: no-repeat;
       size: contain;
@@ -79,7 +79,7 @@
       padding: 40px;
     }
 
-    img {
+    img, svg {
       margin-bottom: 30px;
     }
   }

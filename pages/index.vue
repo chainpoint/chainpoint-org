@@ -1,7 +1,7 @@
 <template>
   <main class="page-container">
     <div class="page-chainpoint">
-      <section class="section section-hero hero">
+      <section class="section section-hero">
         <div class="cta-hero container background-chainpoint">
           <div class="container">
             <div class="row justify-content-md-center">
@@ -17,33 +17,12 @@
                 <p class="paragraph-large">
                   Chainpoint is an open standard for linking data to the blockchain to create a timestamp proof.
                 </p>
-                <a
-                  href="https://chainpoint.org/"
-                  class="btn btn-tight btn-secondary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Visit chainpoint.org<svg
-                    width="10"
-                    height="10"
-                    viewBox="0 0 10 10"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g fill="currentColor" fill-rule="nonzero">
-                      <path
-                        d="M2.902 1.034a.517.517 0 1 0 0-1.034H0v10h9.483A.517.517 0 0 0 10 9.483V6.582H8.967v2.384H1.034V1.034h1.868z"
-                      ></path>
-                      <path
-                        d="M4.725 6l4.25-4.25v2.906a.512.512 0 0 0 1.025 0V0H5.344a.512.512 0 1 0 0 1.025h2.907L4 5.275 4.725 6z"
-                      ></path>
-                    </g>
-                  </svg>
-                </a>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="section section-network network">
+      <section class="section section-network">
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="section-title col col-md-8">
@@ -55,7 +34,7 @@
           </div>
         </div>
       </section>
-      <section class="section section-developertools developertools">
+      <section class="section section-developertools">
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="section-title col col-md-8">
@@ -66,75 +45,18 @@
         </div>
         <div class="container">
           <div class="row justify-content-center developer-tools">
-            <div class="col col-12 col-sm-8 col-lg-6 col-xl-6">
-              <a
-                class="ui-card"
-                href="https://github.com/chainpoint/chainpoint-node/wiki/Chainpoint-Node-API:-How-to-Create-a-Chainpoint-Proof"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOTAiIGhlaWdodD0iOTAiIHZpZXdCb3g9IjAgMCA5MCA5MCI+CiAgICA8ZGVmcz4KICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSIwJSIgeDI9Ijg5LjI1OCUiIHkxPSIwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRjNDMDgyIi8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0VGMzkwMCIvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjIiB4MT0iMS44NDglIiB4Mj0iOTguODM4JSIgeTE9IjEuODMlIiB5Mj0iOTcuODY5JSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRjhCMTMiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjOTgyMzAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8cGF0aCBpZD0iYiIgZD0iTTQxLjE3OSAxOC40NTdsMjkuMDEyIDE2LjUxNC0xNi43NSAyOC42MDRMMjQuNDMgNDcuMDYxeiIvPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZCIgeDE9IjEuODQ4JSIgeDI9Ijk4LjgzOCUiIHkxPSIxLjgzJSIgeTI9Ijk3Ljg2OSUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRkY4QjEzIi8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0RBMzYwNSIvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJlIiB4MT0iMTAwJSIgeDI9IjE4LjkyMiUiIHkxPSIwJSIgeTI9IjgxLjA3OCUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjQjk0NDA2Ii8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0U0NEQwOSIvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJmIiB4MT0iOTAuMjQ3JSIgeDI9IjI5LjElIiB5MT0iOTMuNzk3JSIgeTI9IjE2LjI0NCUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjQUMzODA0Ii8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0REM0YwNyIvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iNzIuNjA2JSIgeDI9IjEwLjkzNSUiIHkxPSI4MC42NzQlIiB5Mj0iMi44ODElIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZDODMxMiIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNFNTcxMEUiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iaCIgeDE9IjUuNjg2JSIgeDI9IjgxLjcyOCUiIHkxPSI3OS44NDMlIiB5Mj0iMTcuMzYzJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNERjZCMEQiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRjQ3MjBFIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNODcuNDggMjkuNjczbC04LjAxLTE0LjczMUw2NC44OTIgNC41NjUgNTIuNDcxLjEyOGwtMTggLjI2Ny0uMTguMDlMMTguMTggOC4wMjQgNi4zIDIwLjAwMy4wOTIgMzUuMjYzbC0uMDkxLjA5LjE3OSAxOC44MTFMNS4wMzggNjUuNzlsMy43OCA1LjU5IDkuNzIgMTAuMDI4TDM1LjQ2IDg4Ljg2bDE5LjQ0Mi0uMjY2IDE4LjE4LTguNjA3IDExLjE1Ny0xMy43NTMgNS42NzEtMTUuODgyLTIuNDMtMjAuNjc5ek01MC44NSA1Mi41NjdsLTIzLjU3OS0zLjgxNiAxNS40OC0xOC43MjQgOC4xIDIyLjU0em0tNi44NDEtMjIuOThsMjIuMjI5IDQuNzA0LTE0LjEzIDE3Ljc0Ni04LjEtMjIuNDV6bTguODIgMjQuNzU1bDE5LjUzIDUuMzI0TDU2Ljc5IDczLjE1MmwtMy45NjItMTguODF6bTIuNyAxOS4zNDRsLTIxLjQyLTIuMjE4IDE3LjM3LTE2LjY4MyA0LjA1IDE4LjkwMXpNNTMuMSA1My4wMTFsMTQuMDQyLTE3LjY1NiA1LjY3IDIzLjE2TDUzLjEgNTMuMDEyem0tOC45MDgtMjQuNzU1bDEyLjE1LTE1LjQzN0w2Ni4xNSAzMi44N2wtMjEuOTU4LTQuNjE0em0tMi43IDEuMDY0bC0xNS4zIDE4LjU0M0wxOS4xNyAyOS4zMmgyMi4zMnpNMTkuNjIgMjguMDhMMzEuOTUgMTIuNzI3bDkuNzIgMTUuMjYtMjIuMDUuMDkxem0zMC44NyAyNS44MTlMMzIuOTQyIDcwLjY3bC01Ljk0LTIwLjU4NSAyMy40OSAzLjgxM3ptNC41IDIxLjAyOGwtOS45IDEwLjExNEwzNC4yIDcyLjc5OWwyMC43OTEgMi4xMjh6TTcyLjM2IDYxLjUzMUw2Ni42IDc5LjQ1NGwtOS01LjE0OEw3Mi4zNiA2MS41MzF6TTY4LjQgMzUuMTc4bDE0LjMwOCA3LjgxLTguNzI5IDE0LjY0LTUuNTc5LTIyLjQ1ek01Ny45NTggMTIuOTA0bDE2LjY1IDYuNTY1TDY3LjUgMzIuNDI2bC05LjU0Mi0xOS41MjJ6TTQzLjAyIDI3LjcyMkwzMy4zIDEyLjQ2SDU0Ljk5bC0xMS45NyAxNS4yNnpNMzAuNiAxMS4zOTdsLTE4LjE4IDcuMTg5TDI0LjEyIDcuMTRsNi40OCA0LjI1NnptLTQuOTUtNC44OGwxNi4yLTMuOTAzLTkuODA5IDguMDcyLTYuMzkyLTQuMTd6bTQuMjI5IDYuNTY0bC0xMS43IDE0LjY0MS03LjM4LTcuMDk4IDE5LjA4LTcuNTQzem0tNS4wMzggMzUuMDVMNi4xMiA0MS45MTkgMTcuOTk5IDI5Ljk0bDYuODQyIDE4LjE5em0tLjA5MiAxLjQyTDEyLjY5MSA2MS40NCA2LjAzIDQzLjM0bDE4LjcyIDYuMjEyem0uOS45NzVsNS44NSAyMC4yMzItMTcuOTA4LTguMjUzIDEyLjA1OC0xMS45OHpNNDMuMiA4NC45NTVsLTE3LjEtMy44MTYgNi41NzEtOC4xNjNMNDMuMiA4NC45NTV6bTEzLjMyMS05LjY3bDguNzMgNC44OC0xOCA0LjYxMyA5LjI3LTkuNDkzem0xNy41NS0xNC42NDFsNi42NTkgNi4yMTFMNjguNDkgNzguMjE0bDUuNTgtMTcuNTd6bS41MzgtMS4zMzFsOC4xOTEtMTMuNzU0LTEuNjIgMTkuNzg5LTYuNTcxLTYuMDM1em0tNi4zLTI1LjczMmw3LjEwOS0xMi43NzYgNy4xMDggMjAuNDk5LTE0LjIxNy03LjcyM3pNNTcuNzc5IDExLjMwN2w2Ljc1LTUuMjM0IDkgMTEuNDQ1LTE1Ljc1LTYuMjExem0tMjMuOTM4LjI2N0w0NC40NiAyLjc5bDEwLjE2OCA4Ljc4M0gzMy44NDF6bTUuNDg4LTkuNzZMMjkuNzkgNC4xMjFsNC45NS0yLjM5NSA0LjU4OC4wODZ6TTIwLjc5IDguMzc3bC00Ljc3MSA0LjcwNCAyLjk3LTMuOTAzIDEuOC0uOHpNMTcuMjc5IDI4LjdMNi4xMiA0MC4xNDRsMy44NzEtMTguMzY2IDcuMjg4IDYuOTIyem0tNi4zIDMyLjEyTDEuNzA4IDUzLjgxbDMuMjQxLTkuNDkzIDYuMDMgMTYuNTAyek0yLjc5IDU2LjI5M2w4LjgyIDYuNTY1LTIuMjUzIDYuMzkxTDIuNzkgNTYuMjkzem0yOC43MDggMTUuODg1TDI0Ljg0IDgwLjQzIDE0LjMwOCA2NC4yNzlsMTcuMTkgNy44OTl6bTEwLjM1IDEzLjkzbC02LjAzIDEuMzMxLTcuMDItNC4yNiAxMy4wNSAyLjkzem0yMC45Ny0zLjkwMmwtOC4xOTEgNS4wNTctNi40OC0xLjI0MSAxNC42NzEtMy44MTZ6bTE0LjQtMTAuMjk1bC00Ljk1IDYuOTIyLTMuMDU4LjUzMyA4LjAwOC03LjQ1NXptNy4wMi0yNy4zM2w0LjIzIDUuNzY3LTUuNzYyIDEyLjY5TDg0LjI0IDQ0LjU4em0uMTgtMi4wNDJsMi4xNTktOC44NzMgMS42MiAxNC4xMS0zLjc3OS01LjIzN3ptLS45LTIuMjE4bC02LjQ4LTE4LjcyNSA4LjkxIDguNjA3LTIuNDMgMTAuMTE4ek02OC4wNCA4LjU1N2w5LjgwOCA3LjAwOS0yLjI1IDIuNDg1LTcuNTU4LTkuNDk0em0tMTEuNjEyIDIuMTI4TDQ2Ljg5IDIuNDMybDE2LjEwOCAzLjEwNi02LjU3IDUuMTQ3ek05LjA5IDE5LjgyNWgtLjcybDMuMTUtMy4xOTUtMi40MyAzLjE5NnptLTQuNSAyMC42NzZsLTMuMTUtNC45NyA2LjU3MS0xMS4xODJMNC41OTEgNDAuNXptLS4zNjIgMS44NjFsLTIuNyA3LjgxLS4xOC0xMi4yNDYgMi44OCA0LjQzNnptOC4zNyAyMS44M0wyMi40MDggNzkuMWwtMTIuMTUtOC4zNCAyLjM0Mi02LjU2OHpNMjQuNTcgODIuMjA2bDEuNjIuOTc3LTIuNTItMS4wNjQuOS4wODd6bTIwLjUyIDQuNTIzbDIuODguNTM0LTUuNjcuMDg3IDIuNzktLjYyem0yMi4xMzktNS42NzdsLjYyOS0uMDktMS45OC45NzcgMS4zNS0uODg3em0xNS45MjktMTUuNjE5bC4xOC0uNDQ0LS4xOC40NDR6bS45LTM5LjA0MmwtNy41NTktNy4yNzUgMi4yNS0yLjQ4NiA1LjMwOSA5Ljc2em0tMjcuOS0yMy41MTRsLTYuMzkyLTEuMjQxIDIuNTIxLS4xNzcgMy44NyAxLjQxOHpNNy4yOSAyMS4wNjdsLjk5MS4wOS0zLjQyIDUuODU4IDIuNDI5LTUuOTQ4em03LjQ2NyA1NC4zOTRsNy4zOCA1LjA1Ny0yLjc5Mi0uMzU0LTQuNTg4LTQuNzAzeiIvPgogICAgICAgIDxnIHRyYW5zZm9ybT0icm90YXRlKC02IDQ3LjMxIDQxLjAxNikiPgogICAgICAgICAgICA8dXNlIGZpbGw9IiNGRkYiIHhsaW5rOmhyZWY9IiNiIi8+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZT0idXJsKCNjKSIgc3Ryb2tlLXdpZHRoPSIxLjI4NiIgZD0iTTQxLjQxMyAxOS4zM2wtMTYuMSAyNy40OTQgMjcuODk0IDE1Ljg3OCAxNi4xLTI3LjQ5NEw0MS40MTQgMTkuMzN6Ii8+CiAgICAgICAgPC9nPgogICAgICAgIDxwYXRoIGZpbGw9IiNGRkYiIHN0cm9rZT0idXJsKCNkKSIgc3Ryb2tlLXdpZHRoPSI1LjE0MyIgZD0iTTQ0LjczMyAyOS42OTNsMTQuNDUyIDguMjI2LTguMzQ0IDE0LjI0OS0xNC40NTMtOC4yMjd6IiB0cmFuc2Zvcm09InJvdGF0ZSgtNiA0Ny43ODcgNDAuOTMpIi8+CiAgICAgICAgPHBhdGggc3Ryb2tlPSJ1cmwoI2UpIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBzdHJva2Utd2lkdGg9IjEuMjg2IiBkPSJNNjEuMDcxIDM1LjM1N2w2LjQyOS0xLjc2NSIvPgogICAgICAgIDxwYXRoIHN0cm9rZT0idXJsKCNmKSIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIgc3Ryb2tlLXdpZHRoPSIxLjI4NiIgZD0iTTUzLjM1NyA1NC42NDNsMS4yODYgNi44MzYiLz4KICAgICAgICA8cGF0aCBzdHJva2U9InVybCgjZykiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiIHN0cm9rZS13aWR0aD0iMS4yODYiIGQ9Ik00My4wNzEgMjguOTI5bC0zLjg1Ny04LjAxNCIvPgogICAgICAgIDxwYXRoIHN0cm9rZT0idXJsKCNoKSIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIgc3Ryb2tlLXdpZHRoPSIxLjI4NiIgZD0iTTM0LjA3MSA0NS42NDNsLTcuNzE0IDMuMTYiLz4KICAgIDwvZz4KPC9zdmc+Cg=="
-                  alt="Tool icon"
-                />
-                <div class="arrow-link" target="_blank">Chainpoint Node API</div>
-                <div class="paragraph">
-                  Learn how to interact with a public network of Chainpoint Nodes. Each node has a REST API.
-                </div></a
-              >
-            </div>
-            <div class="col col-12 col-sm-8 col-lg-6 col-xl-6">
-              <a
-                class="ui-card"
-                href="https://github.com/chainpoint/chainpoint-client-js"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTMxIiBoZWlnaHQ9IjkwIiB2aWV3Qm94PSIwIDAgMTMxIDkwIj4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB5MT0iMCUiIHkyPSIxMDAlIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZDRTM4QSIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNGMzgxODEiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYiIgeDE9IjAlIiB4Mj0iODkuMjU4JSIgeTE9IjAlIiB5Mj0iMTAwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGM0MwODIiIHN0b3Atb3BhY2l0eT0iLjMwMiIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNFRjM5MDAiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxwYXRoIGlkPSJjIiBkPSJNMzMuMzgxIDE0LjA2Mkg5NS4zNHY2Mi4wMjdIMzMuMzgxeiIvPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZCIgeDE9IjAlIiB4Mj0iODkuMjU4JSIgeTE9IjAlIiB5Mj0iMTAwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGM0MwODIiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRUYzOTAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8cGF0aCBpZD0iZSIgZD0iTTU1LjIxNSAxMi44NDZoNjEuOTU5djYyLjAyN0g1NS4yMTV6Ii8+CiAgICA8L2RlZnM+CiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxwYXRoIHN0cm9rZT0idXJsKCNhKSIgc3Ryb2tlLXdpZHRoPSIxMC4yODYiIGQ9Ik0xNy45NzUgMTkuMjA1aDUxLjY3NHY1MS43NDFIMTcuOTc1eiIgb3BhY2l0eT0iLjIwNiIgdHJhbnNmb3JtPSJyb3RhdGUoLTQ1IDQzLjgxMiA0NS4wNzYpIi8+CiAgICAgICAgPGcgdHJhbnNmb3JtPSJyb3RhdGUoLTQ1IDY0LjM2MSA0NS4wNzYpIj4KICAgICAgICAgICAgPHBhdGggc3Ryb2tlPSJ1cmwoI2IpIiBzdHJva2Utd2lkdGg9IjEwLjI4NiIgZD0iTTM4LjUyNCAxOS4yMDVoNTEuNjc0djUxLjc0MUgzOC41MjR6Ii8+CiAgICAgICAgICAgIDx1c2Ugc3Ryb2tlPSIjRkZGIiBzdHJva2Utd2lkdGg9IjEuMjg2IiB4bGluazpocmVmPSIjYyIvPgogICAgICAgIDwvZz4KICAgICAgICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSgtNDUgODYuMTk0IDQzLjg2KSI+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZT0idXJsKCNkKSIgc3Ryb2tlLXdpZHRoPSIxMC4yODYiIGQ9Ik02MC4zNTcgMTcuOTg5aDUxLjY3NFY2OS43M0g2MC4zNTd6Ii8+CiAgICAgICAgICAgIDx1c2Ugc3Ryb2tlPSIjRkZGIiBzdHJva2Utd2lkdGg9IjIuNTcxIiB4bGluazpocmVmPSIjZSIvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
-                  alt="Tool icon"
-                />
-                <div class="arrow-link" target="_blank">Chainpoint Client Library</div>
-                <div class="paragraph">
-                  A full-featured client that works in both Browser and Node.js based Javascript applications.
-                </div></a
-              >
-            </div>
-            <div class="col col-12 col-sm-8 col-lg-6 col-xl-6">
-              <a
-                class="ui-card"
-                href="https://github.com/chainpoint/chainpoint-node"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOTAiIGhlaWdodD0iOTAiIHZpZXdCb3g9IjAgMCA5MCA5MCI+CiAgICA8ZGVmcz4KICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSI4OS4yNTglIiB4Mj0iMCUiIHkxPSIxMDAlIiB5Mj0iMCUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRjNDMDgyIi8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0VGMzkwMCIvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJiIiB4MT0iMjguMDMxJSIgeDI9Ijg3LjEwNSUiIHkxPSIyMi44NzUlIiB5Mj0iODQuOTA1JSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNFRjhCNDMiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRTg5RDgzIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZCIgeDE9IjAlIiB5MT0iMCUiIHkyPSIxMDAlIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0YzQzA4MiIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNFRjM5MDAiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxwYXRoIGlkPSJjIiBkPSJNMTIuNjc2IDE0LjM0OGg1OS4xNTV2NjAuODdIMTIuNjc2eiIvPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZSIgeDE9IjAlIiB5MT0iMCUiIHkyPSI4OC41NzglIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0YzQzA4MiIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNFRjM5MDAiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZiIgeDE9Ii0zMS4yNDIlIiB5MT0iLTIyLjEyOCUiIHkyPSIxMDAlIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZBOTc0MSIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0ZGNjIwMCIgc3RvcC1vcGFjaXR5PSIuNjgiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICA8cGF0aCBmaWxsPSJ1cmwoI2EpIiBkPSJNMTQuOTU0IDEyLjg1Mmg2MC44NDV2NjMuOTExSDE0Ljk1NHoiIG9wYWNpdHk9Ii4xOTEiIHRyYW5zZm9ybT0icm90YXRlKDEzNSA0NS4xNjcgNDUuMDU0KSIvPgogICAgICAgIDxwYXRoIGZpbGw9InVybCgjYikiIGQ9Ik0xMy44NTggMTQuMTU3aDYyLjExMXY2My45MTFIMTMuODU4eiIgb3BhY2l0eT0iLjI2MyIgdHJhbnNmb3JtPSJyb3RhdGUoNzUgNDUuMTgyIDQ0Ljg0NCkiLz4KICAgICAgICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSgxMzUgNDQuMjYgNDQuMTMyKSI+CiAgICAgICAgICAgIDx1c2UgZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIiB4bGluazpocmVmPSIjYyIvPgogICAgICAgICAgICA8cGF0aCBzdHJva2U9InVybCgjZCkiIHN0cm9rZS13aWR0aD0iMi41NzEiIGQ9Ik0xMy45NjIgMTUuNjM0aDU2LjU4NHY1OC4yOThIMTMuOTYyeiIvPgogICAgICAgIDwvZz4KICAgICAgICA8cGF0aCBzdHJva2U9InVybCgjZSkiIHN0cm9rZS13aWR0aD0iNy43MTQiIGQ9Ik0zMC40NzcgMzIuNTUzaDIyLjcwOHYyMy41OUgzMC40Nzd6IiB0cmFuc2Zvcm09InJvdGF0ZSgxMzUgNDQuMjYzIDQzLjg4KSIvPgogICAgICAgIDxwYXRoIHN0cm9rZT0idXJsKCNmKSIgc3Ryb2tlLXdpZHRoPSI2LjQyOSIgZD0iTTIzLjQ5NiAyNS4zODhoMzYuNjd2MzcuOTE5aC0zNi42N3oiIHRyYW5zZm9ybT0icm90YXRlKDEzNSA0NC4yNjMgNDMuODgpIi8+CiAgICA8L2c+Cjwvc3ZnPgo="
-                  alt="Tool icon"
-                />
-                <div class="arrow-link" target="_blank">Run a Chainpoint Node</div>
-                <div class="paragraph">
-                  Join the over 7,000 nodes that are part of the public Chainpoint Network, or run a private Chainpoint
-                  node.
-                </div></a
-              >
-            </div>
-            <div class="col col-12 col-sm-8 col-lg-6 col-xl-6">
-              <a
-                class="ui-card"
-                href="https://github.com/chainpoint/chainpoint-cli"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMTUiIGhlaWdodD0iOTAiIHZpZXdCb3g9IjAgMCAxMTUgOTAiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJpY29uLWNoYWlucG9pbnQtY2xpLWEiIHgxPSI1MCUiIHgyPSI1MCUiIHkxPSIxMDAlIiB5Mj0iMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRDMzRDA4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0YzOTk0RSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iaWNvbi1jaGFpbnBvaW50LWNsaS1iIiB4MT0iNTAlIiB4Mj0iNTAlIiB5MT0iOTUuMDcxJSIgeTI9IjAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0VGMzkwMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNGOTc2NEMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkYyOTUxIiBzdG9wLW9wYWNpdHk9Ii42MSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDYpIj4KICAgIDxyZWN0IHdpZHRoPSIxMTIuNSIgaGVpZ2h0PSI3Ni41IiB4PSIxLjI1IiB5PSIxLjI1IiBzdHJva2U9InVybCgjaWNvbi1jaGFpbnBvaW50LWNsaS1hKSIgc3Ryb2tlLXdpZHRoPSIyLjUiIHJ4PSI0Ii8+CiAgICA8Y2lyY2xlIGN4PSIxMi41IiBjeT0iMTAuNSIgcj0iMi41IiBmaWxsPSIjRUY0MjA5IiBvcGFjaXR5PSIuODI5Ii8+CiAgICA8Y2lyY2xlIGN4PSIyMS41IiBjeT0iMTAuNSIgcj0iMi41IiBmaWxsPSIjRkVCMDdBIi8+CiAgICA8Y2lyY2xlIGN4PSIzMC41IiBjeT0iMTAuNSIgcj0iMi41IiBmaWxsPSIjRkVDOEEzIiBvcGFjaXR5PSIuNjkyIi8+CiAgICA8ZyBmaWxsPSJ1cmwoI2ljb24tY2hhaW5wb2ludC1jbGktYikiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYxIDM3KSI+CiAgICAgIDxwYXRoIGQ9Ik0yNy4xNDgyNjgsMjUuMjg4MTQ5OSBMMjQuMDI3MTU4OCwyMi4xNjcwNDA4IEwyOC43MTUwOTYzLDE3LjQ3OTEwMzIgTDE3LjYwMzk0NzYsNi4zNjc5NTQ0OCBMNi40OTI3OTg4NSwxNy40NzkxMDMyIEwxNy42MDM5NDc2LDI4LjU5MDI1MTkgTDIzLjQwMjkzNjksMjIuNzkxMjYyNiBMMjYuNTI0MDQ2MSwyNS45MTIzNzE4IEwxNy40NzkxMDMyLDM0Ljk1NzMxNDcgTDAuMDAwODkxNzIyNzM3LDE3LjQ3OTEwMzIgTDE3LjQ3OTEwMzIsMC4wMDA4OTE3MjI3MzYgTDM0Ljk1NzMxNDcsMTcuNDc5MTAzMiBMMjcuMTQ4MjY4LDI1LjI4ODE0OTkgWiIvPgogICAgICA8cGF0aCBkPSJNMTkuOTA0MDY1NCw5LjU4MTc3ODE4IEwyMy4xNTAwMTksMTIuODI3NzMxNyBMMTguNDk4NjQ3NSwxNy40NzkxMDMyIEwyOS42MDk3OTYzLDI4LjU5MDI1MTkgTDQwLjcyMDk0NSwxNy40NzkxMDMyIEwyOS42MDk3OTYzLDYuMzY3OTU0NDggTDIzLjc3NDI0MDgsMTIuMjAzNTA5OSBMMjAuNTI4Mjg3Myw4Ljk1NzU1NjM0IEwyOS40ODQ5NTE5LDAuMDAwODkxNzIyNzM2IEw0Ni45NjMxNjM0LDE3LjQ3OTEwMzIgTDI5LjQ4NDk1MTksMzQuOTU3MzE0NyBMMTIuMDA2NzQwNCwxNy40NzkxMDMyIEwxOS45MDQwNjU0LDkuNTgxNzc4MTggWiIvPgogICAgPC9nPgogICAgPHBhdGggc3Ryb2tlPSIjRkVDOEEzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMyIgZD0iTTEwLjM4NjM2MzYsMzYuNSBMNjAuNjEzNjM2NCwzNi41IiBvcGFjaXR5PSIuNzUiLz4KICAgIDxwYXRoIHN0cm9rZT0iI0ZFQzhBMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiIGQ9Ik0xMC4zODYzNjM2LDI0LjUgTDc3LjUsMjQuNSIvPgogICAgPHBhdGggc3Ryb2tlPSIjRkVDOEEzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMyIgZD0iTTEwLjM4NjM2MzYsNDguNSBMNDcuNSw0OC41IiBvcGFjaXR5PSIuNCIvPgogIDwvZz4KPC9zdmc+Cg=="
-                  alt="Tool icon"
-                />
-                <div class="arrow-link" target="_blank">Chainpoint CLI</div>
-                <div class="paragraph">
-                  A Command Line Interface (CLI) for creating and verifying Chainpoint proofs.
-                </div></a
-              >
-            </div>
+            <CardLink
+              v-for="cardLink in cardLinks"
+              :key="cardLink.title"
+              :title="cardLink.title"
+              :path="cardLink.path"
+              :icon="cardLink.icon"
+              :description="cardLink.description"
+            />
           </div>
         </div>
       </section>
-      <section class="section section-benefits benefits">
+      <section class="section section-benefits">
         <div class="container">
           <div class="row ">
             <div class="feature-list-outer-0 col col-md-5">
@@ -221,8 +143,42 @@
 </template>
 
 <script>
+import CardLink from '@/components/CardLink.vue'
+
 export default {
-  components: {},
+  components: { CardLink },
+  data() {
+    return {
+      cardLinks: [
+        {
+          title: 'Chainpoint Node API',
+          path:
+            'https://github.com/chainpoint/chainpoint-node/wiki/Chainpoint-Node-API:-How-to-Create-a-Chainpoint-Proof',
+          icon: 'icon-chainpoint-api',
+          description: 'Learn how to interact with a public network of Chainpoint Nodes. Each node has a REST API.'
+        },
+        {
+          title: 'Chainpoint Client Library',
+          path: 'https://github.com/chainpoint/chainpoint-client-js',
+          icon: 'icon-chainpoint-client-library',
+          description: 'A full-featured client that works in both Browser and Node.js based Javascript applications.'
+        },
+        {
+          title: 'Run a Chainpoint Node',
+          path: 'https://github.com/chainpoint/chainpoint-node',
+          icon: 'icon-chainpoint-node',
+          description:
+            'Join the over 7,000 nodes that are part of the public Chainpoint Network, or run a private Chainpoint node.'
+        },
+        {
+          title: 'Chainpoint CLI',
+          path: 'https://github.com/chainpoint/chainpoint-cli',
+          icon: 'icon-chainpoint-cli',
+          description: 'A Command Line Interface (CLI) for creating and verifying Chainpoint proofs.'
+        }
+      ]
+    }
+  },
   head() {
     return {
       title: 'Chainpoint - Blockchain Proof & Anchoring Standard'

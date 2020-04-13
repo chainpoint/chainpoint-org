@@ -1,2 +1,6 @@
 # Redirect default Netlify subdomain to primary domain
 http://chainpoint.netlify.com/* http://chainpoint.org/:splat 301!
+https://chainpoint.netlify.com/* https://chainpoint.org/:splat 301!
+
+# Redirect all unknown paths to home
+/* / 301

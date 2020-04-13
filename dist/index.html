@@ -1,17 +1,432 @@
 <!doctype html>
 <html data-n-head-ssr>
   <head>
-    <title>chainpoint-org</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1"><meta data-n-head="ssr" data-hid="description" name="description" content="The chainpoint.org static website"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="preload" href="/_nuxt/af53aa1fedc328b8795c.js" as="script"><link rel="preload" href="/_nuxt/1a11e79d27c38018a8f1.js" as="script"><link rel="preload" href="/_nuxt/1f9761582784666146ca.js" as="script"><link rel="preload" href="/_nuxt/95e4fa65d098762380e5.js" as="script"><style data-vue-ssr-id="3191d5ad:0 932a8f60:0 6759f5ab:0 e46b6ba2:0">.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#fff;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}html{font-family:Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;font-size:16px;word-spacing:1px;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;box-sizing:border-box}*,:after,:before{box-sizing:border-box;margin:0}.button--green{display:inline-block;border-radius:4px;border:1px solid #3b8070;color:#3b8070;text-decoration:none;padding:10px 30px}.button--green:hover{color:#fff;background-color:#3b8070}.button--grey{display:inline-block;border-radius:4px;border:1px solid #35495e;color:#35495e;text-decoration:none;padding:10px 30px;margin-left:15px}.button--grey:hover{color:#fff;background-color:#35495e}.container{margin:0 auto;min-height:100vh;display:flex;justify-content:center;align-items:center;text-align:center}.title{font-family:Quicksand,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;display:block;font-weight:300;font-size:100px;color:#35495e;letter-spacing:1px}.subtitle{font-weight:300;font-size:42px;color:#526488;word-spacing:5px;padding-bottom:15px}.links{padding-top:15px}.NuxtLogo{-webkit-animation:appear 1s;animation:appear 1s;margin:auto}@-webkit-keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes appear{0%{opacity:0}to{opacity:1}}</style>
+    <title>Chainpoint - Blockchain Proof & Anchoring Standard</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1"><meta data-n-head="ssr" data-hid="description" name="description" content="Chainpoint is an open standard for anchoring data to a blockchain to create a timestamp proof of any data, file, or series of events."><meta data-n-head="ssr" data-hid="twitter:card" name="twitter:card" content="summary_large_image"><meta data-n-head="ssr" data-hid="twitter:site" name="twitter:site" content="@chainpnt"><meta data-n-head="ssr" data-hid="twitter:title" name="twitter:title" content="Chainpoint - Blockchain Proof Standard"><meta data-n-head="ssr" data-hid="twitter:description" name="twitter:description" content="Open standard for creating a timestamp proof of any data, file, or series of events."><meta data-n-head="ssr" data-hid="twitter:image" name="twitter:image" content="https://chainpoint.org/images/twitter-large.png?3"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico"><link data-n-head="ssr" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"><script data-n-head="ssr" src="https://code.jquery.com/jquery-3.3.1.slim.min.js" type="text/javascript"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" type="text/javascript"></script><script data-n-head="ssr" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" type="text/javascript"></script><link rel="preload" href="/_nuxt/48a78d37505508fbf6db.js" as="script"><link rel="preload" href="/_nuxt/5a3ba13096f175622a8f.js" as="script"><link rel="preload" href="/_nuxt/9506e7817e9ae31dd54c.js" as="script"><link rel="preload" href="/_nuxt/f2c486adc1837faf0e2f.js" as="script"><style data-vue-ssr-id="2d79f4b2:0 2d79f4b2:1 3191d5ad:0">@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700);.replace{overflow:hidden;text-indent:100%;white-space:nowrap}.center{text-align:center}.full-width{margin:f0;padding:0}.full-width .row{margin:0;padding:0}button,input,keygen,select,textarea{outline:0;box-shadow:none!important;border-radius:0}select::-ms-expand{display:none}select{text-indent:.01px;text-overflow:"";-webkit-appearance:none}*,.breadcrumbs,a,button,dl,h1,h2,h3,h4,h5,input,label,li,ol,p,select,submit,table,td,th,tr,ul{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}.btn{transition:box-shadow,.28s,cubic-bezier(.4,0,.2,1);border-radius:4px}.btn:hover{box-shadow:0 10px 15px rgba(0,0,0,.28),0 15px 60px rgba(0,0,0,.18)}.no-shadow{box-shadow:none}a:focus{text-decoration:none!important}body{background:#fff;color:#515151;font-family:Lato,san-serif}.anchor-text:before{display:block;visibility:hidden;margin-top:-100px;height:100px;content:" "}.strikethrough{text-decoration:line-through}header{height:120px;background-color:#f5f5f5}@media (max-width:767px){header{height:80px}}header .logo{float:left;margin-top:32px;margin-right:32px;padding-left:90px;width:77px;height:57px;background-repeat:no-repeat;color:#616161;text-transform:uppercase;font-weight:900;line-height:57px;cursor:pointer;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE0AAAA5CAYAAABzuqZnAAAC5ElEQVR4AdXaBWgcQRQG4BffTd2xInWs7u1uzuquSN0V12I1tLhT3KUuSA13itfd3V3vXidl6RD/2QnN/A/+nK98N8O+4SL/szSS0RrLRZP+zttaJtUay0mTDcJXOJjJWxM1uWPhUoJFcjrZVokeDgBTFA4AU344HAyGA8D44XAwHA4A44fDwHA4AIwfDgYD4AAwfjgYDIDT+b27FLM1dzUug7dBBweDAXCvpvTu8iIKXrzLhvo7H6orHD8YAHdnUvWj61NCfRSF+i4T6q9cwA3nAFbUWPaYvG7rvT+nlumViTX6Dy5bq7+ajrjzJsdxOE6wNWJKszIChbvcAK7BVD2vyyTUzVJFAOcAZsvCpRhxxWzNg3owSYoFzgHMVpoR9zIKXmmhRzex5Q5HAtYQLpJPCNy9yTVP3zYEc4cjArONa0bmJnBf29xmLHcbNsDucHxgsZxKMHagcCZ32h+ODcyEEM4DMB/hPADDF98W7pP3cB6A2WRkoW1HvIfzACzp9MUUE5wHYLYo4HwCo4DzC4wAzi8wAjgGMK/gmMC8gdNIdkEnGcvTNg8gL0OQk0my0/HfEi6AX/TyNreXkZWgwVlVKZP60jrZl+LXItdRUDLZCBjByzB8ZtiqRzX5lWpmMMB5BOYBXCwbWMAI4AjAfISjAPMJzkswYCf7OxJOIzlMBOYBXJ1sNpmlsXwnAPNjqgJwXoERwBGAeQbHA+YLnAdgPlwcqib8jsp+4FdVQrD2HHE6vV+nF1OD53enBGrgFIcjA3OHs41rKVt97X22Vh9FoTrAOYHRwNlOv0yLuUD/wsUp4BzBeOByMrDh0sjCPUwx4qjAHC4OP+39luDCkkZln0C43wRg+IjDY+E+ZGtLb+Oag2g74g7GD1fUbPUBvI/jB8Ph8MU3AscPBsMBYDgcPxgOB4DhcPxgKBwEBsLxgwFwMBgAxw8GwMFgABw/GACHg2Fw/GDAymFUu20rI8M6AuwPQG4HjPUM7CsAAAAASUVORK5CYII=)}@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:2dppx),only screen and (min-resolution:192dpi){header .logo{background-image:url(/_nuxt/img/be8f58c.png);background-size:77px 57px}}@media (max-width:767px){header .logo{margin-top:22px;padding:0 0 0 52px;width:44px;height:33px;font-size:22px;line-height:33px;background-size:contain;background-repeat:no-repeat}}header .github{float:right;margin-top:36px;width:149px;height:48px;background-image:url(/_nuxt/img/22d82fa.png)}@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:2dppx),only screen and (min-resolution:192dpi){header .github{background-image:url(/_nuxt/img/63e0c5b.png);background-size:149px 48px}}@media (max-width:767px){header .github{margin-top:28px;width:77px;height:24px;background-size:contain;background-repeat:no-repeat}}footer{min-height:165px;background-color:#161718}footer,footer .container{position:relative;z-index:100}footer .container{height:165px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAACkBAMAAABY/3ItAAAAElBMVEUWFxgeHyApKisqKywnKCkbHB0Got6vAAAAHklEQVQoU2NgGAWDBDAKAgkWof9AQhHEAnFHwSAEAELyAWKZEss5AAAAAElFTkSuQmCC) repeat-x;background-color:#161718}footer .container .inner{position:relative;z-index:100;width:100%;height:165px;background:url(/_nuxt/img/ebd1836.png) no-repeat 50%;background-size:92px 36px}footer .container p{position:absolute;top:75px;left:0;margin:0;padding-right:40px;padding-left:20px;background-color:#161718;text-align:left;font-size:12px}footer .container p.right{right:0;left:auto;margin-right:-15px;padding-right:20px;padding-left:40px}footer .container p.left{margin-left:-15px}footer .container p .contact-item{margin-left:60px}footer .container p .phone{margin-right:60px}footer .container p .copyright{color:#757575}@media (max-width:767px){footer .container .small-date{top:110px;padding:0;width:100%;text-align:center}}footer .container .gc-cs-link,footer .container a{color:#555;text-decoration:none}footer .container .social{position:relative}footer .container .twitter{float:right;width:20px;height:16px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAQAAAC8EZeQAAAA30lEQVR4AX3KsSsAYRzG8WdAGViUJLKqsxgwkKLv3yChSMruL/AHGHXZLBaL0i2XSZnkBimZlLrIoKwkfuru3rze696+0/P0ET0MoVbr3GP8kDPJIPtMiTFeWAnYJubik5ILEjFdzR2PDfCF+XHLqphoxjlzDUywoEMkxIk7yNhjno2AvSEkRlnmAYv0VMOED8oovKqhuMaiHTg4QhGFMw6KRS472R36g9tYZws+FEcdLEUOuoY5brEcuUQvQoyzxk3ATpEPZ8l4x4Ke2UV+oo8lUgpeK/DNI2ds0Y/+9wv9RhaMLlFS/QAAAABJRU5ErkJggg==) no-repeat 50%;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAQAAAC8EZeQAAAA30lEQVR4AX3KsSsAYRzG8WdAGViUJLKqsxgwkKLv3yChSMruL/AHGHXZLBaL0i2XSZnkBimZlLrIoKwkfuru3rze696+0/P0ET0MoVbr3GP8kDPJIPtMiTFeWAnYJubik5ILEjFdzR2PDfCF+XHLqphoxjlzDUywoEMkxIk7yNhjno2AvSEkRlnmAYv0VMOED8oovKqhuMaiHTg4QhGFMw6KRS472R36g9tYZws+FEcdLEUOuoY5brEcuUQvQoyzxk3ATpEPZ8l4x4Ke2UV+oo8lUgpeK/DNI2ds0Y/+9wv9RhaMLlFS/QAAAABJRU5ErkJggg==)}@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:2dppx),only screen and (min-resolution:192dpi){footer .container .twitter{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAgCAQAAADKpPKLAAAB3UlEQVR4AaXTX2jNYRzH8Y85LrRiLlys1aldUYxZUiv/Lt7J5EL+pOiUG01xo7QmK21NSHFBJDcrjVIk/87cEyVbSSk1stmNOrlgts7w1XNzzvm1357n/DzP+/Jbr/o+T4+yHVq5yQcMV4kR9qJKefbQIFy76EDhKPANS8YwQmziNGXOskiIHJOUWIECHcdSe8sLDOMdQkKswjBGySNP7Zi3EZaSY6sQuzFcn1nnAR97sN985Ah9TFEQYn9lMEM3Sq0N84IzGMYVJMSOxPA+7SngMSzYeYSEaGEuMfjLrXnLDwSwMkeRS7ieYvO6QRdNFfBEABxHteBGLLUp3nCZbrZzKQBOsKwKNoTvKNgoS6rgTk6yknP8jACLqAoewCjxkl8R4O1asJU5LLLeWlA8igY3J8GOSO4LjUlQnIkCr6Ek6LoQv3ASFG0M8QPL3BhKAzs5zCGKWOYOpoARDzOG0kEx+F/gloVB8TAzdxH5wBzXM3GvyflB1zbu8Z4JLNgkeRQGXYsZCnKfaEH1gZ3cpRz8bOtRGGxmH0+wYEWaUHpiDafooY8BHlDCgk3TjxZONDPId6zOhlmNfAlXIwWeM+ulvtLPBhRKVFtLL3d4xTR/Ksws4zzjKl0sR/X0Dw8xUpbUd6osAAAAAElFTkSuQmCC);background-size:100% 100%}}footer .container .facebook{float:right;margin-left:15px;width:20px;height:20px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAQAAAAngNWGAAAA4klEQVR4AbXTMUrFQBCA4VG0CSSieAIFEbyChcUPYmGt2AnpggcRW1s9gJewtRN8F7AIpJTdWCQgxGEIjyUZMI381Q7fKybMExEqPghpRIakTxXKSganlgeuubJe9V0KjcPe2EbW3emkEToHniIT2Alxxjp2DOzxyLP2rrMohBn8ITN4mcyCB1sKg+frH7rwhgM2DWaccMQhTz7cRya9+BByNgxsUWi71D78piY3eEbQWn8Za/w8F39tHcat+W8YF8Eo9Itg753ZF2IdJ7PGP9xbO9j7ZFIKQsXK/yOM75UK+QV9/5Oys3IQZwAAAABJRU5ErkJggg==) no-repeat 50%;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAQAAAAngNWGAAAA4klEQVR4AbXTMUrFQBCA4VG0CSSieAIFEbyChcUPYmGt2AnpggcRW1s9gJewtRN8F7AIpJTdWCQgxGEIjyUZMI381Q7fKybMExEqPghpRIakTxXKSganlgeuubJe9V0KjcPe2EbW3emkEToHniIT2Alxxjp2DOzxyLP2rrMohBn8ITN4mcyCB1sKg+frH7rwhgM2DWaccMQhTz7cRya9+BByNgxsUWi71D78piY3eEbQWn8Za/w8F39tHcat+W8YF8Eo9Itg753ZF2IdJ7PGP9xbO9j7ZFIKQsXK/yOM75UK+QV9/5Oys3IQZwAAAABJRU5ErkJggg==)}@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:2dppx),only screen and (min-resolution:192dpi){footer .container .facebook{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAQAAAAm93DmAAABXUlEQVR4Ae3XMUsCYRzH8X/Q0BJ4LTU2WaPg0CCVw3eMpmhsCVoiaGtSiagcwk1u7EU01NZ7OEehN2A9d0YapGGKp/WI5fOct+V91x+f6Tl4Hul/pCnhoSLmUSKN9BJ65ejEUA5B7Lk37ilT0CrSHJBCygJrcMs6MqZauEgJrjFXJYmMzUGFG1fwDLlPMshE0BN8Q/AOMQB9ITAED5E/eg5XgaCMuDYbiNYa2WE7vIY7ZQrWWda4bdr6whZ8YVEDr+lMByocDTyfFmyMgBfTgh8saeBldPCGTSDDvAausks2bIs93s3BfWRiSVrm4JEBeEInXrBsAx4YgA824ClOtwRzGrGAM2yFqg3YQHV7IqGBZ6hh9SjnsDVyDq/i/vUK/wycgTMwiBUMBD9W0Be8WEFPcGMFXdMLZw3ROv5llxKEvAHYpEjhR49jV3lE0EnrdG4A9p8VFVTEKt/Pii/5KE0mW7NtWQAAAABJRU5ErkJggg==);background-size:100% 100%}}footer .container .site-by{text-align:center;display:block;position:relative;top:110px;font-size:12px}.home section.hero h1{line-height:1.1em}.home section.hero h2{margin:0 auto;max-width:800px;color:#616161;font-weight:300;font-size:1.5em;line-height:1.25em}.home .diagram-wrap{margin:40px auto 0;max-width:939px}.home .feature-github{background-color:#ff5722;padding:60px 0;color:#fff}.home .feature-github .diagram-wrap{padding:20px 40px}.home .feature-github h4,.home .feature-github p{opacity:.5}.home .feature-github h4{margin-top:0;text-transform:uppercase}@media (max-width:1200px){.home .feature-github{padding:1px 0 60px}}.home section.proof-works h2{margin-bottom:30px}.home section.proof-works h2 span{color:#ff5722}.home section.proof-works p{margin:0 auto;max-width:680px;font-size:1.429em;line-height:1.8em}.home section.proof-works img.whitepaper{margin:40px auto;width:170px;height:170px}.home section.proof-what{background-color:#f5f5f5}.home section.proof-what h2{margin-bottom:30px}.home section.proof-what h2 span{color:#ff5722}.home section.proof-what p{margin:0 auto;max-width:680px;font-size:1.429em;line-height:1.8em}.home section.proof-what img.whitepaper{margin:40px auto;width:170px;height:170px}.home section.proof-tools .text-block{background-color:#fafafa;border:1px solid #bdbdbd;border-radius:8px;padding:43px 46px;font-weight:300;position:relative}.home section.proof-tools h2{margin-top:0;margin-bottom:10px;color:#ff5722}.home section.proof-tools .subhead{margin:20px 0 0 20px;font-size:1.143em;line-height:1.375em}.home section.proof-tools .btn{position:relative;bottom:0;margin-top:20px;width:75%;background-color:#0288d1;border-color:#0288d1}@media (max-width:1200px){.home section.proof-tools .btn{width:100%}}@media (max-width:767px){.home section.proof-tools .text-block{padding:20px;margin:40px 20px 20px}.home section.proof-tools .btn{width:80%;font-size:1em}}.home section.proof-versions{padding:0 0 30px;text-align:left}.home section.proof-versions h2{margin-top:0;margin-bottom:10px;color:#ff5722;text-align:left}.home section.proof-versions small{display:block;font-style:italic;color:#9e9e9e}.home section.proof-verify{background-color:#f5f5f5}.home section.proof-verify h2{margin-bottom:30px}.home section.proof-verify h2 span{color:#ff5722}.home section.proof-verify p{margin:0 auto;max-width:680px;font-size:1.429em;line-height:1.8em}.home .table-section-header .required{font-style:italic;font-weight:400;color:#9e9e9e}.docs-content{padding:0;color:#616161}.docs-content section{padding:30px;border-bottom:1px solid #eee}@media (max-width:767px){.docs-content section{padding:30px 15px}}.docs-content h2{margin-top:0;margin-bottom:30px;color:#0288d1;font-size:2.143em}.docs-content h2.first{margin-top:10px}.docs-content h3{margin-top:30px;padding-bottom:0;color:#0288d1;text-align:left;text-transform:uppercase;font-size:1.286em}.docs-content h4{margin:30px 0}.docs-content p{margin-bottom:18px;line-height:24px}.docs-content pre{padding:20px;text-align:left;margin:0 0 10px;font-size:13px;line-height:1.428571429;word-break:break-all;word-wrap:break-word;color:#333;background-color:#f5f5f5;border:1px solid #ccc;border-radius:4px}.docs-content em{color:#0277bd}.docs-content table{width:100%;text-align:left}.docs-content table .table-section-header,.docs-content table th{padding:10px 20px;border:1px solid #e0e0e0;background-color:#f5f5f5;font-weight:600;font-size:1em}.docs-content table td{padding:10px 20px;border:1px solid #e0e0e0}.docs-content table.multi-level th{border:1px solid #90a4ae;background-color:#b0bec5;color:#fff}.docs-content table.multi-level .sublevel td:first-of-type{padding-left:30px}.docs-content .hljs{background-color:#f5f5f5}.docs-content .callout{margin-bottom:30px;padding:20px;border-left:4px solid #29b6f6;background-color:#f4f8fa}.docs-content .callout h3{margin:0 0 10px;padding:0;border:none;color:#03a9f4;font-weight:600;font-size:1.143em}.docs-content .callout pre{margin:10px 0;background-color:#fff}.docs-content .callout p{margin:0}.docs-content .response-code{display:block;font-weight:600;font-size:.929em}.docs-content .code-block-comment{display:block;margin-top:-10px}.docs-content .status-icon{display:inline-block;margin-bottom:2px;width:6px;height:6px;border-radius:10px}.docs-content .status-icon.success{background-color:#4caf50}.docs-content .status-icon.failure{background-color:#d32f2f}.docs-content .screen-example{padding:20px 0}@media (min-width:1px){.docs-content h2:before,.docs-content h3:before{display:block;visibility:hidden;margin-top:-100px;height:100px;content:" "}}.syntax-highlighted-container pre[class*=language-]>code{font-size:1.25em;border-left:none;box-shadow:0 0 0 1px #e0e0e0;background-image:linear-gradient(transparent 50%,#f5f5f5 0)}.syntax-highlighted-container pre[class*=language-]>code .token.property{color:#0288d1}.syntax-highlighted-container pre[class*=language-]>code .token.string{color:#616161}.syntax-highlighted-container pre[class*=language-]>code .token.number{color:#0288d1;font-weight:bolder}.syntax-highlighted-container pre[class*=language-]>code .token.operator{color:#212121;background:0 0}@media (max-width:767px){.syntax-highlighted-container pre[class*=language-]>code{font-size:1.1em}}.syntax-highlighted-container pre[class*=language-]:after,.syntax-highlighted-container pre[class*=language-]:before{box-shadow:none}.demo{max-width:760px;margin:32px auto}.demo section{padding:0}.demo h3{font-size:12px}.error-page{position:absolute;display:flex;flex-direction:column;height:calc(100% - 120px);width:100%;padding-top:120px}.default-error footer{position:absolute;width:100%;bottom:0}section{padding:80px 0;text-align:center}@media (max-width:767px){section{padding:30px 0}}h1{margin:0 auto;padding-bottom:30px;max-width:750px;color:#ff5722;text-align:center;font-size:2.286em}@media (max-width:767px){h1{padding:30px 0 24px;font-size:2em}}.primary-CTA{padding:16px 32px;background-color:#4caf50;color:#fff;text-transform:uppercase;font-size:1em}.primary-CTA:hover{background-color:#00c853;color:#fff}.container{max-width:1170px}body{font-size:14px}h2{margin-top:1rem;margin-bottom:.5rem;font-size:1.9rem}a{color:#337ab7}p{margin-bottom:.5rem}.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#fff;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}</style>
   </head>
   <body>
-    <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div><div class="container"><div><svg width="245" height="180" viewBox="0 0 452 342" xmlns="http://www.w3.org/2000/svg" class="NuxtLogo"><g fill="none" fill-rule="evenodd"><path d="M139 330l-1-2c-2-4-2-8-1-13H29L189 31l67 121 22-16-67-121c-1-2-9-14-22-14-6 0-15 2-22 15L5 303c-1 3-8 16-2 27 4 6 10 12 24 12h136c-14 0-21-6-24-12z" fill="#00C58E"></path> <path d="M447 304L317 70c-2-2-9-15-22-15-6 0-15 3-22 15l-17 28v54l39-67 129 230h-49a23 23 0 0 1-2 14l-1 1c-6 11-21 12-23 12h76c3 0 17-1 24-12 3-5 5-14-2-26z" fill="#108775"></path> <path d="M376 330v-1l1-2c1-4 2-8 1-12l-4-12-102-178-15-27h-1l-15 27-102 178-4 12a24 24 0 0 0 2 15c4 6 10 12 24 12h190c3 0 18-1 25-12zM256 152l93 163H163l93-163z" fill="#2F495E" fill-rule="nonzero"></path></g></svg> <h1 class="title">
-      chainpoint-org
-    </h1> <h2 class="subtitle">
-      The chainpoint.org static website
-    </h2> <div class="links"><a href="https://nuxtjs.org/" target="_blank" class="button--green">
-        Documentation
-      </a> <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">
-        GitHub
-      </a></div></div></div></div></div></div><script>window.__NUXT__={layout:"default",data:[{}],fetch:[],error:null,serverRendered:!0,routePath:"/"}</script><script src="/_nuxt/af53aa1fedc328b8795c.js" defer></script><script src="/_nuxt/95e4fa65d098762380e5.js" defer></script><script src="/_nuxt/1a11e79d27c38018a8f1.js" defer></script><script src="/_nuxt/1f9761582784666146ca.js" defer></script>
+    <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div><header><div class="container"><a href="/" class="nuxt-link-exact-active nuxt-link-active"><h1 to="/" class="logo">Chainpoint</h1></a> <a href="http://github.com/chainpoint" target="_blank" rel="noopener noreferrer" class="github"></a></div></header> <div class="home"><section class="hero"><div class="container"><div class="row"><div class="col-12"><h1>Chainpoint is an open standard for creating a timestamp proof of any data, file, or process.</h1> <h2>Anchor an unlimited amount of data to the Bitcoin blockchain. Verify the integrity and existence of data without relying on a trusted third-party.</h2> <br> <div class="diagram-wrap"><img src="/images/diagram.png" alt="/images/diagram.png" class="img-fluid diagram"></div></div></div></div></section> <section class="feature-github"><div class="container"><div class="diagram-wrap"><img src="/images/company-logos@2x.png" alt="/images/company-logos@2x.png" class="img-fluid diagram"></div> <p>...plus hundreds of others use Chainpoint.</p></div></section> <section class="proof-works"><div class="container"><div class="row"><div class="col-12"><h2>How does <span>Chainpoint</span> work?</h2> <p>
+          Chainpoint links a
+          <a href="https://en.wikipedia.org/wiki/Cryptographic_hash_function" target="_blank" rel="noopener noreferrer">hash</a> of your
+          data to a blockchain and returns a timestamp proof. A Chainpoint Node receives hashes which are aggregated
+          together using a <a href="https://en.wikipedia.org/wiki/Merkle_tree" target="_blank" rel="noopener noreferrer">Merkle tree</a>.
+          The root of this tree is published in a Bitcoin transaction. The final Chainpoint proof defines a set of
+          operations that cryptographically link your data to the Bitcoin blockchain.
+        </p></div></div></div></section> <section class="proof-what"><div class="container"><div class="row"><div class="col-12"><h2>What is a <span>Chainpoint Proof?</span></h2> <p class="subhead">
+          A Chainpoint proof contains the information to verify that the hash of some data is anchored to a
+          blockchain. It proves the data existed at time it was anchored. Chainpoint proofs can be verified without
+          reliance on a trusted third party.
+        </p> <br> <img src="/images/whitepaper@2x.png" alt="Chainpoint whitepaper" class="img-fluid whitepaper"></div></div></div></section> <section class="proof-tools"><div class="container"><div class="row"><div class="col-md-6"><div class="text-block"><h2>Chainpoint Node API</h2> <p class="subhead">
+            Chainpoint Nodes have an HTTP API. You can interact with Nodes using any programming language that
+            supports HTTP calls. Thousands of Chainpoint Nodes operate as part of a global network.
+          </p> <a href="https://github.com/chainpoint/chainpoint-node/wiki/Chainpoint-Node-API:-How-to-Create-a-Chainpoint-Proof" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Chainpoint Node API Tutorial</a></div></div> <div class="col-md-6"><div class="text-block"><h2>Chainpoint JS Client</h2> <p class="subhead">
+            This Chainpoint javascript client can be used in both Browser and Node.js based Javascript applications
+            using callback functions, Promises (using .then, .catch), or Promises (using async/await) functional
+            styles.
+          </p> <a href="https://github.com/chainpoint/chainpoint-client-js" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Chainpoint JS Client</a></div></div></div></div></section> <section class="proof-versions"><div class="container"><div class="language-json syntax-highlighted-container"><div class="row"><div class="col-12"><h2>Chainpoint Proof Versions</h2> <p class="subhead">
+            The third major version of the Chainpoint proof specification is currently in testing and scheduled for
+            release soon. A
+            <a href="https://github.com/chainpoint/chainpoint-proof-json-schema" target="_blank" rel="noopener noreferrer">JSON schema validator</a>
+            is available.
+          </p> <div class="docs docs-content"><ul class="nav nav-tabs"><li class="nav-item"><a href="#v3x" data-toggle="tab" class="nav-link active">
+                  Version 3.0
+                </a></li> <li class="nav-item"><a href="#v2x" data-toggle="tab" class="nav-link">
+                  Version 2.0
+                </a></li> <li class="nav-item"><a href="#v1x" data-toggle="tab" class="nav-link">
+                  Version 1.x
+                </a></li></ul> <div class="tab-content"><div id="v3x" class="tab-pane fade in active show"><table class="multi-level"><thead><tr><th>Name</th> <th>Description</th></tr></thead> <tbody><tr><td>
+                        @context
+                        <br> <small>string, required</small></td> <td>the JSON-LD context for the proof</td></tr> <tr><td>
+                        type
+                        <small>string, required</small></td> <td>the JSON-LD type definition</td></tr> <tr><td>
+                        hash
+                        <small>string, required</small></td> <td>
+                        hash value between 40 and 128 hex characters. Must be even length.
+                      </td></tr> <tr><td>
+                        hash_id_node
+                        <small>string, required</small></td> <td>
+                        a
+                        <a href="https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_1_.28date-time_and_MAC_address.29" target="_blank" rel="noopener noreferrer">Version 1 UUID</a>
+                        with embedded timestamp and 5 byte BLAKE2s hash of the input data. Timestamp represents Node
+                        server time (UTC) of hash submission.
+                      </td></tr> <tr><td>
+                        hash_submitted_node_at
+                        <small>string, required</small></td> <td>
+                        Human readable
+                        <a href="https://en.wikipedia.org/wiki/ISO_8601" target="_blank" rel="noopener noreferrer">ISO 8601</a>
+                        timestamp extracted from time embedded in the hash_id_node
+                      </td></tr> <tr><td>
+                        hash_id_core
+                        <small>string, required</small></td> <td>
+                        a
+                        <a href="https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_1_.28date-time_and_MAC_address.29" target="_blank" rel="noopener noreferrer">Version 1 UUID</a>
+                        with embedded timestamp and 5 byte BLAKE2s hash of the input data. Timestamp represents Core
+                        server time (UTC) of hash submission.
+                      </td></tr> <tr><td>
+                        hash_submitted_core_at
+                        <small>string, required</small></td> <td>
+                        Human readable
+                        <a href="https://en.wikipedia.org/wiki/ISO_8601" target="_blank" rel="noopener noreferrer">ISO 8601</a>
+                        timestamp extracted from time embedded in the hash_id_core
+                      </td></tr> <tr><td colspan="2" class="table-section-header">
+                        branches - an array of branch objects. Branches can be nested without limit and MUST be
+                        traversed only after executing 'ops'.
+                        <span class="required">
+                          (required only at root)
+                        </span></td></tr> <tr class="sublevel"><td>
+                        label
+                        <small>string, optional</small></td> <td>text string representing the branch name</td></tr> <tr class="sublevel"><td>
+                        ops
+                        <small>array, optional</small></td> <td>
+                        an array of operations objects. Operations are performed in sequence to arrive at an
+                        intermediate hash prior to entering a nested branch.
+                      </td></tr> <tr class="sublevel"><td>
+                        branches
+                        <small>array, optional</small></td> <td>
+                        nested array of branch objects. Each branch contains ops; labels and additional nested
+                        branches are optional.
+                      </td></tr> <tr><td colspan="2" class="table-section-header">
+                        ops - an array of operation objects
+                        <span class="required"> (required under every 'branches' object) </span></td></tr> <tr class="sublevel"><td>l<small>string, optional</small></td> <td>
+                        left concatenate a value. If the value is a hexadecimal string, it will be read as a
+                        hexadecimal byte array, otherwise the string will be converted to its byte value assuming
+                        UTF-8 encoding.
+                      </td></tr> <tr class="sublevel"><td>r<small>string, optional</small></td> <td>
+                        right concatenate a value. If the value is a hexadecimal string, it will be read as a
+                        hexadecimal byte array, otherwise the string will be converted to its byte value assuming
+                        UTF-8 encoding.
+                      </td></tr> <tr class="sublevel"><td>
+                        op
+                        <small>string, optional</small></td> <td>
+                        an operation to perform on the current value combined with a previous 'l' or 'r' operation.
+                        Current operations: 'sha-224', 'sha-256', 'sha-384', 'sha-512', 'sha3-224', 'sha3-256',
+                        'sha3-384', 'sha3-512', or the special purpose 'sha-256-x2' which applies 'sha-256' twice.
+                      </td></tr> <tr><td colspan="2" class="table-section-header">
+                        anchors - an array of anchor objects
+                        <span class="required">
+                          (required under every 'ops' object).
+                        </span></td></tr> <tr class="sublevel"><td>
+                        type
+                        <small>string, required</small></td> <td>
+                        one of 'cal' (Calendar), 'btc' (Bitcoin), 'tcal' (Testnet Calendar), 'tbtc' (Testnet Bitcoin),
+                        or 'eth' (Ethereum) anchor types
+                      </td></tr> <tr class="sublevel"><td>
+                        anchor_id
+                        <small>string, required</small></td> <td>
+                        an identifier used to look up embedded anchor data. e.g. a Bitcoin transaction or block ID.
+                      </td></tr> <tr class="sublevel"><td>
+                        uris
+                        <small>array, optional</small></td> <td>
+                        an array of special purpose string URI's, each of which can be used to lookup and retrieve the
+                        exact hash resource required to validate this anchor. The URI MUST return only a Hexadecimal
+                        hash value as a string. The URI MUST also contain the 'anchor_id' value to lookup the URI
+                        resource. This strict requirement is to allow automated clients to retrieve and validate
+                        intermediate hashes when verifying a proof. The body value returned by the URI MUST be of even
+                        length and match the regex [a-fA-F0-9].
+                      </td></tr></tbody></table> <h3>Example</h3> <div><pre><code>{
+  "@context": "https://w3id.org/chainpoint/v3",
+  "type": "Chainpoint",
+  "hash": "ffff27222fe366d0b8988b7312c6ba60ee422418d92b62cdcb71fe2991ee7391",
+  "hash_id_node": "66a34bd0-f4e7-11e7-a52b-016a36a9d789",
+  "hash_submitted_node_at": "2018-01-09T02:47:15Z",
+  "hash_id_core": "66bd6380-f4e7-11e7-895d-0176dc2220aa",
+  "hash_submitted_core_at": "2018-01-09T02:47:15Z",
+  "branches": [
+    {
+      "label": "cal_anchor_branch",
+      "ops": [
+        {
+          "l": "node_id:66a34bd0-f4e7-11e7-a52b-016a36a9d789"
+        },
+        {
+          "op": "sha-256"
+        },
+        {
+          "l": "core_id:66bd6380-f4e7-11e7-895d-0176dc2220aa"
+        },
+        {
+          "op": "sha-256"
+        },
+        {
+          "l": "nist:1515465960:1041862e0f3987dca3aab3a91767d2a2ebbf251451b740879adb0926f0ee325e608d5c311e3f64a002dc5266337efc34ebdbf0032c7a253a8fbb64c1b0fb625f"
+        },
+        {
+          "op": "sha-256"
+        },
+        {
+          "r": "725a969557e64600aa2bbe50e75fc12dd913620144660836441a97f6d36babf9"
+        },
+        {
+          "op": "sha-256"
+        },
+        {
+          "l": "f21aac3945aee46d0cd888faff3364cc7640f88c9bdfefb1072a4bb82c6702b6"
+        },
+        {
+          "op": "sha-256"
+        },
+        {
+          "r": "c59058f17b93b609f4b49366c8808099a715836b6c08b45a1dc6ac762820ae27"
+        },
+        {
+          "op": "sha-256"
+        },
+        {
+          "l": "985635:1515466042:1:https://a.chainpoint.org:cal:985635"
+        },
+        {
+          "r": "0e20cff025777bec277cd3a0599eaf5efbeb1ea7adf5ec5a39126a77fa57f837"
+        },
+        {
+          "op": "sha-256"
+        },
+        {
+          "anchors": [
+            {
+              "type": "cal",
+              "anchor_id": "985635",
+              "uris": [
+                "https://a.chainpoint.org/calendar/985635/hash"
+              ]
+            }
+          ]
+        }
+      ],
+      "branches": [
+        {
+          "label": "btc_anchor_branch",
+          "ops": [
+            {
+              "l": "0e20cff025777bec277cd3a0599eaf5efbeb1ea7adf5ec5a39126a77fa57f837"
+            },
+            {
+              "op": "sha-256"
+            },
+            {
+              "r": "9d7e8027c869d7446db8f2a5f371d967f5ba9d3a88f1703a1674f57963d3448d"
+            },
+            {
+              "op": "sha-256"
+            },
+            {
+              "l": "28c6aa4416d1b0aa474bc52fd32175ec7d15980772874617b5000aff043ac6cb"
+            },
+            {
+              "op": "sha-256"
+            },
+            {
+              "r": "4c297218f2015d4f84a6561ca06c1c28b2f6cca1500315ef6d4944ad6822b974"
+            },
+            {
+              "op": "sha-256"
+            },
+            {
+              "r": "f6a15401357e6e177583dbf5aa82b5ed5ae1043d1bda3faba88ca0fdb90e01c0"
+            },
+            {
+              "op": "sha-256"
+            },
+            {
+              "r": "ae9137386a03fdcdb9a1554a6e4fcd9697efed17caaa0221ce35e12bfc9fbf2d"
+            },
+            {
+              "op": "sha-256"
+            },
+            {
+              "l": "fa5643778470a9175644affe35e0177a13b2446d73182be0963d53b1d09214ab"
+            },
+            {
+              "op": "sha-256"
+            },
+            {
+              "l": "01000000013d9bfb8c553b3a7c9c030ea9b0f47c7e4c457e47a1ad2d9c751c8eb0e02fee70010000006a47304402201eac07288c3881f354564bb9da0d8267174cdc9e8c42ca82c2129a0416c806220220104e9932a89259472c84be7722f77324efa43a65ca79dd5bb8b6aab0ac9788000121032695ca0d3c0f7f8082a6ef66e7127e48d4eb99bef86be99432b897c485962fa8ffffffff020000000000000000226a20"
+            },
+            {
+              "r": "ca694202000000001976a9149f1f4038857beedd34cc5ba9f26ac7a20c04d51988ac00000000"
+            },
+            {
+              "op": "sha-256-x2"
+            },
+            {
+              "l": "aa7008cdf722a674cc3532727ee39e9ebc810fb047cc7f4edc302705fcee3985"
+            },
+            {
+              "op": "sha-256-x2"
+            },
+            {
+              "l": "f0fae6f1dc00b678596e230584430b95bad9c1439f03293250b5a9bfb993b500"
+            },
+            {
+              "op": "sha-256-x2"
+            },
+            {
+              "l": "a79b18abcde7db6554e95c14ed544231f59670318033fc6e2e28142341ef223a"
+            },
+            {
+              "op": "sha-256-x2"
+            },
+            {
+              "l": "12105db21e488b1d8eb44fbce8bc5e3fcb7becc35fe4d9d30696ef7baff853eb"
+            },
+            {
+              "op": "sha-256-x2"
+            },
+            {
+              "l": "0ce1848d74ea8705858e468e045e7891f2b5f9c8ed37eeaa00be51846460294e"
+            },
+            {
+              "op": "sha-256-x2"
+            },
+            {
+              "l": "52af6b21e7b370f680e984b8a1e34ffdb45770d3cf599357ce245bad8c820d50"
+            },
+            {
+              "op": "sha-256-x2"
+            },
+            {
+              "l": "bb5bd9669a3bc3202e460091185f8103863da4263f417e85479fc3bb40a882d1"
+            },
+            {
+              "op": "sha-256-x2"
+            },
+            {
+              "l": "25bb84e8a36904224182b28adb04956d1251d4312b4e975c4ee3ff74a50bce1d"
+            },
+            {
+              "op": "sha-256-x2"
+            },
+            {
+              "l": "a55b52dc8079febc3a8b673ee123829c176aca7dabb330299afdeac2bfea16d6"
+            },
+            {
+              "op": "sha-256-x2"
+            },
+            {
+              "r": "3bf18e7d4ffaab9988d14b1402fe9817ea6c50fa626dd78bcaba18a9b16184f1"
+            },
+            {
+              "op": "sha-256-x2"
+            },
+            {
+              "r": "af9ae1010333cf6e5ea124e5827a8bf0f40f68ab9a5bf283f93f744046b07a5d"
+            },
+            {
+              "op": "sha-256-x2"
+            },
+            {
+              "anchors": [
+                {
+                  "type": "btc",
+                  "anchor_id": "503275",
+                  "uris": [
+                    "https://a.chainpoint.org/calendar/985814/data"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}</code></pre></div></div> <div id="v2x" class="tab-pane fade"><table class="multi-level"><thead><tr><th>Name</th> <th>Description</th></tr></thead> <tbody><tr><td>@context</td> <td>the JSON-LD context for the receipt</td></tr> <tr><td>type</td> <td>
+                        receipt type definition specifying hash method and version
+                      </td></tr> <tr><td>targetHash</td> <td>hash value being anchored to the blockchain</td></tr> <tr><td>merkleRoot</td> <td>
+                        merkle tree root value that is anchored to the blockchain
+                      </td></tr> <tr><td>proof</td> <td>
+                        merkle proof establishing link from the targetHash to the merkleRoot
+                      </td></tr> <tr><td colspan="2" class="table-section-header">
+                        anchors
+                      </td></tr> <tr class="sublevel"><td>type</td> <td>
+                        anchor type definition specifying anchoring method
+                      </td></tr> <tr class="sublevel"><td>sourceId</td> <td>
+                        identifier, such as a transaction id, used to locate anchored data
+                      </td></tr></tbody></table> <h3>Example</h3> <div><pre><code>{
+  "@context": "https://w3id.org/chainpoint/v2",
+  "type": "ChainpointSHA256v2",
+  "targetHash": "bdf8c9bdf076d6aff0292a1c9448691d2ae283f2ce41b045355e2c8cb8e85ef2",
+  "merkleRoot": "51296468ea48ddbcc546abb85b935c73058fd8acdb0b953da6aa1ae966581a7a",
+  "proof": [
+    {
+      "left": "bdf8c9bdf076d6aff0292a1c9448691d2ae283f2ce41b045355e2c8cb8e85ef2"
+    },
+    {
+      "left": "cb0dbbedb5ec5363e39be9fc43f56f321e1572cfcf304d26fc67cb6ea2e49faf"
+    },
+    {
+      "right": "cb0dbbedb5ec5363e39be9fc43f56f321e1572cfcf304d26fc67cb6ea2e49faf"
+    }
+  ],
+  "anchors": [
+    {
+      "type": "BTCOpReturn",
+      "sourceId": "f3be82fe1b5d8f18e009cb9a491781289d2e01678311fe2b2e4e84381aafadee"
+    }
+  ]
+}</code></pre></div> <h3>Receipt Types</h3> <p>
+                  Receipt type values indicate the hash type and version of the receipt. The following values are
+                  supported.
+                </p> <table class="multi-level"><thead><tr><th>Type</th> <th>Description</th></tr></thead> <tbody><tr><td>ChainpointSHA224v2</td> <td>Chainpoint 2.0 receipt using SHA-224</td></tr> <tr><td>ChainpointSHA256v2</td> <td>Chainpoint 2.0 receipt using SHA-256</td></tr> <tr><td>ChainpointSHA384v2</td> <td>Chainpoint 2.0 receipt using SHA-384</td></tr> <tr><td>ChainpointSHA512v2</td> <td>Chainpoint 2.0 receipt using SHA-512</td></tr> <tr><td>ChainpointSHA3-224v2</td> <td>Chainpoint 2.0 receipt using SHA3-224</td></tr> <tr><td>ChainpointSHA3-256v2</td> <td>Chainpoint 2.0 receipt using SHA3-256</td></tr> <tr><td>ChainpointSHA3-384v2</td> <td>Chainpoint 2.0 receipt using SHA3-384</td></tr> <tr><td>ChainpointSHA3-512v2</td> <td>Chainpoint 2.0 receipt using SHA3-512</td></tr></tbody></table> <h3>Anchor Types</h3> <p>
+                  Anchor type values indicate the method and location of the anchored data. The following values are
+                  supported. Support for additional methods is planned.
+                </p> <table class="multi-level"><thead><tr><th>Type</th> <th>Description</th></tr></thead> <tbody><tr><td>BTCOpReturn</td> <td>
+                        Anchored to a Bitcoin transaction within an OP_RETURN output.
+                      </td></tr> <tr><td>ETHData</td> <td>
+                        Anchored to an Ethereum transaction within the data field.
+                      </td></tr></tbody></table></div> <div id="v1x" class="tab-pane fade"><table class="multi-level"><thead><tr><th>Name</th> <th>Description</th></tr></thead> <tbody><tr><td colspan="2" class="table-section-header">
+                        Header
+                      </td></tr> <tr class="sublevel"><td>chainpoint_version</td> <td>version of the Chainpoint standard</td></tr> <tr class="sublevel"><td>hash_type</td> <td>
+                        hashing algorithm used to encrypt target data (sha­256)
+                      </td></tr> <tr class="sublevel"><td>merkle_root</td> <td>
+                        root of the Merkle Tree that is published in the blockchain
+                      </td></tr> <tr class="sublevel"><td>tx_id</td> <td>blockchain transaction id</td></tr> <tr class="sublevel"><td>timestamp</td> <td>
+                        non­authoritative Unix timestamp of the target
+                      </td></tr> <tr><td colspan="2" class="table-section-header">
+                        Target
+                      </td></tr> <tr class="sublevel"><td>target_hash</td> <td>
+                        hash of the target that is being recorded in the blockchain
+                      </td></tr> <tr class="sublevel"><td>target_proof</td> <td>
+                        Merkle proof used to prove target_hash is part of Merkle tree
+                      </td></tr> <tr class="sublevel"><td>target_URI (optional)</td> <td>path to the target</td></tr> <tr><td colspan="2" class="table-section-header">
+                        Extra
+                      </td></tr> <tr class="sublevel"><td>custom (optional)</td> <td>array of user defined key value pairs</td></tr></tbody></table> <h3>Example</h3> <div><pre><code>{
+  "header": {
+    "chainpoint_version": "1.1",
+    "hash_type": "SHA-256",
+    "merkle_root": "8dbd52c5ff89b70711b06c143520ef4eb295c51040757c7a4ab56303f0f6b68f",
+    "tx_id": "77d93bce0f0ff76f1a52424f9c0aeb165990dc37a5e3aaf85031a2f6ab2967d1",
+    "timestamp": 1438317621
+  },
+  "target": {
+    "target_hash": "a64f10ca86a880115cc271232dc8577606dc6223cf009a4dd1290cd55b2d6a28",
+    "target_uri ": "https://www.someurl.com/target/id",
+    "target_proof": [
+      {
+        "parent": "ee32ac6eb702c289ba2a932e6562b2c45070121cacb26cabdee433a6cf2086cd",
+        "left": "a64f10ca86a880115cc271232dc8577606dc6223cf009a4dd1290cd55b2d6a28",
+        "right": "f07934733450ba14972b8fbea4c39ac05b0b8e2d8a45ddde9dbe03bb70942b6a"
+      },
+      {
+        "parent": "8dbd52c5ff89b70711b06c143520ef4eb295c51040757c7a4ab56303f0f6b68f",
+        "left": "ee32ac6eb702c289ba2a932e6562b2c45070121cacb26cabdee433a6cf2086cd",
+        "right": "07084efda9cf5488ef9d4f9ad8bca8521581aaa32331b62aeb2fe3e132e62d1a"
+      }
+    ]
+  },
+  "extra": [
+    {
+      "custom_key_1": "value_1"
+    },
+    {
+      "custom_key_2": "value_2"
+    }
+  ]
+}</code></pre></div></div></div></div></div></div></div></div></section> <section class="proof-verify"><div class="container"><div class="row"><div class="col-sm-12"><h2>Verifying <span>Chainpoint Proofs</span></h2> <p class="subhead">
+          Verification confirms that the proof is well formatted, and all proof operations lead to the expected anchor
+          hash on the blockchain. Verification of version 3.x proofs can be performed with the
+          <a href="https://github.com/chainpoint/chainpoint-cli" target="_blank" rel="noopener noreferrer">Chainpoint CLI</a>.
+          Verification of older versions can be performed using the
+          <a href="https://www.npmjs.com/package/chainpoint-validate" target="_blank" rel="noopener noreferrer">chainpoint-validate</a>
+          Javascript package for Node.js.
+        </p></div></div></div></section></div> <footer><div class="container"><div class="inner"><div class="d-none d-sm-block"><p class="left"><span class="copyright">© 2020</span></p></div> <div class="d-none d-sm-block"><p class="right"><span class="social"><a href="https://www.facebook.com/chainpoint" target="_blank" rel="noopener noreferrer" class="facebook"></a> <a href="https://twitter.com/chainpnt" target="_blank" rel="noopener noreferrer" class="twitter"></a></span></p></div> <p class="small-date d-block d-sm-none">© 2020</p> <a href="https://tierion.com" target="_blank" rel="noopener noreferrer" class="site-by d-none d-sm-block">site by Tierion</a></div></div></footer></div></div></div><script>window.__NUXT__={layout:"default",data:[{}],fetch:[],error:null,serverRendered:!0,routePath:"/"}</script><script src="/_nuxt/48a78d37505508fbf6db.js" defer></script><script src="/_nuxt/f2c486adc1837faf0e2f.js" defer></script><script src="/_nuxt/5a3ba13096f175622a8f.js" defer></script><script src="/_nuxt/9506e7817e9ae31dd54c.js" defer></script>
   </body>
 </html>

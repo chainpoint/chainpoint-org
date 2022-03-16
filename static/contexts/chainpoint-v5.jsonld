@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "cp": "https://w3id.org/chainpoint#",
+    "Chainpoint": "cp:Chainpoint",
+    "cal": "cp:cal",
+    "tcal": "cp:tcal",
+    "btc": "cp:btc",
+    "tbtc": "cp:tbtc",
+    "hash": "cp:hash",
+    "proof_id": "cp:proof_id",
+    "hash_received": "cp:hash_received",
+    "branches": {
+      "@id": "cp:branches",
+      "@container": "@list"
+    },
+    "label": "cp:label",
+    "ops": {
+      "@id": "cp:ops",
+      "@container": "@list"
+    },
+    "anchors": {
+      "@id": "cp:anchors",
+      "@container": "@list"
+    },
+    "anchor_id": "cp:anchor_id",
+    "uris": {
+      "@id": "cp:uris",
+      "@container": "@list"
+    },
+    "op": "cp:op",
+    "r": "cp:r",
+    "l": "cp:l"
+  }
+}
